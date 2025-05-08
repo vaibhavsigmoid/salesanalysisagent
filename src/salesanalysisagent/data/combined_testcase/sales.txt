@@ -1,0 +1,7 @@
+product_id, product_desc,price,date
+5,pqr,$10.00,2024/03/01
+6,xyz,$30.00,2024/03/02
+7,dddd,$20.00,2024/03/05
+
+
+

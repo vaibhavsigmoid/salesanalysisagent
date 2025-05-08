@@ -1,0 +1,6 @@
+{
+  "sales.txt": {
+    "database_name": "pos_data",
+    "table_name": "sales_table"
+  }
+}

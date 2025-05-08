@@ -15,8 +15,8 @@ schema_mapper:
 
 schema_validator:
   role: "Schema validator"
-  goal: 'Check schema between source {file_path} and target table and generate an executable python code with proper comments'
-  backstory: 'This agent ensures data pipelines are consistent by validating schemas.'
+  goal: 'based on a schema differnce between source {file_path} and target table and generate SQL code to fix schema in target table'
+  backstory: "you are data enginner working on a data ingestion pipeline, you're job is to find a different between a file schema and table schema and suggest the SQL alter table syntex with proper databae and table names"
 
 cleaner_validator:
   role: "Data Cleaner and Validator"
@@ -32,3 +32,4 @@ data_format_validator:
   role: "Data Format Change Detector"
   goal: "Identify semantic differences in data format between new {file_path} and existing target"
   backstory: "Helps data engineers normalize incoming data by identifying subtle changes in data format."
+

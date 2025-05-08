@@ -1,0 +1,7 @@
+product_id, product_desc,price
+1,aaa,10.00
+2,bbb,30.00
+3,ccc,20.00
+3A,yyy,20.00
+3B,zzz,20.00
+
