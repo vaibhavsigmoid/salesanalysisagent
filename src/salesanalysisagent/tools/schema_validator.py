@@ -21,9 +21,7 @@ def get_schema(csv_file_path, sample_size=100):
 def get_target_info(file_name, json_file_path="mapping.json"):
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        with open(
-            os.path.join(script_dir, "data", "extra_column", json_file_path), "r"
-        ) as file:
+        with open(os.path.join(script_dir, "../", "data", json_file_path), "r") as file:
             data = json.load(file)
 
         if file_name in data:
@@ -54,6 +52,7 @@ def map_dtype_to_sql(dtype: str) -> str:
 
 
 def compare_schemas(schema1, schema2):
+
     only_in_schema1 = [col for col in schema1 if col not in schema2]
     only_in_schema2 = [col for col in schema2 if col not in schema1]
 
@@ -70,44 +69,31 @@ def compare_schemas(schema1, schema2):
     }
 
 
-class SchemaValidatorToolInput(BaseModel):
-    # df: pd.DataFrame = Field(..., description="The input dataframe to map")
-    file_path: str = Field(..., description="Path to the sales data file.")
-    model_config = ConfigDict(arbitrary_types_allowed=True)
-
-
 class SchemaValidatorTool(BaseTool):
     name: str = "schema_validator"
-    description: str = "Validates the schema of a CSV file against a target database table using a mapping file, and generates SQL to fix mismatches."
-    args_schema: Type[BaseModel] = SchemaValidatorToolInput
+    description: str = (
+        "Validates the schema of a CSV file against a target database table using a mapping file, and generates SQL to fix mismatches."
+    )
 
     # def _run(self, df: pd.DataFrame, file_path: str, **kwargs) -> str:
     def _run(self, file_path: str, **kwargs) -> str:
         try:
+            print(f"file path = {file_path}")
             # source_schema = dict(df.dtypes.apply(lambda dt: dt.name))
-            print(f"file path = ${file_path}")
             source_schema = get_schema(file_path)
             db_name, table_name = get_target_info(os.path.basename(file_path))
             script_dir = os.path.dirname(os.path.abspath(__file__))
-            target_schema = get_schema(os.path.join(script_dir, table_name))
+            print(f"script_dir = {script_dir}")
+            target_schema = get_schema(
+                os.path.join(script_dir, "../data/extra_column", table_name)
+            )
             schema_diff = compare_schemas(source_schema, target_schema)
 
-            if schema_diff["only_in_source"]:
-                sql_code = (
-                    f"-- SQL to alter table `{table_name}` in `{db_name}` database\n"
-                )
-                for col in schema_diff["only_in_source"]:
-                    sql_type = map_dtype_to_sql(source_schema[col])
-                    sql_code += (
-                        f"ALTER TABLE {table_name} ADD COLUMN {col} {sql_type};\n"
-                    )
-
-                return (
-                    f"New columns found in source schema: {schema_diff['only_in_source']}\n\n"
-                    f"{sql_code}"
-                )
-
-            return "No new columns in source. Schema is aligned with target."
+            return (
+                db_name,
+                table_name,
+                schema_diff,
+            )
 
         except Exception as e:
             return f"Error while validating schema: {str(e)}"

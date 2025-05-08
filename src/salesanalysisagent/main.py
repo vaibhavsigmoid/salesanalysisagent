@@ -1,24 +1,12 @@
 #!/usr/bin/env python
-import sys, os
+import os
+import sys
 import warnings
 from datetime import datetime
-from salesanalysisagent.crew import SalesAnalysisAgent
+
+from demo.crew import SalesAnalysisAgent
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
-
-
-# def run():
-#     """
-#     Run the agent crew sequentially from loading data to code generation.
-#     """
-#     inputs = {
-#         "file_path": "/Users/vaibhavgupta/Desktop/crewAI/salesanalysisagent/src/salesanalysisagent/data/raw/sales_data.csv",  # Replace with actual data file path
-#         "current_year": str(datetime.now().year),
-#     }
-#     try:
-#         SalesAnalysisAgent().crew().kickoff(inputs=inputs)
-#     except Exception as e:
-#         print(f"[ERROR] Failed to run the crew: {str(e)}")
 
 
 def run():
@@ -28,7 +16,7 @@ def run():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     inputs = {
         "file_path": os.path.join(
-            script_dir, "data", "extra_column", "sales.txt"
+            script_dir, "data", "data_change_1", "sales.txt"
         ),  # Replace with actual data file path
         "current_year": str(datetime.now().year),
     }
@@ -36,13 +24,20 @@ def run():
         SalesAnalysisAgent().crew().kickoff(inputs=inputs)
     except Exception as e:
         print(f"[ERROR] Failed to run the crew: {str(e)}")
+        raise e
 
 
 def train():
     """
     Train the crew agents for few-shot fine-tuning.
     """
-    inputs = {"file_path": "data/raw/sales_data.csv"}
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    inputs = {
+        "file_path": os.path.join(
+            script_dir, "data", "extra_column", "sales.txt"
+        ),  # Replace with actual data file path
+        "current_year": str(datetime.now().year),
+    }
     try:
         SalesAnalysisAgent().crew().train(
             n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs
@@ -65,8 +60,11 @@ def test():
     """
     Test the crew execution using a specified model.
     """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     inputs = {
-        "file_path": "data/raw/sales_data.csv",
+        "file_path": os.path.join(
+            script_dir, "data", "extra_column", "sales.txt"
+        ),  # Replace with actual data file path
         "current_year": str(datetime.now().year),
     }
     try:

@@ -15,7 +15,7 @@ schema_mapper:
 
 schema_validator:
   role: "Schema validator"
-  goal: 'Check schema between source CSV and target table and generate fix if needed'
+  goal: 'Check schema between source {file_path} and target table and generate fix if needed'
   backstory: 'This agent ensures data pipelines are consistent by validating schemas.'
 
 cleaner_validator:
