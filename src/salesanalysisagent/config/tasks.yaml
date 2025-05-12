@@ -15,7 +15,8 @@ schema_mapping_task:
 
 schema_validator_task:
   description: "check the source schema with target schema and suggest code changes."
-  expected_output: 'based on the differnce in schema, generate if source has new column add suggest a sql code to add column, if column type is mismatch suggest sql code to alter target column type if not required write a python function to cast column type to target.'
+  expected_output: 'based on the differnce in schema and different in data, generate if source has new column add suggest a sql code to add column, if column type or data is mismatched suggest sql code to alter target column type, if not required write a python function to cast column type to target. make sure during the process there is no data loss or trunction of any kind. Also make sure that no historical data is dropped in a process. code should not have any example, or instruction on how to execute it.'
+
   agent: schema_validator
   output_file: schema_validator_task.json
 
@@ -31,6 +32,6 @@ code_gen_task:
 
 data_format_check_task:
   description: "compare source dataframe with target dataframe and find the data format difference between them and suggest the code change"
-  expected_output: "Python function fix_data_format_change to parse and convert source data to match target format for ingesting new data into existing table, all the new data coming in file has to be appened to table without dropping any data in table"
+  expected_output: "Python function fix_data_format_change with proper argumets to parse and convert source data to match target format for ingesting new data into existing table, all the new data coming in file has to be appened to table without dropping any data in table, code should not have any example, or instruction on how to execute it."
   agent: data_format_validator
   output_file: data_format_check_task.json

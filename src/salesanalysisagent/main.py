@@ -51,7 +51,7 @@ def train():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     inputs = {
         "file_path": os.path.join(
-            script_dir, "data", "extra_column", "sales.txt"
+            script_dir, "data", "schema_change", "sales.txt"
         ),  # Replace with actual data file path
         "current_year": str(datetime.now().year),
     }

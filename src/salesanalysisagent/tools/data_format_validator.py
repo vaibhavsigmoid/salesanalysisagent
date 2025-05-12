@@ -38,7 +38,13 @@ class FormatChangeDetectorTool(BaseTool):
 
             pprint(source_sample)
             pprint(target_sample)
-            return (source_sample, target_sample)
+            return {
+                "source_sample_data": source_sample,
+                "target_sampple_data": target_sample,
+                "database_name": db_name,
+                "table_name": table_name,
+                "target_database_type": "mysql",
+            }
 
         except Exception as e:
             return f"Error comparing data formats: {str(e)}"
