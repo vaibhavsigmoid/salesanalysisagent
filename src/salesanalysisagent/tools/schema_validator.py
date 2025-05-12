@@ -11,7 +11,7 @@ def get_schema(csv_file_path, sample_size=100):
     try:
         df = pd.read_csv(csv_file_path, nrows=sample_size)
         schema = dict(df.dtypes.apply(lambda dt: dt.name))
-        return schema
+        return df, schema
 
     except Exception as e:
         print(f"Error reading CSV file: {e}")
@@ -51,20 +51,20 @@ def map_dtype_to_sql(dtype: str) -> str:
     return "TEXT"
 
 
-def compare_schemas(schema1, schema2):
+def compare_schemas(source, target):
 
-    only_in_schema1 = [col for col in schema1 if col not in schema2]
-    only_in_schema2 = [col for col in schema2 if col not in schema1]
+    only_in_source = [col for col in source if col not in target]
+    only_in_target = [col for col in target if col not in source]
 
     type_mismatches = {
-        col: (schema1[col], schema2[col])
-        for col in schema1
-        if col in schema2 and schema1[col] != schema2[col]
+        col: (source[col], target[col])
+        for col in source
+        if col in target and source[col] != target[col]
     }
 
     return {
-        "only_in_schema1": only_in_schema1,
-        "only_in_schema2": only_in_schema2,
+        "only_in_source": only_in_source,
+        "only_in_target": only_in_target,
         "type_mismatches": type_mismatches,
     }
 
@@ -80,20 +80,30 @@ class SchemaValidatorTool(BaseTool):
         try:
             print(f"file path = {file_path}")
             # source_schema = dict(df.dtypes.apply(lambda dt: dt.name))
-            source_schema = get_schema(file_path)
+            source_df, source_schema = get_schema(file_path)
             db_name, table_name = get_target_info(os.path.basename(file_path))
             script_dir = os.path.dirname(os.path.abspath(__file__))
             print(f"script_dir = {script_dir}")
-            target_schema = get_schema(
-                os.path.join(script_dir, "../data/extra_column", table_name)
+            dir_name = os.path.dirname(file_path)
+            target_df, target_schema = get_schema(
+                os.path.join(dir_name, table_name)
+                # os.path.join(script_dir, "../data/extra_column", table_name)
             )
             schema_diff = compare_schemas(source_schema, target_schema)
 
-            return (
-                db_name,
-                table_name,
-                schema_diff,
-            )
+            # return (
+            #     db_name,
+            #     table_name,
+            #     schema_diff,
+            # )
+            return {
+                "database_name": db_name,
+                "table_name": table_name,
+                "schema_difference": schema_diff,
+                "source_data": source_df,
+                "target_data": target_df,
+                "target_database_type": "mysql",
+            }
 
         except Exception as e:
             return f"Error while validating schema: {str(e)}"
