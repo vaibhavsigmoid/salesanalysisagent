@@ -4,8 +4,7 @@ from crewai.project import CrewBase, agent, crew, task
 # from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
 from salesanalysisagent.tools.clean_validate_tool import CleanValidateTool
 from salesanalysisagent.tools.code_gen_tool import CodeGenTool
-from salesanalysisagent.tools.data_format_validator import \
-    FormatChangeDetectorTool
+from salesanalysisagent.tools.data_format_validator import FormatChangeDetectorTool
 from salesanalysisagent.tools.data_loader_tool import DataLoaderTool
 from salesanalysisagent.tools.inspect_tool import InspectTool
 from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
@@ -73,23 +72,23 @@ class SalesAnalysisAgent:
             verbose=True,
         )
 
-    # @task
-    # def data_loader_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["data_loader_task"],
-    #     )
-    #
-    # @task
-    # def inspect_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["inspect_task"],
-    #     )
-    #
-    # @task
-    # def schema_mapping_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["schema_mapping_task"],
-    #     )
+    @task
+    def data_loader_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["data_loader_task"],
+        )
+
+    @task
+    def inspect_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["inspect_task"],
+        )
+
+    @task
+    def schema_mapping_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["schema_mapping_task"],
+        )
 
     @task
     def schema_validator_task(self) -> Task:
@@ -99,17 +98,17 @@ class SalesAnalysisAgent:
     def data_format_check_task(self) -> Task:
         return Task(config=self.tasks_config["data_format_check_task"])
 
-    # @task
-    # def clean_validate_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["clean_validate_task"],
-    #     )
-    #
-    # @task
-    # def code_gen_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["code_gen_task"], output_file="generated_code.py"
-    #     )
+    @task
+    def clean_validate_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["clean_validate_task"],
+        )
+
+    @task
+    def code_gen_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["code_gen_task"], output_file="generated_code.py"
+        )
 
     @crew
     def crew(self) -> Crew:

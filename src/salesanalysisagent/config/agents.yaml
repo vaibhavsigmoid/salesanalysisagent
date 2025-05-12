@@ -1,7 +1,8 @@
 data_loader:
-  role: "Data Loader"
-  goal: "Load and validate the CSV data file in {file_path}."
-  backstory: "You are an expert in ensuring the raw data is in a proper CSV format before any processing."
+  role: "Data Loader and File Type Inspector"
+  goal: "Identify,handle and load file format changes in input data {file_path}."
+  backstory: "You're an expert in  ensuring the raw data and data ingestion. 
+              Your job is to identify changes in file types and suggest or generate appropriate reading logic based on CSV, Excel, or Parquet."
 
 inspector:
   role: "Data Inspector"

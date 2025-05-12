@@ -1,5 +1,5 @@
 data_loader_task:
-  description: "Validate and load the CSV file into a DataFrame."
+  description: "Analyze the provided file and identify its format (CSV, Parquet, Excel). If Excel, list all sheet names.Validate and load the file into a DataFrame Generate the appropriate ingestion code using pandas."
   expected_output: "A pandas DataFrame or an error message if the file is invalid."
   agent: data_loader
 
@@ -26,7 +26,7 @@ clean_validate_task:
 
 code_gen_task:
   description: "Generate Python code to process the sales data."
-  expected_output: "Python code (ETL pipeline) for processing the cleaned data."
+  expected_output: "Executable Python code (ETL pipeline) for processing the cleaned data."
   agent: code_generator
 
 data_format_check_task:

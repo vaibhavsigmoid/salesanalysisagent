@@ -1,0 +1,52 @@
+To fix the data format change and ensure that the new data can be appended to the existing table without dropping any data, we need to create a Python function `fix_data_format_change` that will parse and convert the source data to match the target format. Here's the implementation:
+
+```python
+import pandas as pd
+from datetime import datetime
+
+def fix_data_format_change(source_df):
+    # Make a copy of the source dataframe to avoid modifying the original
+    df = source_df.copy()
+    
+    # Convert product_id to string to accommodate alphanumeric values
+    df['product_id'] = df['product_id'].astype(str)
+    
+    # Format price as string with dollar sign and two decimal places
+    df['price'] = df['price'].apply(lambda x: f'${x:.2f}')
+    
+    # Add a date column with the current date
+    current_date = datetime.now().strftime('%m-%d-%Y')
+    df['date'] = current_date
+    
+    # Reorder columns to match the target format
+    df = df[['product_id', 'product_desc', 'price', 'date']]
+    
+    return df
+
+# Example usage:
+# source_data = pd.read_csv('/Users/vaibhavgupta/Desktop/crewAI/salesanalysisagent/src/salesanalysisagent/data/schema_change/sales.txt')
+# converted_data = fix_data_format_change(source_data)
+# converted_data.to_sql('existing_table', connection, if_exists='append', index=False)
+```
+
+This function does the following:
+
+1. Creates a copy of the source dataframe to avoid modifying the original data.
+2. Converts the `product_id` column to string type to accommodate alphanumeric values.
+3. Formats the `price` column as a string with a dollar sign and two decimal places.
+4. Adds a new `date` column with the current date (you may want to adjust this if the source data should have specific dates).
+5. Reorders the columns to match the target format.
+
+To use this function:
+
+1. Load your source data into a pandas DataFrame.
+2. Pass the DataFrame to the `fix_data_format_change` function.
+3. The function will return a new DataFrame with the corrected format.
+4. You can then append this corrected DataFrame to your existing table using pandas' `to_sql` method or any other database insertion method you prefer.
+
+This solution ensures that:
+- All new data from the source file can be appended to the table.
+- The data format matches the existing table structure.
+- No data in the existing table is dropped or modified.
+
+Remember to handle any database-specific requirements, such as setting up the appropriate connection and using the correct data types for your specific database system.
