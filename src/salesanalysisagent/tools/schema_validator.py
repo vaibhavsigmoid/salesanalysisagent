@@ -1,10 +1,9 @@
 import json
 import os
-from typing import Type
 
+import mysql.connector
 import pandas as pd
 from crewai.tools import BaseTool
-from pydantic import BaseModel, ConfigDict, Field
 
 
 def get_schema(csv_file_path, sample_size=100):
@@ -16,6 +15,55 @@ def get_schema(csv_file_path, sample_size=100):
     except Exception as e:
         print(f"Error reading CSV file: {e}")
         return {}
+
+
+def get_target_data_and_sample(
+    username: str,
+    password: str,
+    host: str,
+    table_name: str,
+    database_name: str,
+):
+    """
+    Connects to a MySQL database and returns 10 sample rows from the specified table and its schema.
+
+    Args:
+        username (str): MySQL username
+        password (str): MySQL password
+        host (str): MySQL host (e.g., '127.0.0.1')
+        table (str): Table to query
+        database (str): Database name (default: 'pos_data')
+
+    Returns:
+        df (pd.DataFrame): Sample data (10 rows)
+        schema (dict): Column name -> dtype
+    """
+    try:
+        connection = mysql.connector.connect(
+            host=host, database=database_name, user=username, password=password
+        )
+
+        if connection.is_connected():
+            cursor = connection.cursor()
+            query = f"SELECT * FROM {table_name} LIMIT 10"
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            column_names = [i[0] for i in cursor.description]
+
+            # Load into DataFrame
+            df = pd.DataFrame(rows, columns=column_names)
+            schema = dict(df.dtypes)
+
+            return df, schema
+
+    except Exception as e:
+        print("Failed to connect or fetch data:", e)
+        return None, None
+
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
 
 
 def get_target_info(file_name, json_file_path="mapping.json"):
@@ -85,10 +133,17 @@ class SchemaValidatorTool(BaseTool):
             script_dir = os.path.dirname(os.path.abspath(__file__))
             print(f"script_dir = {script_dir}")
             dir_name = os.path.dirname(file_path)
-            target_df, target_schema = get_schema(
-                os.path.join(dir_name, table_name)
-                # os.path.join(script_dir, "../data/extra_column", table_name)
+            target_df, target_schema = get_target_data_and_sample(
+                host="127.0.0.1",
+                username="root",
+                password="password",
+                database_name=db_name,
+                table_name=table_name,
             )
+            # target_df, target_schema = get_schema(
+            #     os.path.join(dir_name, table_name)
+            #     # os.path.join(script_dir, "../data/extra_column", table_name)
+            # )
             schema_diff = compare_schemas(source_schema, target_schema)
 
             # return (

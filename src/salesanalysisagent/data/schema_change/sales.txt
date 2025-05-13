@@ -1,7 +1,6 @@
-product_id,product_desc,price
-1,aaa,10.00
-2,bbb,30.00
-3,ccc,20.00
-3A,yyy,20.00
-3B,zzz,20.00
+product_id,product_desc,price,sales_date
+4A,yyy,20.00 USD,2024-01-01
+5B,zzz,20.00 USD,2024-01-01
+6B,zzz,20.00 USD,2024-01-02
+7B,zzz,20.00 USD,2024-01-09
 
