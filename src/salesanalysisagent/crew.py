@@ -7,6 +7,7 @@ from crewai_tools import CodeInterpreterTool, FileWriterTool
 # from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
 from salesanalysisagent.tools.clean_validate_tool import CleanValidateTool
 from salesanalysisagent.tools.code_gen_tool import CodeGenTool
+from salesanalysisagent.tools.custom_python_tool import CustomPythonTool
 from salesanalysisagent.tools.data_format_validator import \
     FormatChangeDetectorTool
 from salesanalysisagent.tools.data_loader_tool import DataLoaderTool
@@ -21,8 +22,9 @@ class SalesAnalysisAgent:
 
     agents_config = "config/agents.yaml"
     tasks_config = "config/tasks.yaml"
-    content = "Users name is John. He is 30 years old and lives in San Francisco."
-    text_source = TextFileKnowledgeSource(file_paths=["code.py", "requirements.txt"])
+    text_source = TextFileKnowledgeSource(
+        file_paths=["code.py", "requirements.txt", "mysql_credential.txt"]
+    )
     code_interpreter = CodeInterpreterTool()
     write_tool = FileWriterTool()
 
@@ -52,7 +54,12 @@ class SalesAnalysisAgent:
     def schema_validator(self) -> Agent:
         return Agent(
             config=self.agents_config["schema_validator"],
-            tools=[SchemaValidatorTool(), CodeInterpreterTool(), FileWriterTool()],
+            tools=[
+                SchemaValidatorTool(),
+                # CodeInterpreterTool(unsafe_mode=True),
+                FileWriterTool(),
+                # CustomPythonTool(),
+            ],
             verbose=True,
             all_code_execution=True,
             # knowledge_sources=[self.text_source],
@@ -129,6 +136,13 @@ class SalesAnalysisAgent:
             process=Process.sequential,
             verbose=True,
             knowledge_sources=[self.text_source],
+            embedder={
+                "provider": "voyageai",
+                "config": {
+                    "model": "voyage-3",
+                    "api_key": "",
+                },
+            },
         )
 
 
