@@ -132,6 +132,8 @@ class SchemaValidatorTool(BaseTool):
             db_name, table_name = get_target_info(os.path.basename(file_path))
             script_dir = os.path.dirname(os.path.abspath(__file__))
             print(f"script_dir = {script_dir}")
+            print(f"db_name = {db_name}")
+            print(f"table_name = {table_name}")
             dir_name = os.path.dirname(file_path)
             target_df, target_schema = get_target_data_and_sample(
                 host="127.0.0.1",

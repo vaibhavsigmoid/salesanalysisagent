@@ -52,7 +52,11 @@ class SalesAnalysisAgent:
     def schema_validator(self) -> Agent:
         return Agent(
             config=self.agents_config["schema_validator"],
-            tools=[SchemaValidatorTool(), CodeInterpreterTool(), FileWriterTool()],
+            tools=[
+                SchemaValidatorTool(),
+                # CodeInterpreterTool(),
+                FileWriterTool(file_name="fix_schema_issues.py", overwrite=True),
+            ],
             verbose=True,
             all_code_execution=True,
             # knowledge_sources=[self.text_source],
