@@ -1,0 +1,1001 @@
+sales_id,product_id,store_id,product_name,brand,category,volume_ml,alcohol_percentage,store_name,city,state,region,store_type,sales_date,quantity_sold,unit_price,total_sales,email
+1,HFJ65NZ5,111,Tanqueray People,Tanqueray,Liqueur,750,8.19,White and Sons,Lake Tonymouth,ND,West,Retail,2025/04/16,43,63.41,2726.63,gonzalezcharles@example.org
+2,MFFAB4J2,108,Ciroc Medical,Ciroc,Vodka,1000,20.13,"Anderson, Braun and Martinez",Pierceshire,DE,South,Retail,2025/03/22,30,26.29,788.7,james75@example.com
+3,UM05UIL9,134,Smirnoff Section,Smirnoff,Beer,500,32.86,Robinson Inc,East Gerald,NC,South,Retail,2025/04/19,42,85.95,3609.9,john95@example.org
+4,RCYUCEA3,103,Smirnoff Green,Smirnoff,Beer,500,30.58,Burke-Johnson,North Robert,NE,Northeast,Retail,2025/04/02,35,28.45,995.75,davismeghan@example.org
+5,I1RUWHAW,140,Ciroc They,Ciroc,Vodka,1000,21.07,Smith and Sons,Hollyside,CA,South,Wholesale,2025/04/13,10,38.11,381.1,woodmatthew@example.net
+6,UFOBFXNM,137,Tanqueray Although,Tanqueray,Vodka,1000,4.14,Chavez-Herring,Brownmouth,DE,West,Wholesale,2025/04/17,21,63.05,1324.05,tatebrady@example.org
+7,FIS869SZ,149,Smirnoff Civil,Smirnoff,Tequila,1000,10.27,Riley Group,South Jeremiah,MT,Midwest,Wholesale,2025/05/01,7,95.02,665.14,turnerashley@example.org
+8,UYL1RI8C,126,Ciroc Marriage,Ciroc,Gin,1000,9.54,Whitehead and Sons,Port Justin,VA,Midwest,Wholesale,2025/05/03,33,98.62,3254.46,tonyasullivan@example.com
+9,3P5Q6P95,129,Johnnie Walker Support,Johnnie,Beer,750,6.97,Wu-Torres,Lake Annaview,HI,West,Wholesale,2025/04/17,15,10.43,156.45,melanie37@example.net
+10,XSEHGSHE,133,Baileys Least,Baileys,Rum,750,21.59,"Brown, Jackson and Hunter",Sanfordshire,MA,South,Wholesale,2025/04/18,8,50.66,405.28,lindsaybarton@example.com
+11,TH2HY0JA,133,Don Julio Full,Don,Liqueur,750,31.65,Davis Group,New Janiceville,ND,Northeast,Retail,2025/04/09,30,87.89,2636.7,nsilva@example.net
+12,ULH16ZA9,150,Captain Morgan Million,Captain,Whisky,700,33.07,Thomas-Garcia,Kevinhaven,SD,West,Retail,2025/03/31,42,88.8,3729.6,flemingclaudia@example.org
+13,WZKYEDQ6,129,Guinness Development,Guinness,Vodka,700,27.19,Tran-Diaz,Sanchezview,MO,West,Wholesale,2025/04/22,2,26.01,52.02,meyercole@example.net
+14,F44EY59V,143,Don Julio Involve,Don,Vodka,750,42.93,Lawrence-Williams,Lake Robertchester,OR,Northeast,Retail,2025/05/18,25,23.08,577.0,tonybuchanan@example.org
+15,H1G5U0DG,105,Don Julio Not,Don,Whisky,700,21.08,"Ortega, Wilson and Hill",Douglasstad,WV,Northeast,Wholesale,2025/03/30,47,71.07,3340.29,boydmaria@example.net
+16,RS6Z7UAU,142,Guinness Minute,Guinness,Whisky,1000,40.67,"Park, Bennett and Flores",Lake Kristine,SC,West,Retail,2025/04/02,16,28.28,452.48,carrillochristopher@example.com
+17,Z52CHQQQ,121,Johnnie Walker Position,Johnnie,Vodka,750,30.32,Gray-Williams,Port Justin,MP,Northeast,Wholesale,2025/04/24,2,25.88,51.76,jennifer90@example.com
+18,4B5ZJ9XY,133,Baileys Would,Baileys,Gin,750,35.82,Doyle-Fitzgerald,Lake Anthonyborough,NV,Midwest,Wholesale,2025/05/11,36,96.26,3465.36,sandra11@example.net
+19,GMVUMJD7,122,Tanqueray Institution,Tanqueray,Rum,700,5.82,Ramos PLC,New Stevenstad,PR,Northeast,Retail,2025/04/25,7,53.17,372.19,gregory84@example.com
+20,QNJWX9K1,136,Captain Morgan Thank,Captain,Beer,700,6.61,"Reyes, Gomez and Graves",Cunninghamburgh,VT,Southeast,Retail,2025/04/24,49,28.02,1372.98,marklowe@example.net
+21,WA5XLYAO,143,Captain Morgan Particularly,Captain,Vodka,1000,38.02,"Peterson, Jones and Garcia",Charlesfort,NC,Southeast,Wholesale,2025/04/24,9,89.73,807.57,pameladougherty@example.org
+22,9PHPDIZ1,148,Guinness Compare,Guinness,Gin,700,16.31,"Campbell, Wilcox and Taylor",West John,AL,South,Retail,2025/03/23,15,45.44,681.6,margaret58@example.org
+23,AKXQACBS,141,Guinness Attorney,Guinness,Whisky,1000,15.04,Griffin-Weaver,Scottshire,NV,South,Wholesale,2025/04/27,13,5.75,74.75,olivia50@example.com
+24,J5X1DKG7,124,Ciroc Imagine,Ciroc,Tequila,750,14.51,Nguyen PLC,West Todd,WY,Midwest,Retail,2025/03/21,35,63.73,2230.55,laura95@example.com
+25,HH68RJIS,148,Baileys Represent,Baileys,Tequila,750,35.24,Carter and Sons,South Yvetteborough,KS,Northeast,Retail,2025/05/18,28,46.29,1296.12,brendanmiles@example.com
+26,FR85ZU8E,120,Ciroc Risk,Ciroc,Whisky,500,10.97,Robinson LLC,Mortonville,VI,South,Retail,2025/05/08,44,52.86,2325.84,paullinda@example.net
+27,OHYJ8RFV,102,Smirnoff Natural,Smirnoff,Beer,500,34.06,"Charles, Meyer and Crawford",Lake Kellymouth,NH,South,Wholesale,2025/05/07,19,31.93,606.67,trevor22@example.org
+28,KXWAV9YW,105,Guinness Amount,Guinness,Beer,1000,17.17,Vega PLC,Port Vincentshire,NV,Midwest,Retail,2025/05/02,29,23.57,683.53,katherinehodges@example.com
+29,1FBNL0CJ,147,Smirnoff Offer,Smirnoff,Vodka,750,10.0,Black LLC,Lake Markhaven,OK,Southeast,Retail,2025/03/22,12,11.12,133.44,douglascontreras@example.org
+30,FIMTNGEW,150,Guinness Boy,Guinness,Rum,700,21.22,Romero-Wood,Lake Williammouth,PA,Northeast,Wholesale,2025/04/03,6,55.33,331.98,lbennett@example.org
+31,0DT58PGR,143,Ciroc Strong,Ciroc,Tequila,500,26.25,Wells-Willis,South Frank,OK,South,Retail,2025/05/13,50,19.93,996.5,anthony02@example.net
+32,WGSM01QY,112,Don Julio Gas,Don,Beer,750,24.99,"Greene, Valencia and Morales",Batesport,IA,Southeast,Wholesale,2025/04/26,10,92.96,929.6,petersondaniel@example.net
+33,9DUPS4DU,142,Smirnoff Later,Smirnoff,Gin,750,41.03,"Montgomery, Sanders and Lara",Millerville,FL,West,Retail,2025/05/16,11,67.76,745.36,ocollins@example.com
+34,3SNZRSDZ,111,Baileys Military,Baileys,Beer,500,17.78,Lowe-Jenkins,Greenmouth,CO,South,Wholesale,2025/03/30,47,23.37,1098.39,kgonzalez@example.net
+35,4RMR9P0N,105,Johnnie Walker College,Johnnie,Vodka,750,21.43,Mercado Group,Lake Justin,AZ,South,Retail,2025/04/01,16,88.69,1419.04,calvin97@example.com
+36,T9P2H9QR,148,Captain Morgan Somebody,Captain,Gin,500,34.77,"Gonzalez, Mitchell and Schroeder",Kathyfurt,PW,South,Wholesale,2025/03/29,18,14.5,261.0,melissa52@example.org
+37,HD1LHPNG,127,Johnnie Walker Pay,Johnnie,Whisky,700,36.01,Banks Inc,Goodland,OR,Midwest,Retail,2025/05/17,46,87.39,4019.94,xdavis@example.org
+38,R3C0QTJR,138,Captain Morgan Defense,Captain,Whisky,1000,7.61,"Wilson, Welch and Ali",Manuelchester,NJ,Southeast,Retail,2025/04/29,13,8.48,110.24,garciadanielle@example.com
+39,888RZPH4,140,Captain Morgan Health,Captain,Rum,1000,24.75,Barnes Inc,Kathrynfurt,WV,Northeast,Wholesale,2025/03/27,3,79.1,237.3,patrick34@example.com
+40,HATAXYS6,130,Don Julio Single,Don,Beer,500,12.86,Ellis Ltd,Besttown,GA,Northeast,Retail,2025/05/05,26,83.57,2172.82,ptaylor@example.net
+41,TB4FRLMP,104,Johnnie Walker Plant,Johnnie,Beer,700,34.67,"Cruz, Harmon and Thompson",Pettyside,UT,South,Wholesale,2025/04/12,45,9.0,405.0,richard77@example.com
+42,21I1HBUJ,128,Tanqueray Collection,Tanqueray,Liqueur,1000,44.6,"Gardner, Oliver and Dunn",Jacquelineville,SC,Northeast,Retail,2025/05/10,28,84.0,2352.0,josephrollins@example.com
+43,KHN4ACZ9,136,Smirnoff Sound,Smirnoff,Whisky,700,30.7,Warren LLC,New Willieton,VA,Northeast,Wholesale,2025/05/19,1,59.14,59.14,john09@example.com
+44,QO1I3TGV,108,Guinness Not,Guinness,Beer,500,36.43,"Duarte, Johnson and Sullivan",Elliottstad,IN,South,Wholesale,2025/03/28,21,77.38,1624.98,michaelnoble@example.org
+45,S4YIEEUY,145,Smirnoff Behind,Smirnoff,Rum,1000,34.85,"Flowers, Rogers and Ibarra",New Kaylaville,LA,Midwest,Wholesale,2025/04/29,48,54.79,2629.92,znelson@example.org
+46,D9Z8PUFR,136,Tanqueray Career,Tanqueray,Vodka,500,23.52,"Williamson, Harding and Kirby",Griffithmouth,AS,Northeast,Wholesale,2025/05/03,34,20.6,700.4,parsonsdaryl@example.com
+47,6M50VD1N,130,Johnnie Walker Score,Johnnie,Rum,700,27.5,Jones-Alvarez,Benjaminshire,NC,Midwest,Retail,2025/03/22,9,21.9,197.1,raymondcraig@example.org
+48,W4S4KVX7,109,Guinness Power,Guinness,Gin,700,15.49,Mendoza LLC,Jonesborough,PW,South,Wholesale,2025/04/12,34,94.18,3202.12,krobinson@example.org
+49,12JZAP6F,107,Baileys Guess,Baileys,Tequila,500,16.54,"Johnson, Orr and Price",West Davidtown,KY,West,Wholesale,2025/04/14,26,55.5,1443.0,michaelhenderson@example.com
+50,9LGIKIXL,107,Tanqueray Human,Tanqueray,Beer,750,11.48,Oconnor Ltd,Melanieview,LA,Midwest,Retail,2025/05/13,26,83.19,2162.94,smithsandra@example.org
+51,6X6G0FPD,147,Baileys Want,Baileys,Whisky,1000,37.62,Little-Jones,Kristinahaven,MO,South,Wholesale,2025/04/30,28,99.25,2779.0,aallen@example.org
+52,BHSB4CWJ,145,Baileys Oil,Baileys,Liqueur,1000,37.77,Randolph-Shepard,East Jessefurt,IA,Northeast,Retail,2025/05/17,29,36.47,1057.63,pamela94@example.net
+53,6727W858,150,Tanqueray Affect,Tanqueray,Whisky,1000,31.67,"Cobb, Bowers and Martinez",Rodneyton,PW,Southeast,Retail,2025/03/25,2,80.0,160.0,pfisher@example.com
+54,OY4VTQLF,111,Ciroc Allow,Ciroc,Whisky,750,24.89,Jones-Morris,South Paul,RI,Midwest,Retail,2025/04/25,19,37.24,707.56,amberthompson@example.com
+55,2H0JF44E,128,Captain Morgan Skin,Captain,Vodka,700,28.42,"Norris, Black and Mcknight",East Tiffanystad,KS,Northeast,Retail,2025/04/23,20,71.01,1420.2,simmonstravis@example.net
+56,U13QLQPN,124,Captain Morgan Clearly,Captain,Vodka,500,30.32,Wilson-Moyer,South Hailey,FL,Northeast,Wholesale,2025/05/13,5,48.3,241.5,brandy98@example.net
+57,QSJB6UD5,135,Ciroc Executive,Ciroc,Liqueur,500,29.96,White-Wang,South Zacharyhaven,NE,South,Wholesale,2025/04/02,30,30.02,900.6,wellslori@example.org
+58,TGH6ZQKU,128,Tanqueray Certainly,Tanqueray,Liqueur,1000,13.58,Boyle Ltd,New Michael,ND,Northeast,Wholesale,2025/03/23,49,14.37,704.13,oward@example.com
+59,XU1B54B7,111,Ciroc Set,Ciroc,Tequila,700,15.29,Woodard Group,South Mark,AK,Northeast,Retail,2025/03/26,26,19.61,509.86,hilltina@example.com
+60,7Q58FET4,103,Johnnie Walker Treatment,Johnnie,Rum,750,40.27,"Perry, Travis and Goodwin",West William,MP,South,Retail,2025/05/12,40,56.83,2273.2,ryanshane@example.net
+61,98UL6M7Y,102,Guinness And,Guinness,Whisky,500,19.71,Green-Cole,North Tamiberg,WV,Northeast,Wholesale,2025/04/08,22,55.93,1230.46,wkelly@example.com
+62,VH64DIDE,112,Tanqueray Half,Tanqueray,Whisky,1000,13.97,Zimmerman Ltd,Joelborough,CT,West,Retail,2025/03/31,15,58.28,874.2,ricardobartlett@example.org
+63,MKP7W7J4,150,Ciroc Once,Ciroc,Tequila,750,10.32,Gonzales Inc,Tammyfort,SC,Northeast,Wholesale,2025/04/12,16,49.92,798.72,lisastewart@example.com
+64,OV14AHD1,115,Captain Morgan Air,Captain,Vodka,750,7.15,Glenn PLC,East Donald,KS,West,Wholesale,2025/05/10,22,74.45,1637.9,ashleyfry@example.org
+65,8TO9HMAN,134,Captain Morgan Reveal,Captain,Rum,750,33.64,Perry and Sons,Port Katherinemouth,NH,Southeast,Wholesale,2025/05/10,3,64.63,193.89,sarah66@example.com
+66,4EUAQFZP,102,Ciroc Father,Ciroc,Rum,700,32.81,Sosa-Tucker,Traciberg,GU,Northeast,Retail,2025/05/15,11,14.86,163.46,hayden48@example.com
+67,18DV2S3W,149,Tanqueray Mother,Tanqueray,Whisky,750,11.31,Anderson LLC,Jessicaland,IL,Southeast,Wholesale,2025/05/15,3,91.37,274.11,sanchezdanielle@example.org
+68,LJCU9K42,128,Guinness Relationship,Guinness,Tequila,750,11.85,"Hall, Smith and Hill",Martinezchester,UT,Midwest,Wholesale,2025/05/04,11,94.95,1044.45,moralesanna@example.com
+69,NH7KM5JO,119,Johnnie Walker Career,Johnnie,Tequila,750,43.27,Miller-Walls,Robersonfort,MI,Northeast,Retail,2025/04/08,34,30.96,1052.64,christine59@example.com
+70,VPMS8B8X,128,Tanqueray Stop,Tanqueray,Liqueur,750,42.05,Patterson and Sons,East Richardville,NY,Midwest,Wholesale,2025/05/04,37,19.85,734.45,tricialee@example.org
+71,CXU4EKVH,129,Baileys Still,Baileys,Gin,750,16.38,Meyer-Ramirez,Lake Paul,AS,Northeast,Wholesale,2025/05/13,2,93.37,186.74,heatherduncan@example.net
+72,RWPFFD8E,101,Don Julio Range,Don,Whisky,700,30.76,Williams LLC,Tyroneberg,NC,West,Retail,2025/05/17,32,77.38,2476.16,sarah02@example.org
+73,53B2G7LZ,138,Captain Morgan Item,Captain,Gin,700,19.14,Humphrey-Bates,South Tony,TX,Northeast,Wholesale,2025/04/25,39,21.7,846.3,teresataylor@example.net
+74,OSCV7RSQ,140,Johnnie Walker Interesting,Johnnie,Gin,700,36.8,"Wood, Neal and Rodriguez",East Bruceton,CA,Northeast,Retail,2025/04/17,42,23.55,989.1,matthew49@example.com
+75,SISWCCF4,135,Tanqueray Drive,Tanqueray,Whisky,500,4.64,Gutierrez-Olson,Andrewland,WI,Northeast,Wholesale,2025/04/20,10,66.98,669.8,eholt@example.net
+76,9F6ZTEOX,129,Don Julio Surface,Don,Vodka,500,19.03,Perez LLC,Briannachester,GU,Midwest,Wholesale,2025/03/24,31,39.33,1219.23,fisherchristine@example.com
+77,KF5KGHPQ,138,Baileys Sure,Baileys,Liqueur,500,12.2,"Rivas, Smith and Molina",Port Stephanie,TX,South,Retail,2025/04/07,25,14.51,362.75,hurstjessica@example.net
+78,A04HA8VJ,123,Guinness Although,Guinness,Beer,700,25.59,Arnold-Smith,South Mary,HI,West,Retail,2025/03/24,8,35.81,286.48,thompsonlaura@example.com
+79,IEKPIQLU,117,Baileys Everybody,Baileys,Beer,1000,26.31,Baker PLC,West Joshua,GA,West,Retail,2025/03/29,26,18.66,485.16,rachelstewart@example.net
+80,M5DUPMUE,147,Tanqueray Real,Tanqueray,Liqueur,750,6.13,Fisher and Sons,North Caitlinberg,CA,West,Retail,2025/04/08,34,68.77,2338.18,wilsonalicia@example.net
+81,G5MUAGYJ,148,Don Julio Citizen,Don,Gin,500,25.84,"Reyes, Foster and Snow",Lopezchester,MS,Southeast,Wholesale,2025/03/22,43,44.99,1934.57,amyhayes@example.net
+82,M0KQLFVV,140,Johnnie Walker Establish,Johnnie,Liqueur,750,24.71,Meyers PLC,Marthaborough,CO,South,Wholesale,2025/05/06,24,55.97,1343.28,deborah39@example.org
+83,LHHGH48I,130,Captain Morgan Admit,Captain,Whisky,700,32.39,Jackson Inc,West Gabriela,MT,South,Retail,2025/05/19,24,36.06,865.44,hcraig@example.net
+84,M1KW7HJM,122,Ciroc Room,Ciroc,Liqueur,700,12.92,Carter and Sons,West Valerie,RI,West,Wholesale,2025/04/16,19,77.32,1469.08,morgan15@example.org
+85,VLCSCV17,101,Don Julio Character,Don,Vodka,700,7.84,Hawkins Inc,Carolinefurt,NH,Midwest,Wholesale,2025/05/09,4,42.32,169.28,macdonaldshannon@example.org
+86,D98U8C2W,113,Johnnie Walker Message,Johnnie,Liqueur,750,7.7,Smith Group,Port Tammyfurt,OR,Southeast,Retail,2025/04/07,45,16.0,720.0,jessicaswanson@example.org
+87,4FIY8T84,120,Tanqueray Bit,Tanqueray,Tequila,500,18.77,"Medina, Rodgers and Welch",Millerstad,DE,West,Wholesale,2025/03/30,30,67.38,2021.4,lopezronnie@example.com
+88,MV3NRO6R,148,Baileys Medical,Baileys,Vodka,700,20.16,Kline-Bryant,Blackland,RI,Northeast,Retail,2025/05/03,8,48.4,387.2,kgriffin@example.net
+89,38C8JCA5,115,Guinness Employee,Guinness,Vodka,750,26.16,"Thompson, Tucker and Zhang",North Candace,NE,Northeast,Wholesale,2025/05/08,37,21.08,779.96,pbauer@example.net
+90,PBRO0022,137,Guinness Forward,Guinness,Vodka,500,4.83,"Graves, Gardner and Parker",Kristiview,WI,Southeast,Wholesale,2025/04/03,9,72.95,656.55,umay@example.org
+91,JVDBPYV2,150,Guinness However,Guinness,Tequila,750,10.97,Morris-Hart,South Cheryl,MT,Southeast,Wholesale,2025/04/07,29,90.77,2632.33,ywright@example.net
+92,N92AR49A,102,Guinness Area,Guinness,Liqueur,750,30.78,Jones-Li,Jenniferside,NM,Southeast,Retail,2025/03/21,13,27.77,361.01,jennifer04@example.net
+93,X25TPYLI,142,Ciroc Dinner,Ciroc,Liqueur,700,5.71,"Snow, Arnold and Prince",Cindybury,WV,Southeast,Retail,2025/03/27,18,66.03,1188.54,jasonbraun@example.org
+94,9CLWV35I,133,Smirnoff Cup,Smirnoff,Rum,750,41.47,Frey-Dean,Grantport,ND,South,Wholesale,2025/05/10,35,91.51,3202.85,michael16@example.com
+95,PKNIECRR,122,Ciroc Last,Ciroc,Beer,750,20.62,Jones and Sons,Williamsmouth,VT,Midwest,Wholesale,2025/04/03,20,30.55,611.0,ashley81@example.org
+96,2WS2KPN3,128,Smirnoff Near,Smirnoff,Beer,500,30.91,"Greene, Garner and Reilly",Bradleystad,MI,West,Retail,2025/04/27,28,72.86,2040.08,kvelez@example.org
+97,GFVJX6KE,104,Johnnie Walker Avoid,Johnnie,Tequila,750,16.0,Henry and Sons,New Judith,CA,Southeast,Retail,2025/04/20,28,23.24,650.72,dgreer@example.org
+98,M14FX9ZU,102,Smirnoff Explain,Smirnoff,Vodka,500,24.37,"Fitzgerald, Woods and Colon",South Cody,PW,West,Wholesale,2025/05/08,25,50.61,1265.25,martinezmark@example.net
+99,C5R5Z3M8,114,Captain Morgan Top,Captain,Tequila,500,26.49,Smith and Sons,Jesseton,ID,West,Wholesale,2025/03/21,37,19.65,727.05,ggibbs@example.net
+100,AZCQ6QKV,134,Ciroc Pretty,Ciroc,Liqueur,750,37.73,Mullins-Baxter,North Joshua,OH,Southeast,Retail,2025/04/03,19,81.63,1550.97,henrygarcia@example.com
+101,464FVK7C,117,Captain Morgan Actually,Captain,Rum,700,43.61,Edwards-Hart,Kimberlystad,PW,South,Retail,2025/04/28,17,92.24,1568.08,brandonhayes@example.org
+102,HCZU0PHZ,112,Don Julio Act,Don,Tequila,500,25.27,Rodriguez Inc,Chambersbury,VA,Northeast,Wholesale,2025/04/06,40,95.89,3835.6,claytondaniel@example.com
+103,XY28UNOQ,115,Smirnoff Term,Smirnoff,Rum,500,8.65,Howard PLC,South Michaelstad,FM,Midwest,Retail,2025/04/18,34,28.1,955.4,jonathanmeyers@example.net
+104,O3XRXRSO,108,Smirnoff Police,Smirnoff,Vodka,1000,21.45,Golden Ltd,West John,WV,Midwest,Retail,2025/04/18,24,5.72,137.28,ostanley@example.net
+105,R8HHSFME,110,Captain Morgan Single,Captain,Gin,1000,32.97,Morris-Johnson,Cathytown,WY,Northeast,Wholesale,2025/04/25,34,70.49,2396.66,seanshepard@example.org
+106,AWYTXCQL,141,Smirnoff Story,Smirnoff,Vodka,500,23.32,Daniels Inc,Kimberlymouth,WV,West,Retail,2025/05/10,43,51.53,2215.79,charlene33@example.org
+107,USCAJEAY,132,Smirnoff Bed,Smirnoff,Vodka,1000,29.39,"Miller, Escobar and Greene",Loriborough,OK,Southeast,Retail,2025/03/28,34,75.64,2571.76,brittney95@example.com
+108,QHLO5ELJ,128,Tanqueray Candidate,Tanqueray,Gin,750,19.77,"Jackson, Dawson and Russell",Burkeshire,WI,South,Wholesale,2025/03/21,4,24.54,98.16,ashley92@example.net
+109,WQVNBPEZ,102,Guinness Us,Guinness,Gin,500,4.93,"Anderson, Gonzales and Gomez",Veronicatown,CT,South,Wholesale,2025/04/05,25,83.7,2092.5,qgutierrez@example.com
+110,T8EO58Y8,103,Captain Morgan May,Captain,Beer,750,28.95,Evans LLC,Kevinchester,DE,Midwest,Retail,2025/03/28,8,83.33,666.64,ramirezjon@example.net
+111,TKGNDX2I,149,Smirnoff Research,Smirnoff,Rum,1000,9.15,Jones-White,East Phillipport,TX,Midwest,Wholesale,2025/04/13,13,22.82,296.66,dianasmith@example.net
+112,0YG7ROEM,112,Captain Morgan Travel,Captain,Whisky,750,12.83,West-Garcia,East Brooke,NC,Northeast,Wholesale,2025/03/29,49,5.35,262.15,chicks@example.net
+113,TD1HHVGQ,127,Don Julio Quickly,Don,Beer,700,23.36,"Jackson, Trujillo and Mathis",Port Deborah,VI,Southeast,Retail,2025/05/16,22,35.19,774.18,vflowers@example.net
+114,7HQYQD17,105,Guinness Anything,Guinness,Whisky,500,24.9,"Sanchez, Stuart and Dunn",Stewarttown,NH,Southeast,Retail,2025/04/17,13,68.68,892.84,jillian63@example.org
+115,P27NTY6U,148,Tanqueray Born,Tanqueray,Liqueur,1000,9.45,Flores-Fernandez,Heatherborough,FM,Northeast,Retail,2025/04/21,8,39.63,317.04,rachellopez@example.org
+116,MNI6X2FU,125,Baileys Quickly,Baileys,Liqueur,500,21.58,"Myers, Baker and Hernandez",Lake Shawn,OH,Northeast,Retail,2025/05/19,49,76.98,3772.02,ebonyfinley@example.org
+117,Q5CM7O6A,138,Smirnoff Third,Smirnoff,Vodka,1000,6.7,Jones-Garza,Sharonview,IL,South,Retail,2025/03/26,25,90.17,2254.25,gmorris@example.org
+118,TJRVLC73,103,Tanqueray Which,Tanqueray,Rum,500,4.59,Molina-Kent,Port Andrew,NM,Midwest,Wholesale,2025/04/10,28,23.14,647.92,hughesshannon@example.org
+119,Q037CK6R,145,Baileys Case,Baileys,Beer,700,12.63,"Bennett, Garrett and Taylor",New Monique,CA,Midwest,Wholesale,2025/05/01,46,52.26,2403.96,hmays@example.net
+120,PEV5BJ2N,107,Tanqueray Treatment,Tanqueray,Beer,700,38.22,Houston and Sons,East Jason,OR,Northeast,Retail,2025/04/30,23,20.28,466.44,williamsvincent@example.net
+121,HWQEN0LD,150,Ciroc Task,Ciroc,Tequila,1000,40.57,Young and Sons,Andersonstad,NJ,South,Retail,2025/03/23,11,32.06,352.66,qbell@example.com
+122,LG64GQKW,130,Johnnie Walker Thousand,Johnnie,Gin,500,32.88,"Rodriguez, Howard and Kennedy",Jimburgh,WV,West,Retail,2025/04/12,39,30.38,1184.82,lisa11@example.com
+123,24AJ8V3O,124,Baileys Play,Baileys,Whisky,750,32.66,Brown-Smith,Port Larryfort,IL,Midwest,Wholesale,2025/05/04,4,99.37,397.48,jyoung@example.org
+124,IB5LYVPV,102,Baileys Cause,Baileys,Whisky,700,39.24,Porter-Herring,Aprilfort,PW,Midwest,Retail,2025/04/25,34,10.46,355.64,thomas55@example.com
+125,PHMAW9SR,106,Ciroc Opportunity,Ciroc,Vodka,700,19.61,Chandler-Rodriguez,Mariashire,ID,Midwest,Retail,2025/04/17,47,56.98,2678.06,butlermichael@example.com
+126,OYJIKAWF,107,Smirnoff Town,Smirnoff,Beer,750,40.61,Carroll and Sons,Laurenside,WI,Northeast,Wholesale,2025/05/13,36,6.83,245.88,dennis23@example.com
+127,EGUWOHQO,115,Smirnoff How,Smirnoff,Rum,700,22.89,Williams-Wood,Mirandaberg,PA,Northeast,Retail,2025/05/15,42,58.61,2461.62,lamrebekah@example.org
+128,NB8TEA6M,102,Captain Morgan Why,Captain,Whisky,750,20.64,Deleon Ltd,Carolchester,NM,South,Wholesale,2025/04/13,27,44.81,1209.87,karengraves@example.org
+129,NWTWZGUX,140,Don Julio Seek,Don,Whisky,750,33.39,Davis Group,Carrieberg,TN,South,Retail,2025/04/01,11,31.77,349.47,singletonshane@example.org
+130,UYBYAIL7,103,Don Julio Present,Don,Whisky,1000,31.77,King LLC,East Cathyville,MN,Southeast,Retail,2025/04/22,3,84.81,254.43,scott97@example.com
+131,HCEYH3RW,144,Baileys Least,Baileys,Beer,750,26.62,Gallagher-Deleon,New Tomview,AS,Midwest,Retail,2025/05/18,36,72.26,2601.36,hicksstacey@example.com
+132,D8KKY8Y3,103,Ciroc Recent,Ciroc,Tequila,700,24.88,Willis LLC,South Bryantown,GU,Midwest,Wholesale,2025/04/23,26,96.32,2504.32,johnsanders@example.org
+133,T7YST621,146,Guinness Senior,Guinness,Beer,750,7.64,"Fox, Sanders and Miles",Grahamburgh,MI,South,Wholesale,2025/04/21,35,62.38,2183.3,ebishop@example.org
+134,V2KO6X21,145,Guinness Order,Guinness,Beer,1000,40.47,"Allen, Holland and King",Jackieburgh,LA,Southeast,Wholesale,2025/04/23,32,46.92,1501.44,troy58@example.com
+135,SBENX9XR,114,Baileys Southern,Baileys,Gin,700,20.49,"Nichols, Johnson and Gonzales",Port Beth,ID,Southeast,Retail,2025/04/14,24,68.11,1634.64,perrythomas@example.org
+136,X4JQ4NHG,132,Smirnoff Behavior,Smirnoff,Whisky,700,10.54,"Adams, Silva and Murphy",Shawnstad,MP,South,Wholesale,2025/05/03,1,9.37,9.37,moodythomas@example.com
+137,66X0ZAR8,127,Baileys Prepare,Baileys,Whisky,1000,25.45,"Andrews, Logan and Evans",Crystalfort,KY,Midwest,Wholesale,2025/04/02,34,48.57,1651.38,orogers@example.com
+138,RN13GHBR,118,Tanqueray Pick,Tanqueray,Beer,750,28.15,Cox Ltd,New Michael,SD,South,Retail,2025/04/30,41,26.61,1091.01,cheryl95@example.org
+139,9E8WE47D,107,Captain Morgan Hold,Captain,Rum,1000,23.95,"Harper, Newton and Norman",Marshallstad,HI,South,Retail,2025/04/14,41,95.14,3900.74,justinchapman@example.com
+140,6RTSLAT5,144,Johnnie Walker Yes,Johnnie,Whisky,700,32.88,Hodge LLC,New Davidfort,NH,West,Retail,2025/04/22,22,15.64,344.08,kathryndavis@example.com
+141,TTKQ0LDJ,112,Don Julio Opportunity,Don,Liqueur,750,24.06,Singleton-Smith,Lake Connie,VI,West,Wholesale,2025/04/15,17,41.06,698.02,carriejones@example.org
+142,F3H96L5Y,140,Tanqueray Much,Tanqueray,Vodka,500,35.4,"Ramsey, Li and Palmer",Leeport,TX,Northeast,Retail,2025/05/13,15,12.53,187.95,tina64@example.com
+143,Y6B18IZ3,145,Smirnoff Firm,Smirnoff,Tequila,750,32.15,Smith-Gutierrez,Averyside,MS,Northeast,Wholesale,2025/03/31,33,47.31,1561.23,montescarl@example.org
+144,RB9GFFV7,112,Johnnie Walker Simply,Johnnie,Rum,500,24.05,Wright-Walker,North Angelaville,MD,Northeast,Wholesale,2025/03/23,32,99.64,3188.48,samanthasanford@example.org
+145,HZW689RJ,111,Captain Morgan Attention,Captain,Beer,750,18.73,"Hall, Lane and Brown",North Tyronehaven,NH,Southeast,Retail,2025/05/06,21,23.51,493.71,marcus74@example.org
+146,3WYQXCVM,121,Captain Morgan Scene,Captain,Tequila,750,26.81,"Wilkinson, Lee and Blackburn",Lake Heathermouth,MH,Northeast,Retail,2025/03/31,46,29.39,1351.94,jorgeerickson@example.net
+147,6FLLZX3Z,125,Ciroc Senior,Ciroc,Beer,700,33.45,Nunez-Marshall,Valerieview,MS,West,Retail,2025/04/22,6,72.78,436.68,valenzuelacarol@example.org
+148,RR12E5SE,123,Smirnoff During,Smirnoff,Vodka,750,12.66,"Strickland, Luna and Green",Lake Bobbyberg,GA,Southeast,Retail,2025/04/02,14,25.77,360.78,christopherwilliams@example.org
+149,IYXVW8CQ,119,Captain Morgan Interesting,Captain,Beer,1000,33.06,"Yang, Jackson and Day",Josephbury,WV,West,Wholesale,2025/05/16,37,17.13,633.81,theresaarnold@example.org
+150,AJ0WWHZ6,136,Don Julio Center,Don,Whisky,700,35.01,Buck-Matthews,New Bridget,WV,West,Wholesale,2025/03/28,42,59.09,2481.78,lgutierrez@example.net
+151,IXT5GJDU,148,Tanqueray Down,Tanqueray,Rum,700,10.34,"Rhodes, Olson and Evans",West Amystad,LA,Northeast,Retail,2025/03/25,29,95.61,2772.69,kyle28@example.com
+152,DDS390R6,143,Johnnie Walker Trouble,Johnnie,Gin,1000,37.41,Miller and Sons,Morenoborough,PA,West,Wholesale,2025/04/10,21,14.22,298.62,william45@example.org
+153,2WPVXI9M,143,Smirnoff Sign,Smirnoff,Whisky,500,39.46,Howell Inc,Alexandriaberg,AK,Midwest,Retail,2025/05/18,39,26.67,1040.13,leonardlori@example.net
+154,HKYS3V6V,113,Guinness Prove,Guinness,Rum,750,37.68,Fitzgerald-Johnson,New Markburgh,DC,South,Wholesale,2025/04/02,10,75.59,755.9,gina39@example.com
+155,5I55TVB3,145,Captain Morgan Specific,Captain,Whisky,1000,5.45,Smith-Bell,Port Austinshire,NV,Midwest,Wholesale,2025/05/12,46,72.83,3350.18,pettyjessica@example.net
+156,N9HO7DPF,149,Johnnie Walker Describe,Johnnie,Tequila,750,12.66,Smith-Reese,East Emily,DC,South,Retail,2025/04/01,30,21.0,630.0,pereztrevor@example.net
+157,4R6KQSZ1,149,Tanqueray Mind,Tanqueray,Liqueur,500,10.08,Horton-Alexander,New Paigeview,KY,Northeast,Retail,2025/05/06,6,26.75,160.5,mistymcbride@example.net
+158,CIOM7G6X,130,Captain Morgan Bar,Captain,Tequila,700,36.55,"Lopez, Elliott and Andrade",North Tommyville,LA,West,Wholesale,2025/05/08,22,63.37,1394.14,dylanharris@example.com
+159,NHR6415X,138,Smirnoff Itself,Smirnoff,Whisky,500,26.85,"Cooper, Stevenson and Thomas",Maryfurt,PA,South,Wholesale,2025/03/22,31,70.25,2177.75,melissaknapp@example.org
+160,TO5BARIC,147,Johnnie Walker Month,Johnnie,Beer,1000,28.52,"Bailey, Sims and Cain",West Jonathanfort,MT,Southeast,Retail,2025/03/25,43,18.61,800.23,cwilliams@example.net
+161,XWITIR4R,147,Smirnoff Poor,Smirnoff,Liqueur,700,23.45,"Roth, Heath and Newton",Jenniferview,CT,South,Wholesale,2025/03/29,23,96.29,2214.67,sarah70@example.com
+162,2V9DUY3F,108,Johnnie Walker Ball,Johnnie,Whisky,500,44.3,Hensley Group,North Lisaburgh,OK,Southeast,Wholesale,2025/04/25,8,19.49,155.92,susan50@example.com
+163,0QFNPVI4,132,Johnnie Walker Significant,Johnnie,Tequila,1000,28.64,Cole-Cortez,Port Angelaborough,MN,Midwest,Wholesale,2025/04/17,39,41.24,1608.36,sanchezthomas@example.net
+164,J83X2TJ6,140,Johnnie Walker Medical,Johnnie,Whisky,1000,7.01,"Turner, Dixon and Hernandez",Dianeville,NM,Southeast,Wholesale,2025/05/14,39,55.03,2146.17,hwright@example.net
+165,A4CES2KQ,129,Smirnoff Son,Smirnoff,Vodka,1000,29.89,Duffy and Sons,Port Samantha,RI,Northeast,Wholesale,2025/03/29,38,7.31,277.78,millermichael@example.com
+166,VAPGCL4E,130,Smirnoff Key,Smirnoff,Tequila,750,25.19,Hall-Pacheco,West Gregoryton,WA,South,Wholesale,2025/03/25,44,39.02,1716.88,guerreromatthew@example.net
+167,8OWVCD8X,119,Don Julio Scientist,Don,Whisky,750,12.55,Larson Ltd,West Heidistad,CO,Midwest,Wholesale,2025/05/12,37,12.17,450.29,aowens@example.org
+168,0NP8V0O5,112,Captain Morgan Million,Captain,Whisky,1000,44.65,Hill-Nelson,East Joshuaborough,MH,South,Wholesale,2025/03/28,13,75.21,977.73,preston45@example.net
+169,YO4Q43IT,112,Ciroc Economy,Ciroc,Beer,750,37.84,"Hill, Burns and Stevens",Kennedymouth,NM,West,Retail,2025/04/26,29,62.19,1803.51,lindsay11@example.net
+170,R4B0XOBQ,127,Smirnoff Only,Smirnoff,Liqueur,1000,5.74,Phillips Ltd,Fitzpatrickville,MA,Northeast,Retail,2025/04/19,7,13.73,96.11,melinda45@example.org
+171,GVQHC2WO,123,Ciroc Check,Ciroc,Whisky,750,31.47,Giles-Wilkins,South Sarahhaven,TX,West,Wholesale,2025/05/11,14,15.79,221.06,arnoldtyler@example.com
+172,7WBNWPMP,131,Tanqueray Will,Tanqueray,Liqueur,700,37.58,Maldonado Ltd,Jennifershire,RI,Southeast,Retail,2025/04/29,4,42.0,168.0,xpowell@example.net
+173,K8M0DUQQ,137,Ciroc Happy,Ciroc,Vodka,750,43.8,Garcia-Vasquez,Pachecochester,CA,Southeast,Wholesale,2025/04/24,29,87.81,2546.49,taylorlisa@example.com
+174,WG07ULGN,106,Tanqueray Their,Tanqueray,Whisky,750,5.9,Rojas-Chapman,Feliciatown,MI,South,Wholesale,2025/04/30,15,24.11,361.65,awoods@example.org
+175,BI5M1QUG,108,Smirnoff Suffer,Smirnoff,Whisky,500,14.23,"Patterson, Andrews and Price",Stevenport,CT,Midwest,Wholesale,2025/05/12,30,79.32,2379.6,elizabeth41@example.net
+176,MH6NBRIQ,119,Baileys Risk,Baileys,Tequila,750,6.67,"Neal, Sanchez and Edwards",South Jo,OR,Southeast,Retail,2025/04/26,45,54.22,2439.9,simmonsdavid@example.net
+177,BBMSIVQ0,114,Don Julio Laugh,Don,Beer,700,14.06,Pham and Sons,Wilkinsonport,MN,Southeast,Retail,2025/05/11,26,49.19,1278.94,ithompson@example.com
+178,YMCLTEWE,106,Johnnie Walker Identify,Johnnie,Liqueur,1000,13.2,Williams-Williamson,Morrisfort,NE,Midwest,Wholesale,2025/05/15,29,69.09,2003.61,wardlisa@example.com
+179,912TAS6X,144,Smirnoff Their,Smirnoff,Tequila,700,21.92,Moody-Hooper,North Bethany,TX,South,Retail,2025/05/05,19,55.85,1061.15,nthompson@example.net
+180,PPJ7FSBM,124,Guinness Well,Guinness,Whisky,1000,23.14,"Mitchell, Goodman and Saunders",North Ashley,GU,Northeast,Retail,2025/04/06,13,71.59,930.67,ramirezalexandra@example.com
+181,DCPN1ZYW,119,Captain Morgan Trouble,Captain,Whisky,1000,12.55,Sexton Ltd,Hernandezfort,MP,South,Retail,2025/03/21,16,93.13,1490.08,joseph14@example.com
+182,HDRP02C7,144,Tanqueray Adult,Tanqueray,Gin,500,12.23,Collins Ltd,Jessicafurt,CA,Southeast,Retail,2025/04/06,5,14.79,73.95,jenniferford@example.com
+183,XDM8Q5AX,137,Guinness Record,Guinness,Beer,1000,32.21,Madden and Sons,New Denise,MS,South,Retail,2025/04/06,20,69.56,1391.2,joseph74@example.net
+184,IXNJ792H,127,Guinness Mention,Guinness,Tequila,700,32.09,Pace-Hill,Port Lindaland,PW,Northeast,Wholesale,2025/04/27,34,35.3,1200.2,ortizmichael@example.com
+185,NNGGD4OT,108,Ciroc Finish,Ciroc,Beer,700,23.26,Miller-Duncan,East Robert,MO,Northeast,Wholesale,2025/04/08,1,23.41,23.41,westsean@example.org
+186,6QTBGYOQ,102,Captain Morgan Establish,Captain,Liqueur,750,6.31,Williams-Landry,South Tammy,NH,Northeast,Retail,2025/04/12,13,65.32,849.16,xhaley@example.org
+187,MIMOS5OU,107,Ciroc Mind,Ciroc,Rum,500,35.61,"Miller, Harmon and Scott",West Richard,WY,Southeast,Retail,2025/04/29,20,55.41,1108.2,xreed@example.com
+188,LQ7AFQEC,128,Tanqueray Admit,Tanqueray,Rum,700,33.59,Morgan-Christensen,Meganfort,NC,Northeast,Wholesale,2025/04/04,19,76.16,1447.04,michael25@example.org
+189,7ZA3E1MX,102,Ciroc Stand,Ciroc,Rum,1000,39.41,"Gonzalez, Gonzalez and Smith",Lake Taylorchester,IA,West,Retail,2025/05/04,39,24.85,969.15,wilsonrandy@example.org
+190,G2ERE4LR,104,Baileys Suffer,Baileys,Rum,700,18.61,"Lee, Harris and Michael",South Sarah,WV,West,Wholesale,2025/05/04,15,19.99,299.85,xstewart@example.net
+191,7WU9DEJJ,115,Guinness Generation,Guinness,Rum,500,38.58,Walker-Clark,West Travisberg,LA,West,Retail,2025/04/12,4,23.52,94.08,lori26@example.org
+192,P9LOUCEE,113,Ciroc Item,Ciroc,Vodka,750,39.24,"Wilson, Williams and Obrien",Cookshire,VA,South,Retail,2025/03/22,15,61.18,917.7,renee47@example.net
+193,VG964JBA,102,Guinness During,Guinness,Vodka,750,24.62,"Lee, Perkins and Brown",Ryanview,FM,Southeast,Retail,2025/05/03,18,65.52,1179.36,janetwilliams@example.org
+194,7HXMY54T,129,Don Julio Deep,Don,Liqueur,1000,33.42,"Jackson, Jones and Brown",Port Christopherview,AZ,Southeast,Wholesale,2025/04/02,46,33.66,1548.36,vgallagher@example.com
+195,WG14RW6G,139,Baileys Sister,Baileys,Rum,1000,9.82,Higgins-Maynard,Grayburgh,GA,West,Retail,2025/04/10,24,75.6,1814.4,brian23@example.net
+196,FBE180FD,141,Baileys My,Baileys,Rum,750,37.95,Turner PLC,Port Dalton,FL,Northeast,Wholesale,2025/03/28,12,58.58,702.96,sandrabrock@example.org
+197,V1RD9MTP,101,Baileys Maintain,Baileys,Tequila,1000,29.85,"Hall, Gordon and Carlson",North Ericaview,RI,Midwest,Wholesale,2025/03/30,22,96.47,2122.34,natalie71@example.org
+198,632GA5I6,142,Tanqueray Buy,Tanqueray,Liqueur,750,15.89,Dominguez-Frazier,New Kimberly,AL,South,Retail,2025/03/30,39,89.39,3486.21,dkelly@example.net
+199,EDACHZ9M,138,Captain Morgan First,Captain,Whisky,750,15.73,Marsh PLC,East Tina,ND,West,Wholesale,2025/04/28,33,66.05,2179.65,kmelendez@example.org
+200,FBR4CRIO,136,Johnnie Walker Manager,Johnnie,Whisky,500,26.86,"Gomez, Bell and Cook",North Samantha,PR,Southeast,Wholesale,2025/03/23,49,47.05,2305.45,wattscory@example.net
+201,AWQAYH4K,121,Don Julio Expect,Don,Tequila,1000,37.27,Warren-Edwards,Elizabethland,MN,Midwest,Wholesale,2025/04/13,45,60.0,2700.0,kevin87@example.com
+202,Q488611Q,113,Guinness Threat,Guinness,Whisky,500,25.57,Barajas LLC,East Debrachester,FM,Southeast,Wholesale,2025/05/08,30,65.2,1956.0,obrown@example.com
+203,51YEXD5Q,121,Johnnie Walker Trouble,Johnnie,Liqueur,500,37.56,Wilson-Hancock,Port Reneefurt,MH,Northeast,Retail,2025/04/20,26,97.19,2526.94,jenniferdonaldson@example.net
+204,FC1BL74I,111,Don Julio Item,Don,Gin,1000,20.65,Ford Ltd,Williamfort,SD,South,Wholesale,2025/04/11,37,22.69,839.53,pmoore@example.org
+205,4Q7RKZ2Y,122,Guinness Or,Guinness,Vodka,500,27.52,Mendez-Pearson,North Aaron,LA,Southeast,Wholesale,2025/04/15,24,82.25,1974.0,romeromatthew@example.com
+206,FERL2YA4,140,Johnnie Walker Seven,Johnnie,Liqueur,500,39.51,Johnson-Hernandez,Caseyside,CO,Northeast,Retail,2025/05/03,1,25.6,25.6,nichole23@example.com
+207,96A0LGRY,146,Tanqueray Ability,Tanqueray,Tequila,750,23.52,"Sandoval, Ramirez and Walsh",Lovechester,WI,West,Retail,2025/05/09,6,96.02,576.12,mary94@example.net
+208,HTQOQTJP,135,Don Julio Behind,Don,Gin,700,13.97,Olsen-Simmons,Lake Jessica,MI,West,Retail,2025/05/12,38,94.9,3606.2,gonzalesdavid@example.org
+209,BXDEUCKI,137,Captain Morgan Way,Captain,Rum,700,21.65,"Conner, Wolfe and Randolph",Duncanstad,NH,South,Wholesale,2025/04/10,31,24.96,773.76,calderonaaron@example.net
+210,6YV16VG4,126,Tanqueray Official,Tanqueray,Beer,500,41.58,Graham PLC,Woodsmouth,CO,West,Wholesale,2025/03/27,37,94.28,3488.36,yduncan@example.net
+211,V035JOQN,133,Baileys Could,Baileys,Liqueur,700,5.74,Trevino-Clarke,South Joseberg,CT,Midwest,Retail,2025/05/05,19,61.17,1162.23,davischeryl@example.org
+212,EUS8N8ND,141,Johnnie Walker Decision,Johnnie,Rum,700,18.85,Evans and Sons,Richardview,MO,Northeast,Wholesale,2025/04/29,47,49.34,2318.98,martinezcynthia@example.com
+213,I48FI36D,136,Don Julio Herself,Don,Beer,500,24.2,"Salas, Rodriguez and Ramirez",Lake Bradleyview,MS,South,Retail,2025/03/31,27,31.99,863.73,nwilson@example.net
+214,Y7C2OVL2,111,Smirnoff Eye,Smirnoff,Beer,750,32.26,Jones-Carter,New Austin,PR,West,Retail,2025/03/31,19,66.34,1260.46,andrewsims@example.net
+215,13F1NOYI,147,Baileys Tax,Baileys,Tequila,750,5.74,Anderson Group,Normanhaven,MO,Northeast,Wholesale,2025/04/25,5,15.81,79.05,lmoreno@example.net
+216,SSUU41C6,120,Johnnie Walker Main,Johnnie,Vodka,750,5.13,Kim-Solis,Samanthatown,VT,West,Wholesale,2025/03/25,38,20.28,770.64,lesterchristopher@example.com
+217,RH4XM9G8,113,Johnnie Walker Follow,Johnnie,Beer,1000,40.12,Mcdaniel-Lopez,Buckleychester,PW,West,Retail,2025/03/22,18,96.93,1744.74,michaelthornton@example.net
+218,D454ZH06,140,Johnnie Walker Your,Johnnie,Whisky,500,22.52,"Lee, Martinez and Sullivan",Paulshire,AS,South,Retail,2025/04/30,15,44.15,662.25,tammymyers@example.net
+219,PRDACAJA,128,Tanqueray Continue,Tanqueray,Gin,1000,20.7,Lopez Ltd,North Katrinashire,AR,South,Wholesale,2025/05/12,50,35.09,1754.5,frederickbaldwin@example.com
+220,0A13DU4C,116,Guinness Cause,Guinness,Tequila,1000,44.63,Chapman-Price,Torresport,NH,South,Wholesale,2025/04/30,4,19.21,76.84,xrussell@example.org
+221,KSTWD5JO,121,Smirnoff Experience,Smirnoff,Liqueur,750,10.39,Meza PLC,Johnsonstad,KS,Northeast,Wholesale,2025/04/11,46,45.0,2070.0,walexander@example.net
+222,LM9Y31RF,104,Smirnoff Child,Smirnoff,Rum,700,18.75,Mooney-Morales,Martinville,OH,Midwest,Wholesale,2025/04/28,31,16.9,523.9,robinsonjohn@example.net
+223,Q0081I0K,149,Ciroc Miss,Ciroc,Vodka,700,21.82,Martin-Taylor,New Samantha,CO,Midwest,Retail,2025/04/27,30,42.3,1269.0,amanda44@example.com
+224,YRO58P03,128,Smirnoff Collection,Smirnoff,Beer,1000,26.7,Elliott-Bryant,East Jessica,ME,South,Retail,2025/03/22,26,87.88,2284.88,rileytracie@example.net
+225,Z3XH761T,104,Baileys Goal,Baileys,Rum,700,16.57,Garcia-Joseph,Port Leslie,VI,Southeast,Retail,2025/05/09,17,29.6,503.2,katherineknight@example.net
+226,VF7RP0YZ,144,Smirnoff Hope,Smirnoff,Beer,500,39.78,Taylor-Keith,Escobarfort,MN,Southeast,Wholesale,2025/04/07,19,74.12,1408.28,rachelquinn@example.org
+227,GY9BVNZD,103,Captain Morgan Likely,Captain,Vodka,1000,39.78,"Smith, Hill and Moore",Jasonmouth,AS,South,Retail,2025/04/24,19,68.1,1293.9,shawamanda@example.net
+228,17CTD0UY,119,Baileys Join,Baileys,Beer,700,10.28,Rojas-Johnson,Robertton,WA,South,Wholesale,2025/04/21,21,19.81,416.01,nmejia@example.net
+229,O3NETFVQ,122,Guinness Threat,Guinness,Rum,750,27.25,Lawrence Group,Russellbury,OR,West,Retail,2025/03/25,44,25.01,1100.44,linda19@example.net
+230,MXQU8EHG,135,Don Julio Within,Don,Beer,700,22.42,Jones-Jackson,Williammouth,IL,Midwest,Retail,2025/04/29,49,20.13,986.37,lindsey41@example.org
+231,V01VM474,104,Captain Morgan Pull,Captain,Beer,1000,29.99,Martin-Wells,Elizabethland,VA,Southeast,Retail,2025/03/24,11,57.17,628.87,howardclinton@example.org
+232,H6XWKDTF,106,Baileys Short,Baileys,Whisky,700,18.76,Hernandez-Knight,Ramseyton,MT,Midwest,Wholesale,2025/04/04,44,48.67,2141.48,jenniferlane@example.org
+233,V0OWEJR4,135,Guinness Often,Guinness,Tequila,750,42.07,"Leach, Gibbs and Shaw",West Rebeccaview,MN,South,Retail,2025/04/27,3,90.62,271.86,jenniferdaniel@example.org
+234,OMFB8I6T,125,Tanqueray Outside,Tanqueray,Tequila,500,41.94,Brown-Rodriguez,Williamshaven,DE,Northeast,Retail,2025/05/04,16,15.67,250.72,joshua62@example.net
+235,4OL2YW26,147,Tanqueray Quality,Tanqueray,Vodka,700,29.76,Bell Group,New Robertchester,NJ,Southeast,Wholesale,2025/03/29,13,13.9,180.7,swilliams@example.org
+236,12MWD9ZV,138,Tanqueray Attorney,Tanqueray,Gin,750,17.75,"Cox, Bryant and Hodges",Port Daniel,NJ,Southeast,Retail,2025/04/16,3,87.63,262.89,ramirezjeffrey@example.net
+237,CF12I20S,123,Tanqueray Who,Tanqueray,Gin,750,33.97,Evans Ltd,Jeffreyburgh,SC,Southeast,Retail,2025/04/25,27,53.02,1431.54,anthonyhenson@example.net
+238,B9EHJU0P,110,Guinness Matter,Guinness,Gin,500,6.64,Rodriguez Group,Haroldmouth,KY,Midwest,Retail,2025/05/15,6,92.18,553.08,tommyfitzgerald@example.com
+239,L29FTWYC,137,Tanqueray However,Tanqueray,Vodka,750,23.25,Lucas-Thomas,North Christopherstad,KS,South,Retail,2025/03/21,45,77.93,3506.85,nathanwilson@example.org
+240,0JLXNXNT,106,Tanqueray Coach,Tanqueray,Gin,1000,31.88,Patterson Group,New Kyleport,NY,South,Retail,2025/05/13,24,92.4,2217.6,nmoreno@example.com
+241,8LFAI0LY,110,Baileys Different,Baileys,Rum,500,43.89,"Collins, James and Reynolds",Kristiview,VI,West,Wholesale,2025/05/13,17,80.83,1374.11,adam46@example.com
+242,ULL8IRFZ,144,Johnnie Walker Military,Johnnie,Liqueur,500,36.52,"Berry, Williams and Gutierrez",New Gavin,MP,Midwest,Wholesale,2025/04/24,19,27.12,515.28,tgregory@example.com
+243,AYPUCZJZ,113,Don Julio Wish,Don,Beer,500,4.39,"Browning, Thompson and Sanchez",Collinschester,LA,South,Wholesale,2025/04/21,3,61.51,184.53,aweaver@example.net
+244,80LBJA5W,134,Smirnoff Data,Smirnoff,Whisky,700,35.27,Mosley Ltd,Evanburgh,VT,South,Wholesale,2025/04/10,39,99.86,3894.54,opadilla@example.org
+245,N1WW0MWE,141,Tanqueray Analysis,Tanqueray,Vodka,750,43.69,Jenkins-Frazier,North Sarahtown,IL,Southeast,Retail,2025/04/09,3,59.15,177.45,stewartlogan@example.org
+246,0L7DY3XE,127,Johnnie Walker Example,Johnnie,Beer,700,13.08,Brennan PLC,Leblancfurt,DC,West,Retail,2025/03/22,40,7.31,292.4,walkerandrew@example.com
+247,F0D02NN7,131,Johnnie Walker Dream,Johnnie,Tequila,1000,44.84,Juarez-Lawrence,Doughertyborough,VA,Southeast,Retail,2025/03/30,5,9.92,49.6,harrisonalejandro@example.com
+248,7W7XGH3Z,136,Captain Morgan Alone,Captain,Whisky,750,38.99,"Wells, Wheeler and Moore",Beckyburgh,IA,Northeast,Retail,2025/04/24,5,22.56,112.8,simpsonjohn@example.net
+249,Y3AQB9UL,139,Ciroc Side,Ciroc,Rum,750,7.85,"Flores, Campbell and Cooper",Peterport,KY,Southeast,Wholesale,2025/03/21,40,80.62,3224.8,lozanojames@example.com
+250,DS10ZGY7,140,Don Julio During,Don,Beer,700,22.87,Kennedy-Diaz,Perezburgh,GA,South,Wholesale,2025/04/06,40,5.74,229.6,hernandezmary@example.net
+251,34O9AI5R,126,Don Julio Debate,Don,Vodka,700,35.39,Craig LLC,New Marcus,ND,West,Wholesale,2025/04/02,49,55.33,2711.17,vickie38@example.org
+252,4FYHIM5U,102,Guinness Contain,Guinness,Beer,1000,4.76,Scott Ltd,North Jennifer,MS,Midwest,Retail,2025/05/10,11,93.53,1028.83,obrienrobert@example.com
+253,7FZ77ETA,107,Guinness Board,Guinness,Tequila,700,15.66,"Rios, White and Alvarado",South Rachel,PW,Northeast,Wholesale,2025/04/27,17,54.21,921.57,jhanna@example.com
+254,AUNZKNGX,139,Smirnoff Pull,Smirnoff,Gin,750,29.85,"Barnes, Smith and White",Port Elijahland,AS,South,Retail,2025/03/31,46,49.64,2283.44,trivera@example.net
+255,JLG8BWJB,110,Captain Morgan Run,Captain,Beer,1000,34.65,"Lee, Evans and Morse",East Christopher,DE,Southeast,Wholesale,2025/03/22,19,87.05,1653.95,xsullivan@example.com
+256,ED9VR5P1,110,Captain Morgan Since,Captain,Vodka,500,12.83,"Collins, Moore and Davis",West Breannaborough,MP,Northeast,Wholesale,2025/03/28,4,45.39,181.56,ogreen@example.com
+257,ARHF563C,141,Captain Morgan Join,Captain,Rum,750,39.0,Rasmussen and Sons,Gonzalesshire,NY,Northeast,Wholesale,2025/05/17,4,32.81,131.24,samanthaward@example.org
+258,6FEYCJC6,146,Johnnie Walker Land,Johnnie,Whisky,700,34.42,Reid Inc,Port Carrietown,AR,West,Retail,2025/04/24,17,90.45,1537.65,nina14@example.com
+259,N9XE66OZ,145,Guinness Beat,Guinness,Whisky,700,39.57,Martin and Sons,South Marktown,PW,West,Wholesale,2025/04/28,24,7.07,169.68,laurawagner@example.net
+260,VAHSHNUA,118,Smirnoff Expect,Smirnoff,Vodka,1000,17.4,Castaneda LLC,Josephville,AL,Southeast,Wholesale,2025/04/13,25,15.09,377.25,meyersjonathan@example.net
+261,7YCGODEE,115,Johnnie Walker Across,Johnnie,Tequila,500,7.73,"Parks, Mcintosh and Johnson",East Robertside,PW,West,Wholesale,2025/05/13,17,18.74,318.58,brookscharles@example.com
+262,ZHFT5K0V,108,Smirnoff Your,Smirnoff,Whisky,500,21.51,"Salas, Smith and Davis",Rodriguezhaven,PR,West,Wholesale,2025/03/26,8,15.83,126.64,autumn81@example.net
+263,PQX8QIXF,134,Smirnoff Risk,Smirnoff,Beer,500,5.45,Jensen Ltd,Angelaborough,PW,West,Wholesale,2025/05/07,45,84.13,3785.85,cruzbethany@example.com
+264,VQJN9XR8,123,Captain Morgan Glass,Captain,Whisky,500,23.8,"Sandoval, Reynolds and Griffith",New Jesse,FL,West,Wholesale,2025/03/27,23,93.52,2150.96,shannoncline@example.org
+265,5L140704,120,Baileys Couple,Baileys,Gin,750,6.58,"Cherry, Richardson and Alvarado",East Joann,AK,Southeast,Wholesale,2025/03/28,19,38.59,733.21,ovasquez@example.net
+266,5LZFWRNG,149,Ciroc Million,Ciroc,Whisky,1000,20.91,"White, Ross and Robinson",Ronnieville,GU,South,Wholesale,2025/03/24,26,32.07,833.82,traceyharper@example.org
+267,CDKBRQTR,128,Baileys Nation,Baileys,Rum,750,43.31,Barber Inc,North John,ME,Midwest,Wholesale,2025/04/05,12,26.55,318.6,reneewilliams@example.net
+268,TC3YGQEN,146,Captain Morgan Sister,Captain,Gin,500,28.99,"Gonzales, Hunt and Watson",South Charlesport,NJ,Southeast,Wholesale,2025/05/02,33,26.46,873.18,rebecca77@example.net
+269,4XEU22N3,107,Ciroc Economy,Ciroc,Liqueur,750,19.97,Wright Inc,Lisashire,NJ,Southeast,Retail,2025/05/01,20,96.75,1935.0,chudson@example.org
+270,YZQWL19D,115,Captain Morgan Believe,Captain,Gin,500,21.3,Kennedy LLC,Andrewsside,CT,Midwest,Retail,2025/03/25,3,55.19,165.57,stewartellen@example.net
+271,4QX29OT4,116,Baileys To,Baileys,Rum,700,43.75,"Barnett, Nelson and White",North Douglasview,ME,Southeast,Retail,2025/04/05,12,10.8,129.6,ashleyanderson@example.com
+272,SQDRMKWW,104,Ciroc Health,Ciroc,Gin,700,25.17,Gordon-Rose,Amandastad,OK,Northeast,Retail,2025/03/21,33,30.62,1010.46,vjones@example.net
+273,ZE9LSMV9,129,Tanqueray School,Tanqueray,Vodka,500,25.55,Carter-Nunez,Vanessashire,MP,Southeast,Retail,2025/03/21,42,39.32,1651.44,hjones@example.com
+274,WZIA8QVN,127,Johnnie Walker Number,Johnnie,Liqueur,500,11.44,Martinez Group,Kirbyport,IL,South,Retail,2025/03/24,13,37.52,487.76,lellis@example.net
+275,T8FWO3FW,144,Don Julio How,Don,Gin,1000,30.21,Smith Inc,Stevenschester,DE,Southeast,Retail,2025/05/07,39,86.76,3383.64,lauriegreen@example.com
+276,3XLDZ357,106,Guinness Strategy,Guinness,Vodka,1000,26.68,Duffy and Sons,Mendozastad,VA,West,Retail,2025/03/24,30,20.85,625.5,turnervictoria@example.com
+277,8I1ZPERK,120,Smirnoff Civil,Smirnoff,Gin,500,14.38,Hawkins-Lynch,Clarkport,HI,South,Retail,2025/05/08,42,11.58,486.36,cynthiacook@example.net
+278,NF13I19I,125,Ciroc Case,Ciroc,Vodka,750,15.33,Garcia-Rodriguez,Swansonville,SC,Southeast,Retail,2025/04/29,9,23.24,209.16,amandajohnson@example.org
+279,DPE1S3CN,114,Johnnie Walker Possible,Johnnie,Beer,750,30.75,Chavez LLC,East Glendaburgh,MN,Northeast,Retail,2025/04/16,2,82.66,165.32,ykelly@example.com
+280,TRYJV2XD,111,Guinness Collection,Guinness,Vodka,700,26.96,Moss Inc,Port Michael,AR,Northeast,Wholesale,2025/05/14,4,49.86,199.44,james92@example.com
+281,3LDGN443,130,Tanqueray Away,Tanqueray,Beer,1000,4.32,Perez LLC,Port Erin,AZ,South,Retail,2025/04/08,49,12.78,626.22,daniel85@example.net
+282,NXTQO670,105,Baileys Represent,Baileys,Whisky,500,7.83,Cortez-Tran,Watkinshaven,NJ,Midwest,Retail,2025/04/28,42,24.36,1023.12,brian92@example.net
+283,QS3XXQKX,139,Captain Morgan Risk,Captain,Beer,700,26.15,Ferrell Group,Port Jeffborough,VA,South,Wholesale,2025/04/26,32,28.47,911.04,nlopez@example.org
+284,D2SQ875U,128,Johnnie Walker Protect,Johnnie,Gin,500,15.16,"Adkins, Pierce and Chavez",West Rebeccabury,MH,West,Retail,2025/04/05,20,21.4,428.0,ann74@example.net
+285,QMCL257D,140,Tanqueray Cup,Tanqueray,Beer,500,30.98,Thomas-Bell,Lake Carlos,DE,Southeast,Wholesale,2025/05/15,40,12.14,485.6,armstrongbrianna@example.net
+286,5ZJKQDF1,107,Smirnoff Team,Smirnoff,Beer,500,21.98,"Morrow, Garcia and Choi",Spencerview,FL,West,Wholesale,2025/05/08,40,60.16,2406.4,butleramanda@example.net
+287,I00ROU0A,128,Johnnie Walker Number,Johnnie,Tequila,700,6.53,Frank-Young,Taylorport,NH,Midwest,Retail,2025/03/22,42,35.09,1473.78,donalddorsey@example.org
+288,7D1CJ4YG,104,Baileys Talk,Baileys,Whisky,700,9.94,Brown Group,West Natalie,ND,West,Retail,2025/04/18,14,30.18,422.52,bakeralicia@example.com
+289,9QTJDSO4,109,Don Julio Off,Don,Beer,500,25.17,Carr Inc,South Robinstad,NC,Northeast,Wholesale,2025/04/05,14,79.32,1110.48,reeddominique@example.net
+290,32NR345Z,104,Baileys Everyone,Baileys,Gin,700,7.42,Cameron Ltd,Johnside,PA,South,Retail,2025/04/27,29,47.59,1380.11,obriengina@example.com
+291,BUWG2Y4S,126,Ciroc Scientist,Ciroc,Vodka,500,41.17,"Barr, Adams and Brown",West Ericaland,PR,Midwest,Wholesale,2025/04/21,27,60.98,1646.46,larsendana@example.net
+292,BWMINTCZ,118,Guinness Service,Guinness,Rum,500,18.26,"Jackson, Barnes and Summers",Joshualand,TX,South,Retail,2025/05/11,23,16.67,383.41,stephenchapman@example.net
+293,JOZ7V25U,128,Tanqueray Sea,Tanqueray,Liqueur,500,16.07,Medina Inc,Susanhaven,MH,Northeast,Retail,2025/05/16,7,40.45,283.15,reedscott@example.org
+294,2M9XYZ06,133,Ciroc Education,Ciroc,Tequila,750,25.8,"Fischer, Hicks and Hanson",Jamesville,UT,Southeast,Wholesale,2025/04/18,41,95.04,3896.64,whitneylewis@example.com
+295,H8FKBJ4A,114,Don Julio Decide,Don,Tequila,700,6.9,"Lynch, Harrison and Davis",Ashleyshire,TN,Midwest,Retail,2025/04/08,21,62.68,1316.28,kathy36@example.net
+296,2AHEWSR2,128,Baileys Degree,Baileys,Tequila,750,33.6,Long-Cisneros,East Bradleyville,NM,Northeast,Retail,2025/05/08,17,81.69,1388.73,scarey@example.com
+297,0ATSYFWB,137,Tanqueray Popular,Tanqueray,Gin,500,30.68,Ellis-Mccarty,Lisaton,MI,Southeast,Wholesale,2025/04/19,40,8.3,332.0,wperry@example.com
+298,PGL5RRUP,107,Captain Morgan Enough,Captain,Vodka,500,8.35,Stewart Ltd,West Micheleburgh,NV,Midwest,Wholesale,2025/04/08,10,59.95,599.5,vtaylor@example.com
+299,PTW0ECVX,138,Johnnie Walker Drug,Johnnie,Vodka,500,21.97,Stanton PLC,Markside,CT,Northeast,Wholesale,2025/04/27,1,87.42,87.42,gflynn@example.org
+300,Z1M96D9Q,127,Ciroc Nothing,Ciroc,Gin,700,43.61,Wilson-Stokes,East Johnny,CA,South,Wholesale,2025/03/22,23,15.26,350.98,bhancock@example.com
+301,YJP78DRK,126,Johnnie Walker Item,Johnnie,Vodka,500,19.68,"Moyer, Smith and Delgado",Oconnorburgh,RI,South,Wholesale,2025/04/29,45,26.47,1191.15,swilson@example.com
+302,S4MOUVUS,103,Don Julio Matter,Don,Gin,700,20.25,Blanchard PLC,Davismouth,WY,Northeast,Wholesale,2025/03/21,7,68.99,482.93,smithjoshua@example.com
+303,VT5V0IB5,124,Don Julio Key,Don,Liqueur,1000,7.34,Mckinney-Gonzalez,Mcphersontown,VA,Northeast,Retail,2025/04/23,8,68.3,546.4,masonspencer@example.net
+304,WW7HSGNG,111,Johnnie Walker Half,Johnnie,Vodka,750,36.59,Baker-Rojas,Coxside,WV,Midwest,Retail,2025/04/13,40,16.33,653.2,williamseric@example.net
+305,IXJPPLUE,145,Captain Morgan Win,Captain,Vodka,700,16.81,Cardenas PLC,New Laura,MI,West,Wholesale,2025/05/10,8,37.7,301.6,kvaughn@example.net
+306,C6FBXMMX,118,Ciroc Stage,Ciroc,Gin,1000,22.74,"Espinoza, Marsh and Owens",Colinchester,MS,South,Wholesale,2025/05/03,42,63.44,2664.48,wfaulkner@example.net
+307,KYHFXAIJ,106,Captain Morgan Large,Captain,Rum,750,32.53,Mullen Ltd,South Jill,NM,Midwest,Retail,2025/04/26,39,69.42,2707.38,swansoncharles@example.org
+308,92UTMXU3,129,Johnnie Walker Stay,Johnnie,Gin,1000,17.53,Quinn-Simmons,East Evelyn,ND,Midwest,Retail,2025/03/30,38,75.1,2853.8,hansonjeffrey@example.org
+309,D5HR1PR0,139,Baileys Economy,Baileys,Rum,750,7.96,Wiggins Inc,Deborahchester,IL,Midwest,Wholesale,2025/04/03,48,7.5,360.0,sandovalgrace@example.net
+310,OT7VWGZ1,104,Captain Morgan Difficult,Captain,Rum,500,28.45,May PLC,Thompsonhaven,MO,Northeast,Retail,2025/04/02,8,50.15,401.2,kyoung@example.net
+311,BCY8SSZ9,116,Smirnoff Inside,Smirnoff,Beer,500,19.86,Drake-Gonzales,Blakeview,FL,Northeast,Wholesale,2025/05/05,9,6.79,61.11,martinaustin@example.com
+312,XAS3WDBX,124,Captain Morgan Fast,Captain,Vodka,750,32.46,Franklin Inc,Olsonburgh,OH,West,Wholesale,2025/04/20,50,68.01,3400.5,patricia34@example.com
+313,BPCQF7BF,125,Johnnie Walker Clear,Johnnie,Liqueur,750,8.39,Ross LLC,Saraburgh,SD,South,Wholesale,2025/04/24,38,62.53,2376.14,rsmith@example.org
+314,E7H7HTDF,128,Captain Morgan Happen,Captain,Vodka,1000,24.25,Greene-Kennedy,Wilsonstad,GU,Northeast,Retail,2025/04/26,17,10.2,173.4,andrea66@example.com
+315,AK2DOFH0,125,Guinness Establish,Guinness,Beer,700,5.1,Garcia and Sons,Troyfort,CO,Midwest,Retail,2025/04/30,3,85.33,255.99,catherine63@example.net
+316,DUOH69EE,117,Johnnie Walker Position,Johnnie,Whisky,500,23.6,"Dougherty, Ramirez and Riley",North Reneeberg,WI,Midwest,Retail,2025/03/25,25,49.94,1248.5,steven35@example.org
+317,M7OKIQ5Z,127,Don Julio Stock,Don,Beer,500,5.98,Romero-Garcia,South Karl,MP,South,Retail,2025/04/11,40,48.37,1934.8,jessicamcdonald@example.org
+318,Y5HMXDRJ,104,Smirnoff Reality,Smirnoff,Whisky,1000,19.34,Weaver and Sons,Mcdonaldborough,MH,Midwest,Wholesale,2025/03/31,9,77.75,699.75,jeremiahbrown@example.com
+319,E263E3MW,102,Ciroc Admit,Ciroc,Whisky,500,40.63,"Lee, Turner and Thomas",Hughesberg,GU,Northeast,Wholesale,2025/03/25,45,61.87,2784.15,csmith@example.net
+320,O6GUHBSC,118,Johnnie Walker Dog,Johnnie,Rum,1000,15.74,Figueroa-Cooper,North Rachelbury,MN,Northeast,Wholesale,2025/04/12,44,35.8,1575.2,lewisjamie@example.com
+321,VPSFEJ0P,138,Johnnie Walker Child,Johnnie,Whisky,1000,16.88,White-Berry,Lake Johnborough,NV,Southeast,Retail,2025/04/12,16,27.14,434.24,justin15@example.net
+322,D8RP64P5,105,Don Julio Look,Don,Liqueur,1000,14.99,Kennedy-Carey,New Kevinstad,AR,West,Retail,2025/05/05,50,24.88,1244.0,robin10@example.org
+323,IVPITJ8C,102,Johnnie Walker Candidate,Johnnie,Liqueur,1000,42.62,Nichols Group,East Wayne,WY,South,Wholesale,2025/05/04,12,5.57,66.84,robertroberts@example.org
+324,HVF4TT0X,145,Don Julio Quality,Don,Whisky,700,9.9,Elliott-Murillo,South Wyattport,KY,South,Retail,2025/05/13,50,71.6,3580.0,heather28@example.net
+325,SM3854JR,109,Ciroc Serve,Ciroc,Rum,1000,25.17,Holloway Group,North Amber,DC,Northeast,Retail,2025/03/21,4,29.61,118.44,ericahunter@example.net
+326,6ZFXK0VA,118,Guinness Deal,Guinness,Tequila,700,7.35,"Fox, Nielsen and Campbell",West Heather,DE,West,Retail,2025/05/07,32,69.05,2209.6,nielsenashley@example.net
+327,VLX1HV2F,112,Ciroc Per,Ciroc,Gin,1000,28.22,Richmond LLC,North Steven,TX,Midwest,Retail,2025/04/26,19,31.48,598.12,jennifer79@example.org
+328,07PH87YO,102,Don Julio Soldier,Don,Tequila,1000,33.05,Cook-Smith,North Elizabethport,AS,Midwest,Retail,2025/04/22,39,55.86,2178.54,kimberly44@example.com
+329,ZY6BOGBV,114,Guinness Approach,Guinness,Gin,500,5.43,Dunn PLC,Brianberg,MD,South,Retail,2025/03/21,28,91.64,2565.92,joshua98@example.org
+330,KXGN1Z3B,118,Captain Morgan Pass,Captain,Vodka,700,23.98,Bell Group,Nathanport,OH,Midwest,Retail,2025/05/17,44,48.97,2154.68,shane24@example.com
+331,TY88JWYI,104,Guinness Account,Guinness,Liqueur,750,25.7,Johnson Group,Castilloville,IA,Midwest,Wholesale,2025/04/19,18,70.52,1269.36,adam95@example.org
+332,57OKAY27,136,Ciroc Sure,Ciroc,Whisky,1000,37.04,Allen-Hernandez,South Garychester,PR,Midwest,Retail,2025/03/22,2,59.44,118.88,misty23@example.org
+333,KQRQDUB9,123,Baileys Or,Baileys,Liqueur,700,17.18,"Zimmerman, Johnson and Novak",Lake Cherylville,OR,Midwest,Wholesale,2025/05/14,8,15.98,127.84,jontate@example.net
+334,XT4SCVPE,125,Captain Morgan Air,Captain,Rum,750,6.68,Diaz Group,West Christopher,OK,South,Retail,2025/04/30,28,38.49,1077.72,brooksmitchell@example.com
+335,TWKVQIXR,147,Captain Morgan Level,Captain,Whisky,750,37.92,"Smith, Drake and Mcbride",Geraldshire,NV,South,Retail,2025/04/29,10,73.78,737.8,wrightmonica@example.com
+336,0214Q6UC,145,Smirnoff Almost,Smirnoff,Vodka,1000,31.96,"Scott, Flores and Stephenson",New Douglasborough,CT,Southeast,Retail,2025/05/09,34,24.01,816.34,faith23@example.net
+337,KQK5RR9E,131,Don Julio Skin,Don,Tequila,750,25.49,Jenkins-Harris,Warrenfort,NM,Northeast,Retail,2025/04/26,24,64.42,1546.08,gnewton@example.org
+338,CIOFXK8T,142,Captain Morgan Both,Captain,Whisky,500,32.48,Smith Inc,Meyerschester,VA,Northeast,Retail,2025/04/09,24,33.03,792.72,stephen69@example.net
+339,IPN5BNWG,114,Don Julio Value,Don,Vodka,500,15.69,"Harris, Thompson and Mckenzie",Ryanstad,MI,South,Retail,2025/04/08,1,23.53,23.53,adkinsaaron@example.net
+340,ABSXNN93,122,Guinness Thousand,Guinness,Liqueur,750,10.53,Perez-Nunez,North Zacharystad,NV,South,Wholesale,2025/04/25,28,91.13,2551.64,ijenkins@example.com
+341,IF9FOYJT,147,Captain Morgan Myself,Captain,Vodka,700,4.1,Rodriguez Ltd,Herrerastad,MP,Northeast,Retail,2025/05/03,2,10.6,21.2,dawnhudson@example.net
+342,XLI6Z5HS,118,Captain Morgan Fall,Captain,Rum,750,6.19,"Wilson, Howard and Barton",Warnerchester,GU,Northeast,Retail,2025/05/05,29,32.28,936.12,luke33@example.net
+343,QQ89WA7J,148,Johnnie Walker Sea,Johnnie,Gin,750,6.8,"Kelly, Wagner and Lambert",Robertport,GA,Midwest,Retail,2025/04/10,8,88.62,708.96,leslie79@example.org
+344,NI2CT55A,138,Captain Morgan Child,Captain,Rum,1000,4.72,"Brown, Reyes and Williams",Port Randallville,RI,Midwest,Retail,2025/03/30,16,57.38,918.08,kristinmoore@example.org
+345,00H20395,115,Ciroc Learn,Ciroc,Whisky,700,37.24,Sullivan Ltd,North Katelynfurt,NJ,Northeast,Wholesale,2025/04/14,16,54.53,872.48,laura56@example.net
+346,ISOK5FWO,111,Captain Morgan Tax,Captain,Tequila,1000,14.25,Nguyen Group,Myersport,MS,West,Wholesale,2025/05/08,49,21.33,1045.17,guerradavid@example.net
+347,QJYCIRDR,104,Tanqueray Long,Tanqueray,Whisky,750,31.29,Hayes-Martin,Wilsonfort,AZ,Midwest,Wholesale,2025/04/18,16,9.19,147.04,ncarson@example.org
+348,DRUQEVXL,121,Ciroc Newspaper,Ciroc,Beer,700,39.53,Ellison Ltd,Port Kennethtown,IL,South,Retail,2025/04/27,32,82.01,2624.32,kristenwilliams@example.net
+349,EICY85JO,139,Smirnoff Detail,Smirnoff,Whisky,700,33.55,"Lewis, Thomas and Clark",West Joseph,CA,South,Retail,2025/04/19,4,63.15,252.6,meredith52@example.com
+350,RZBS291O,130,Baileys Available,Baileys,Tequila,500,18.93,Michael Ltd,Reedfurt,AL,Northeast,Wholesale,2025/05/18,13,43.05,559.65,deborahhall@example.org
+351,ITRU3S1U,124,Johnnie Walker Already,Johnnie,Vodka,700,43.43,"Leonard, Lawrence and Mora",South Anthony,IA,Midwest,Retail,2025/04/10,22,31.39,690.58,alan75@example.net
+352,KUJM5K3G,128,Baileys Game,Baileys,Beer,700,16.44,"Zimmerman, Coleman and Clark",Seanstad,NC,Southeast,Wholesale,2025/04/24,17,40.74,692.58,crodriguez@example.net
+353,I4MXP8WD,134,Ciroc Together,Ciroc,Beer,500,27.82,"Graves, Berry and Garcia",Sandrahaven,VA,Midwest,Wholesale,2025/05/01,34,72.21,2455.14,shelly19@example.net
+354,GUMWERDX,116,Baileys Reality,Baileys,Vodka,1000,31.48,Allen and Sons,Mccallview,AL,West,Wholesale,2025/04/09,39,39.97,1558.83,trevor45@example.com
+355,4CUUORUI,103,Ciroc Single,Ciroc,Liqueur,700,13.11,Stewart-Hunter,Monroemouth,KY,West,Retail,2025/03/30,25,93.19,2329.75,christopher32@example.net
+356,CCE2W58R,130,Johnnie Walker Site,Johnnie,Rum,500,28.91,"Harvey, Cline and Campbell",Charlesburgh,CT,Midwest,Retail,2025/05/18,40,82.52,3300.8,isaac88@example.com
+357,N8WCIVWJ,132,Captain Morgan Fish,Captain,Vodka,500,23.07,Vazquez Group,Ellishaven,NE,West,Retail,2025/03/23,26,93.97,2443.22,lhart@example.com
+358,NQR33ZTI,150,Guinness Pick,Guinness,Liqueur,1000,37.02,Roberts LLC,Sarafurt,ND,Midwest,Wholesale,2025/04/29,45,23.85,1073.25,uwilson@example.org
+359,QM8F0IR7,132,Captain Morgan Game,Captain,Rum,700,42.85,"Torres, Webb and Evans",Port Johnville,KS,West,Retail,2025/03/29,27,32.74,883.98,tspencer@example.com
+360,UGK0LZRQ,107,Johnnie Walker Push,Johnnie,Liqueur,500,20.57,Turner-Navarro,Lake Jesseland,MA,Northeast,Retail,2025/03/25,23,78.42,1803.66,hallcharlene@example.org
+361,5ICWY1EA,148,Tanqueray Debate,Tanqueray,Liqueur,500,36.66,Smith and Sons,Lake David,SC,Midwest,Wholesale,2025/05/14,37,17.53,648.61,brandi15@example.org
+362,4GDBR6JZ,114,Ciroc Message,Ciroc,Beer,750,38.18,Davis-Clark,Nancyton,TX,Northeast,Wholesale,2025/04/01,11,40.9,449.9,pruittfelicia@example.com
+363,0MNKKGTX,150,Guinness But,Guinness,Liqueur,1000,7.56,Bailey and Sons,Carrolltown,MH,Midwest,Wholesale,2025/05/13,35,37.17,1300.95,katie57@example.org
+364,KC0O3FHZ,124,Johnnie Walker Material,Johnnie,Whisky,750,36.35,Vasquez Inc,West Audrey,AZ,Southeast,Wholesale,2025/05/13,3,29.42,88.26,matthewdavis@example.com
+365,H6N1CQ4R,112,Ciroc Tend,Ciroc,Vodka,700,19.69,"Thomas, Arroyo and Schmidt",North Amberstad,KY,Southeast,Wholesale,2025/03/28,13,75.8,985.4,taylorsummers@example.org
+366,M99HU9MZ,128,Baileys Tv,Baileys,Rum,500,5.56,Thomas and Sons,Taylorshire,RI,Northeast,Retail,2025/05/03,41,54.43,2231.63,jocelyn19@example.org
+367,ICEHZPSO,137,Captain Morgan Student,Captain,Tequila,750,36.46,"Perez, Higgins and Johnson",West Courtneyport,MP,Northeast,Wholesale,2025/04/08,27,63.01,1701.27,srodriguez@example.com
+368,8EMOG63P,136,Tanqueray Well,Tanqueray,Gin,1000,25.41,Carter-Nguyen,Hamiltonfort,CO,Northeast,Wholesale,2025/04/30,14,49.95,699.3,vancekristen@example.com
+369,2W9H6B76,122,Baileys Reveal,Baileys,Beer,1000,37.19,"Hanna, Rose and Anthony",Edwardsview,AS,Southeast,Wholesale,2025/04/16,37,76.0,2812.0,nhorton@example.net
+370,OQP1R1I5,126,Tanqueray Explain,Tanqueray,Whisky,1000,10.34,Hill-Smith,East Jennifer,GA,Northeast,Retail,2025/03/28,5,91.16,455.8,rachel48@example.com
+371,ACJ3JXEC,112,Baileys Evidence,Baileys,Beer,750,28.57,Mccarthy-Garcia,Reesechester,NV,Southeast,Retail,2025/05/07,2,82.21,164.42,moramichelle@example.com
+372,XTGXE292,128,Tanqueray Partner,Tanqueray,Liqueur,750,31.32,Blanchard LLC,New Nathanville,MI,Northeast,Wholesale,2025/05/16,34,76.01,2584.34,nmarsh@example.org
+373,5P035R57,112,Tanqueray Around,Tanqueray,Rum,500,30.35,Cameron-Cooper,Maxwellchester,AS,Midwest,Retail,2025/04/03,50,91.84,4592.0,michaelgonzales@example.net
+374,QHLEZ1QE,116,Smirnoff Civil,Smirnoff,Gin,700,14.5,"Moore, Green and Harris",Lake Sara,PR,Southeast,Retail,2025/05/12,32,55.25,1768.0,lgonzales@example.com
+375,AOXKKNJ1,128,Baileys Building,Baileys,Tequila,1000,29.28,Brown LLC,Port Alisontown,TN,Midwest,Retail,2025/03/29,49,48.97,2399.53,adam22@example.net
+376,O8PR5DEE,107,Captain Morgan Writer,Captain,Beer,1000,27.23,Carter-Barker,Eugeneton,PR,Southeast,Wholesale,2025/05/11,20,65.35,1307.0,cartercynthia@example.com
+377,6V6H6Z52,128,Don Julio Reality,Don,Beer,750,30.43,Moore-Bailey,West Robinchester,MD,Southeast,Retail,2025/05/07,32,15.74,503.68,padillalisa@example.net
+378,4EORQGH3,113,Ciroc Garden,Ciroc,Vodka,1000,39.29,Terrell-Mitchell,Kramerfurt,AZ,South,Retail,2025/04/03,33,55.84,1842.72,fernandezclaudia@example.com
+379,6K88IZ5S,143,Ciroc Choice,Ciroc,Whisky,700,14.88,Hamilton LLC,East Samuel,KS,South,Retail,2025/03/22,47,19.97,938.59,nlopez@example.net
+380,EASHON82,109,Johnnie Walker She,Johnnie,Gin,500,30.43,"Suarez, Adams and Woods",Lake Crystalmouth,MP,West,Wholesale,2025/04/05,10,24.84,248.4,lopezmario@example.org
+381,ERTYHFQJ,150,Johnnie Walker Ability,Johnnie,Tequila,750,33.25,Cox-Campbell,Port Donnaton,AS,West,Retail,2025/05/05,35,9.31,325.85,youngbarbara@example.com
+382,XD197CGY,105,Smirnoff Deep,Smirnoff,Liqueur,1000,16.39,Lowe LLC,Brownmouth,NH,Southeast,Wholesale,2025/04/20,33,25.18,830.94,lisawright@example.com
+383,BKIVZWQW,142,Tanqueray Rather,Tanqueray,Tequila,1000,5.82,Martinez-Martinez,New Adam,DE,Northeast,Wholesale,2025/04/21,16,80.79,1292.64,angela40@example.org
+384,RAWEMWX2,118,Guinness Per,Guinness,Whisky,700,5.33,Mcdonald LLC,Bennettchester,SD,Southeast,Wholesale,2025/03/29,24,17.14,411.36,carriemurray@example.net
+385,FMLGPA25,116,Tanqueray Life,Tanqueray,Liqueur,1000,12.99,Howard-Harris,Jasonmouth,LA,Midwest,Retail,2025/03/27,14,31.9,446.6,khutchinson@example.org
+386,QX69WKZG,131,Ciroc Finally,Ciroc,Rum,1000,8.11,Alvarez Group,Parksville,MP,Midwest,Wholesale,2025/05/05,35,75.61,2646.35,glennballard@example.net
+387,09ZQQQT6,135,Johnnie Walker Image,Johnnie,Tequila,750,5.55,Fox and Sons,West Cynthia,CA,Northeast,Retail,2025/05/03,47,28.0,1316.0,kblanchard@example.org
+388,UWVGJPYD,120,Don Julio Development,Don,Whisky,1000,39.44,Ryan-Salazar,West Leah,KS,Midwest,Wholesale,2025/04/21,32,16.41,525.12,davishenry@example.net
+389,7DOIG9RJ,128,Smirnoff You,Smirnoff,Liqueur,750,32.12,Jordan-Castaneda,East Jackiemouth,VI,South,Retail,2025/03/26,19,83.37,1584.03,jenningsnatasha@example.com
+390,EN49PTS9,148,Baileys Suddenly,Baileys,Beer,750,35.75,"Castro, Vasquez and Schultz",Richardland,PA,Southeast,Wholesale,2025/05/04,11,6.36,69.96,greendavid@example.org
+391,P5JRMPP0,136,Johnnie Walker Break,Johnnie,Liqueur,1000,27.77,Ramirez Ltd,Rangelfurt,IA,Southeast,Wholesale,2025/04/14,36,65.37,2353.32,devinserrano@example.net
+392,K5O51IV6,149,Don Julio Painting,Don,Whisky,1000,21.38,Hayes PLC,Port Lisa,WV,Northeast,Wholesale,2025/04/28,23,6.69,153.87,jeffreyanderson@example.com
+393,KS4LLQGA,105,Smirnoff Water,Smirnoff,Beer,700,20.12,Lewis-Murray,Lake William,MH,Southeast,Wholesale,2025/04/28,9,30.62,275.58,howardhenderson@example.net
+394,GUC5V7MB,106,Captain Morgan Likely,Captain,Rum,500,37.39,Thompson-Reyes,Alexandertown,HI,Southeast,Wholesale,2025/05/11,11,20.29,223.19,trevor61@example.org
+395,VP7FV7SV,133,Smirnoff Expect,Smirnoff,Gin,700,17.13,"Perez, Peters and Caldwell",Thompsonton,MT,Southeast,Retail,2025/03/22,4,15.86,63.44,christianbailey@example.org
+396,0RMTACE2,144,Smirnoff Increase,Smirnoff,Vodka,700,10.24,Thomas-Rivera,Reedside,MN,South,Wholesale,2025/04/20,3,74.18,222.54,egarza@example.org
+397,65Y1TCRJ,122,Don Julio Believe,Don,Tequila,700,26.53,Morgan-Rice,Jonathantown,MO,Northeast,Retail,2025/03/31,17,34.29,582.93,ericduffy@example.org
+398,4T9U62BM,129,Johnnie Walker Threat,Johnnie,Gin,700,10.73,"Armstrong, Stephenson and Clark",Brownbury,WV,Midwest,Retail,2025/05/02,6,59.65,357.9,robert68@example.com
+399,ESY8FEOR,129,Smirnoff Resource,Smirnoff,Gin,1000,6.72,Ruiz PLC,Myersland,SC,West,Retail,2025/05/14,16,96.81,1548.96,ojohnson@example.com
+400,G3WTDSCJ,137,Don Julio Speak,Don,Whisky,1000,33.94,Ruiz-Mcintyre,Markborough,CT,Midwest,Wholesale,2025/04/08,33,16.57,546.81,wbenitez@example.net
+401,ALY2EWKT,147,Johnnie Walker Customer,Johnnie,Whisky,1000,28.95,Mullins-Shelton,Laurenbury,SC,South,Retail,2025/04/08,4,50.41,201.64,jthomas@example.com
+402,SIR0XZGF,101,Smirnoff Fall,Smirnoff,Gin,1000,19.8,Salazar PLC,New Juliaview,MH,Midwest,Retail,2025/04/16,7,8.44,59.08,robinsonaaron@example.net
+403,GKMQF1KH,139,Ciroc Wind,Ciroc,Beer,700,30.53,"Kramer, Smith and Berger",East Stephanie,KY,Midwest,Retail,2025/05/06,33,15.65,516.45,tyler58@example.com
+404,HJIDRBDW,131,Smirnoff Dinner,Smirnoff,Gin,500,44.63,King LLC,Port Steven,DE,South,Wholesale,2025/04/30,23,10.08,231.84,walkerlogan@example.com
+405,1MDN9JBL,139,Ciroc Heavy,Ciroc,Vodka,1000,19.73,James-Chapman,Port James,PW,Northeast,Wholesale,2025/05/17,11,34.81,382.91,bradleybennett@example.org
+406,YA2EXVCR,109,Tanqueray Participant,Tanqueray,Rum,750,22.72,"Morgan, Freeman and Barnes",East Patricia,HI,Northeast,Retail,2025/04/21,21,54.7,1148.7,carlyvalentine@example.net
+407,62GUYZVI,101,Guinness Spend,Guinness,Tequila,1000,44.9,"Marquez, Thompson and May",Normafort,RI,Midwest,Wholesale,2025/05/06,23,12.94,297.62,acevedoalicia@example.com
+408,0LI4H0UH,112,Ciroc How,Ciroc,Whisky,750,12.23,Kelly and Sons,Port Robertburgh,MT,Midwest,Wholesale,2025/05/09,10,81.77,817.7,josephbailey@example.com
+409,ZGSZEEBW,105,Smirnoff Senior,Smirnoff,Beer,700,13.3,Weaver and Sons,New Christopher,MP,Midwest,Retail,2025/04/29,2,91.55,183.1,sheena46@example.org
+410,0TYMJS9D,141,Ciroc Perform,Ciroc,Rum,750,18.99,"Hoffman, Thompson and Crane",Webbville,SC,Midwest,Retail,2025/04/10,6,24.3,145.8,elaine13@example.org
+411,JN9O9KMA,129,Ciroc Down,Ciroc,Whisky,1000,44.72,Lawrence Inc,Joshuabury,NH,South,Retail,2025/03/25,16,27.42,438.72,uhicks@example.org
+412,4V1IEOCI,135,Johnnie Walker Those,Johnnie,Vodka,500,11.01,Hampton-Patel,Mathisberg,CA,Southeast,Retail,2025/04/24,38,49.69,1888.22,daviselizabeth@example.org
+413,3D5OB7N0,123,Ciroc Scientist,Ciroc,Gin,1000,26.46,Jacobson-Stephens,Lopezberg,GA,Midwest,Retail,2025/04/03,41,48.98,2008.18,robertellison@example.net
+414,6TZQX74B,137,Ciroc Night,Ciroc,Tequila,1000,44.32,Baker-Grimes,Andrewmouth,ME,Midwest,Wholesale,2025/05/19,4,17.13,68.52,billyarmstrong@example.net
+415,YHVXQN24,144,Guinness Very,Guinness,Liqueur,750,4.97,Martin Ltd,New Timothyside,KY,Southeast,Wholesale,2025/04/22,14,8.52,119.28,dylanwhitaker@example.net
+416,T99QQC0T,140,Captain Morgan Officer,Captain,Whisky,1000,26.62,Garner-Mcclain,East Brianna,NY,South,Retail,2025/04/28,39,89.11,3475.29,hsalazar@example.org
+417,85L9VKGJ,136,Baileys Fine,Baileys,Whisky,1000,7.14,Morris Inc,Christineberg,PA,Northeast,Retail,2025/05/13,8,37.84,302.72,wadetyler@example.org
+418,ESMYUU4U,129,Guinness Significant,Guinness,Vodka,750,38.44,"Morgan, Allen and Crosby",New David,DE,South,Wholesale,2025/03/24,19,32.54,618.26,laurabrown@example.com
+419,T0GKX2PM,126,Smirnoff Collection,Smirnoff,Liqueur,750,7.31,Beltran PLC,Thomasberg,MN,West,Retail,2025/04/01,4,82.94,331.76,angelareynolds@example.org
+420,UT6XNRTG,129,Captain Morgan Guess,Captain,Beer,700,28.15,Moore Inc,Melissafurt,NJ,Southeast,Retail,2025/04/20,35,22.26,779.1,allenaustin@example.com
+421,75U7ZWLQ,111,Guinness Avoid,Guinness,Rum,750,30.26,Evans-Sanchez,East Ronaldburgh,KS,Northeast,Wholesale,2025/05/15,50,17.8,890.0,micheal36@example.com
+422,4AGIX3D7,112,Guinness Security,Guinness,Gin,500,34.7,Jordan-Smith,Aaronfort,PR,South,Retail,2025/03/26,30,92.72,2781.6,adamperez@example.net
+423,KFXJRC9S,125,Guinness Market,Guinness,Tequila,750,39.18,Jackson-Martin,South Peggyberg,AK,Midwest,Retail,2025/04/15,26,5.39,140.14,michelle44@example.net
+424,NYPMV8PD,117,Captain Morgan Here,Captain,Beer,1000,27.67,"Mckinney, Andrews and Brown",Smithborough,NE,Southeast,Retail,2025/04/05,12,69.24,830.88,arnoldashley@example.net
+425,6PDACMK1,101,Baileys Nearly,Baileys,Gin,750,9.27,Simon-James,Davidshire,RI,Midwest,Wholesale,2025/04/11,13,85.96,1117.48,zesparza@example.org
+426,A8YZRCNF,112,Tanqueray Side,Tanqueray,Liqueur,1000,26.26,Huynh-Jarvis,Nicoleborough,IL,Midwest,Retail,2025/03/28,46,85.19,3918.74,ryan19@example.net
+427,OIPYNDW4,127,Baileys Provide,Baileys,Liqueur,750,31.51,"Jones, Shelton and Harris",East Kaitlinside,TN,Midwest,Wholesale,2025/05/07,47,36.9,1734.3,joshuameyers@example.net
+428,QMZZ555X,149,Captain Morgan Campaign,Captain,Whisky,1000,35.33,Christian Group,Davidside,LA,Northeast,Wholesale,2025/05/04,5,43.7,218.5,kevin64@example.net
+429,I653O9WF,136,Ciroc Tend,Ciroc,Vodka,500,39.94,Bradley and Sons,Shannonview,MD,South,Wholesale,2025/05/19,37,5.25,194.25,carterjames@example.com
+430,E60N03NU,116,Captain Morgan Receive,Captain,Rum,700,32.67,Santos-Perez,Nicholasstad,PR,Northeast,Retail,2025/04/29,49,67.18,3291.82,matthewfleming@example.net
+431,EDN4B8N3,142,Baileys Job,Baileys,Liqueur,1000,23.07,Jones PLC,Allenmouth,LA,West,Wholesale,2025/05/19,47,75.25,3536.75,dennis82@example.org
+432,U5PLEXFH,101,Captain Morgan Information,Captain,Gin,1000,38.07,"Shepherd, Wells and Williams",New Mariochester,PR,Midwest,Retail,2025/04/02,50,81.59,4079.5,amberanthony@example.net
+433,MTZGZGIO,126,Smirnoff Left,Smirnoff,Liqueur,750,32.49,Daniel-Waters,Port Jasminestad,MH,Southeast,Wholesale,2025/05/07,35,31.43,1100.05,cruzmegan@example.net
+434,UT1EWZ6C,135,Smirnoff Blood,Smirnoff,Liqueur,1000,11.01,Rojas LLC,Jonathanhaven,VA,Southeast,Retail,2025/05/13,10,15.4,154.0,jeffrey34@example.com
+435,SSBCC7A4,116,Captain Morgan Into,Captain,Tequila,500,30.47,Johnson-Long,South Danielstad,CO,South,Retail,2025/05/10,6,49.92,299.52,wheelermary@example.com
+436,AZN1065B,103,Smirnoff Realize,Smirnoff,Rum,1000,8.72,Taylor PLC,East Lisaville,NE,Midwest,Retail,2025/03/21,11,81.9,900.9,aharris@example.com
+437,QIE61FPY,122,Captain Morgan Interest,Captain,Liqueur,750,8.72,Schneider LLC,Smithburgh,FL,Southeast,Wholesale,2025/05/19,19,85.01,1615.19,mstafford@example.org
+438,EOMJJ3KQ,126,Don Julio Former,Don,Gin,750,31.05,Barajas-Morgan,Christinachester,WA,Southeast,Retail,2025/05/11,33,44.91,1482.03,ariley@example.com
+439,YX8S4GYH,103,Guinness Hotel,Guinness,Tequila,700,32.83,Rodriguez Group,New James,MA,Midwest,Retail,2025/04/08,24,82.46,1979.04,millerjaime@example.org
+440,8NI629ZQ,127,Smirnoff Dog,Smirnoff,Liqueur,700,5.25,"Burton, Jackson and Rich",Danielview,LA,Northeast,Retail,2025/04/15,7,60.1,420.7,anthony06@example.com
+441,NC5XG1D7,109,Johnnie Walker Hit,Johnnie,Tequila,1000,18.51,"Jackson, Smith and Lewis",North Michael,FM,Midwest,Wholesale,2025/05/06,30,95.75,2872.5,qtaylor@example.com
+442,Y2HGQQA6,131,Baileys Reveal,Baileys,Tequila,700,7.04,Watson Group,Littlefurt,CT,West,Retail,2025/04/24,40,17.51,700.4,michael51@example.org
+443,2VTW7OCA,107,Tanqueray Office,Tanqueray,Gin,700,43.3,Sellers-Stevens,South Jesse,SD,West,Retail,2025/04/05,11,66.89,735.79,ashleylewis@example.org
+444,3WMNCUUT,115,Ciroc Itself,Ciroc,Tequila,700,25.61,"Gomez, Cooper and Mccarty",New Theresa,KS,Midwest,Wholesale,2025/05/16,26,75.53,1963.78,mark94@example.org
+445,HESDMGG3,111,Guinness Recently,Guinness,Whisky,500,23.8,Barrett-Holmes,New Richardhaven,NV,Southeast,Wholesale,2025/04/22,41,20.8,852.8,kathleen20@example.com
+446,O1C1RAVB,103,Baileys Leg,Baileys,Liqueur,700,17.24,Brock-Villarreal,Jenniferbury,SD,West,Wholesale,2025/05/09,22,42.16,927.52,marydawson@example.com
+447,00FNM7QP,129,Tanqueray Air,Tanqueray,Whisky,700,12.55,Sellers Group,South Davidfort,CO,Midwest,Wholesale,2025/04/11,13,40.21,522.73,tmcbride@example.org
+448,G34QS99X,136,Tanqueray Traditional,Tanqueray,Gin,700,31.0,"Martin, Robinson and Silva",East Stephanieburgh,IN,Southeast,Retail,2025/04/09,18,37.03,666.54,chavezjoan@example.net
+449,G0OODUHT,121,Baileys Kid,Baileys,Beer,700,28.49,Price PLC,South Brooke,HI,Northeast,Wholesale,2025/05/14,37,41.96,1552.52,martinkarina@example.com
+450,3BRVPKFF,104,Baileys Project,Baileys,Whisky,1000,37.47,Pope PLC,Lake Dannyton,FL,South,Retail,2025/05/04,30,5.07,152.1,dcervantes@example.net
+451,GZZMMKK1,115,Ciroc Popular,Ciroc,Whisky,500,32.72,Cooper-Austin,West Kimberly,AR,Midwest,Wholesale,2025/03/31,19,63.65,1209.35,tyler08@example.net
+452,VWNG2W07,110,Ciroc Rule,Ciroc,Beer,700,15.96,Johnson-Chavez,Pamelamouth,WA,West,Retail,2025/04/24,48,15.74,755.52,kyle50@example.net
+453,FDLVY5G5,106,Johnnie Walker Charge,Johnnie,Rum,1000,35.26,"Anderson, Jones and Wheeler",East Christopherbury,ME,Midwest,Retail,2025/04/18,24,17.76,426.24,veronica27@example.org
+454,QXY9KNXD,116,Guinness Fast,Guinness,Gin,500,37.08,Harris-Perry,Lake Samuel,LA,Southeast,Wholesale,2025/04/29,14,92.43,1294.02,mollymelendez@example.com
+455,TR4DDV8Y,115,Smirnoff Professional,Smirnoff,Whisky,1000,36.7,Mejia-Gordon,Lake Oscar,ND,West,Retail,2025/04/21,43,21.07,906.01,collinsjames@example.com
+456,H1NOSNGT,128,Baileys Detail,Baileys,Beer,750,11.92,Ayers-Martinez,West Catherinemouth,KY,South,Wholesale,2025/03/23,11,61.59,677.49,berryshannon@example.org
+457,QS2AC50X,111,Don Julio Everything,Don,Whisky,1000,29.01,"Hernandez, Jones and Crosby",Ramirezville,MH,West,Retail,2025/04/02,7,74.56,521.92,alejandrawilliams@example.com
+458,NZ1WLSBE,113,Smirnoff Poor,Smirnoff,Rum,750,30.38,"Armstrong, Morgan and Lee",West Jeremy,UT,Southeast,Retail,2025/04/20,22,51.9,1141.8,christopherjohns@example.net
+459,YAXWY4J4,112,Captain Morgan Science,Captain,Vodka,700,15.69,Robinson LLC,South Heathertown,ME,Northeast,Wholesale,2025/04/13,8,76.42,611.36,chelsea29@example.com
+460,1KJG860E,119,Johnnie Walker Skin,Johnnie,Gin,700,15.27,"Moreno, Wallace and Santos",East Timothy,PA,West,Wholesale,2025/05/14,49,29.39,1440.11,elizabethlopez@example.org
+461,T3NLEW5B,136,Guinness Pass,Guinness,Gin,1000,37.53,Buck-Carter,Port Kevinshire,OH,Northeast,Wholesale,2025/05/02,24,46.58,1117.92,adam80@example.net
+462,WAGS8PF1,123,Captain Morgan Program,Captain,Gin,750,17.04,"Castro, Lewis and Williams",Castillohaven,HI,Southeast,Wholesale,2025/04/12,46,69.28,3186.88,faith41@example.net
+463,FD09MCIW,104,Don Julio Someone,Don,Liqueur,750,38.63,Smith and Sons,Jodimouth,MO,Northeast,Wholesale,2025/04/04,43,93.34,4013.62,ymorris@example.org
+464,YRWYBWZE,121,Tanqueray Mission,Tanqueray,Liqueur,500,13.63,Rodriguez PLC,East Laura,WY,West,Retail,2025/04/23,50,9.99,499.5,sergiomacias@example.net
+465,TI5W3FVL,101,Smirnoff Director,Smirnoff,Beer,1000,9.8,Dawson-Shaw,Sharpberg,WV,South,Retail,2025/05/04,30,10.01,300.3,tlee@example.org
+466,ET3KG6S8,101,Johnnie Walker Laugh,Johnnie,Liqueur,700,31.02,Brown Ltd,Williammouth,DE,Midwest,Wholesale,2025/04/14,22,72.45,1593.9,markvelazquez@example.net
+467,BD6S2CRN,145,Guinness Congress,Guinness,Beer,700,22.62,"Roberts, Ramirez and Hicks",West Samuel,SC,West,Wholesale,2025/05/05,38,49.11,1866.18,rbarton@example.com
+468,97K8TBP3,136,Smirnoff Party,Smirnoff,Whisky,1000,32.05,"Howard, Dawson and Walker",South Christopherborough,NM,Midwest,Wholesale,2025/04/23,26,24.42,634.92,reyesmargaret@example.net
+469,7ISHVHK2,131,Johnnie Walker Maintain,Johnnie,Rum,500,5.17,Hill Group,North Amanda,FL,Midwest,Retail,2025/04/17,5,30.53,152.65,tchang@example.org
+470,HHW6KLF4,140,Johnnie Walker Eat,Johnnie,Whisky,750,14.76,Hudson-Cooper,Rossville,MO,Midwest,Retail,2025/05/06,35,63.74,2230.9,thomas22@example.org
+471,F7IQGLHX,110,Johnnie Walker Protect,Johnnie,Gin,1000,17.27,Hunter-Carter,Brookehaven,NY,West,Retail,2025/04/13,14,34.8,487.2,weberrodney@example.com
+472,RR3H9IXM,119,Baileys Product,Baileys,Gin,1000,42.65,"Mendez, Rodriguez and Stein",New Audreyfort,OH,Midwest,Retail,2025/05/03,17,36.19,615.23,othompson@example.com
+473,8XTNTJG6,150,Smirnoff Media,Smirnoff,Tequila,700,17.44,Walker and Sons,New Timothyside,MA,South,Wholesale,2025/05/16,14,34.74,486.36,benjamin97@example.net
+474,4D5WH7GO,136,Baileys Offer,Baileys,Rum,500,14.09,"Barnes, Gonzalez and Anderson",Audreyborough,OR,Midwest,Retail,2025/05/10,29,85.32,2474.28,jonesangela@example.org
+475,C0CJNQDR,142,Captain Morgan Member,Captain,Vodka,750,41.86,Garrett-Mccormick,Port Robert,PW,West,Retail,2025/04/16,8,48.37,386.96,emilyhoward@example.net
+476,L7PCQ6AP,110,Smirnoff Vote,Smirnoff,Liqueur,750,38.74,Reyes-Davis,Martinland,CA,Midwest,Wholesale,2025/04/28,32,57.77,1848.64,gsuarez@example.com
+477,N8KTAB6U,146,Captain Morgan Sign,Captain,Whisky,700,42.17,"Phillips, Anderson and Silva",Arthurstad,VA,West,Wholesale,2025/04/20,36,40.14,1445.04,sjones@example.org
+478,HYT0FIQ2,130,Ciroc Expect,Ciroc,Tequila,700,31.6,Rojas-Martinez,New Amber,IA,South,Retail,2025/04/17,13,41.27,536.51,blackwellhannah@example.com
+479,0T902MMJ,108,Tanqueray Consumer,Tanqueray,Rum,1000,11.85,Martinez-Williams,Davidfort,FM,Northeast,Retail,2025/04/13,43,86.19,3706.17,anna26@example.com
+480,05TQ3DCN,114,Don Julio Appear,Don,Tequila,1000,36.9,Russell and Sons,South Beckyhaven,LA,Northeast,Wholesale,2025/05/17,27,28.4,766.8,harrisandrea@example.org
+481,WFVJ9732,120,Guinness Recently,Guinness,Rum,700,33.06,"Norton, Compton and Barrett",Lake Michaelshire,MN,Northeast,Wholesale,2025/04/20,25,73.01,1825.25,qgarcia@example.com
+482,TZ6D4JFB,120,Don Julio Thus,Don,Vodka,700,38.5,Coleman-Gutierrez,Wongfort,NC,West,Retail,2025/04/03,15,27.89,418.35,prollins@example.org
+483,132KCFXC,114,Ciroc Actually,Ciroc,Vodka,500,17.65,Walsh-Harris,Jeremyberg,FM,South,Wholesale,2025/04/29,40,31.18,1247.2,amystewart@example.net
+484,MIPHCWG6,132,Baileys More,Baileys,Whisky,750,7.69,Marshall-Kennedy,Reginaldberg,VI,Southeast,Wholesale,2025/05/06,19,54.44,1034.36,alexiscannon@example.com
+485,91P96C1H,150,Guinness Mother,Guinness,Beer,500,12.26,Rhodes and Sons,Clarkmouth,MN,West,Retail,2025/04/28,45,33.22,1494.9,jodirobinson@example.net
+486,UDRHPWOQ,138,Baileys Strong,Baileys,Rum,700,4.2,"Martin, Wiley and Walters",Lebury,HI,West,Retail,2025/03/23,44,12.06,530.64,mckayeileen@example.org
+487,QAQT1388,133,Ciroc Become,Ciroc,Whisky,700,36.2,Armstrong-Lewis,Georgeland,MT,West,Wholesale,2025/04/02,46,38.44,1768.24,wilsonstacy@example.com
+488,NTLJAW3A,122,Smirnoff Play,Smirnoff,Rum,500,14.43,"Doyle, Gilmore and Thomas",Kellymouth,MI,Midwest,Wholesale,2025/04/26,16,24.54,392.64,marshallmatthew@example.net
+489,NHX10W7V,115,Guinness Husband,Guinness,Beer,500,9.23,"Hall, Stout and Davis",East Maryborough,FL,Southeast,Wholesale,2025/05/01,17,20.07,341.19,jill19@example.net
+490,WVMVU8WI,115,Johnnie Walker Activity,Johnnie,Whisky,500,33.5,"Medina, Martinez and Mejia",Kevinmouth,ND,Northeast,Wholesale,2025/04/16,38,59.25,2251.5,ashleylittle@example.net
+491,CX382V5D,117,Tanqueray Relationship,Tanqueray,Rum,700,26.54,Osborne Inc,Port Jennifer,MD,Northeast,Wholesale,2025/04/06,26,48.46,1259.96,nathaniel90@example.net
+492,T8P5LY4D,108,Don Julio Mr,Don,Gin,500,39.46,"Hansen, Reynolds and Green",Thomasland,PA,West,Wholesale,2025/03/24,37,10.16,375.92,joshua93@example.net
+493,IJUE2S08,135,Guinness Page,Guinness,Tequila,1000,37.05,"Hunt, Estrada and Brown",Port Robin,ME,South,Wholesale,2025/05/19,35,83.05,2906.75,wrightsamantha@example.com
+494,6N0L4E7R,139,Don Julio Five,Don,Tequila,700,32.6,"Brooks, Medina and Weiss",East Nicole,OK,South,Retail,2025/05/19,28,12.77,357.56,rponce@example.org
+495,QXGZXRQ3,146,Baileys Machine,Baileys,Tequila,750,24.67,"Lane, Jacobs and Rodriguez",Christybury,KS,Southeast,Retail,2025/04/13,17,56.48,960.16,slopez@example.com
+496,4AQJA93U,142,Johnnie Walker Letter,Johnnie,Whisky,750,4.92,"Wilson, Hawkins and Martinez",Lake Donnaland,AZ,Southeast,Retail,2025/05/02,28,73.21,2049.88,lutzalex@example.com
+497,7PSSUB03,140,Ciroc Line,Ciroc,Beer,750,18.24,Yu Ltd,South Deniseland,OR,South,Wholesale,2025/03/21,10,25.25,252.5,kelly27@example.org
+498,H9CM9XIU,105,Baileys Author,Baileys,Rum,1000,10.85,Chandler-Stevens,Gutierrezport,CT,Midwest,Wholesale,2025/05/05,13,99.29,1290.77,david38@example.org
+499,FEYOA55V,148,Johnnie Walker Training,Johnnie,Tequila,700,23.92,"Beard, Reid and Henry",Mackenziebury,IL,South,Wholesale,2025/05/10,47,55.54,2610.38,jessicaflores@example.net
+500,6MM0WMC4,104,Johnnie Walker Entire,Johnnie,Beer,1000,16.65,"Camacho, Peterson and Snyder",East Garyfort,FL,West,Wholesale,2025/04/21,37,41.34,1529.58,alison10@example.org
+501,II1YGW2D,124,Johnnie Walker Experience,Johnnie,Liqueur,750,10.44,Brown-Arnold,Coreychester,AS,South,Wholesale,2025/05/07,20,37.36,747.2,richard36@example.com
+502,L183578V,141,Baileys Bill,Baileys,Whisky,700,29.66,Mitchell-Williams,Dominguezview,DE,Southeast,Retail,2025/05/04,11,54.9,603.9,danielbowman@example.net
+503,W3PEUBZH,142,Johnnie Walker Similar,Johnnie,Gin,1000,40.75,Clark-Sawyer,Port Denisemouth,AL,South,Wholesale,2025/05/09,43,66.65,2865.95,christophermeyer@example.com
+504,GWA345E6,108,Johnnie Walker Again,Johnnie,Beer,700,37.37,Salas-Kelly,Chasebury,OH,West,Retail,2025/04/01,38,70.68,2685.84,jeremydennis@example.net
+505,PQY2LIRL,134,Baileys International,Baileys,Vodka,500,23.55,Parker PLC,Alishaview,VA,Southeast,Retail,2025/03/25,47,75.76,3560.72,michael45@example.net
+506,1F455O61,135,Johnnie Walker Realize,Johnnie,Tequila,750,6.59,Nguyen Group,East Rebecca,SD,West,Retail,2025/04/16,24,94.63,2271.12,emilydavies@example.net
+507,HV4DTLF3,126,Captain Morgan Difficult,Captain,Gin,750,33.66,Gardner-Schultz,Armstrongton,NY,Southeast,Wholesale,2025/03/23,14,30.44,426.16,hudsonmichael@example.com
+508,147QOZQ2,144,Don Julio Tv,Don,Whisky,700,21.11,"Wilson, Cline and Jimenez",East Jessicatown,MN,West,Retail,2025/04/05,1,14.85,14.85,elizabethhoward@example.org
+509,OKVGYK1I,103,Ciroc Care,Ciroc,Beer,500,36.52,"Reilly, Galloway and Sanders",West Vickietown,ME,West,Wholesale,2025/04/27,3,64.44,193.32,pottskelsey@example.com
+510,JLJ2O11I,109,Ciroc Health,Ciroc,Liqueur,700,27.39,Torres PLC,Williamston,NC,West,Wholesale,2025/04/14,23,82.53,1898.19,sholland@example.net
+511,1M4Z7HB0,132,Johnnie Walker Region,Johnnie,Gin,1000,4.63,"Rivera, Peters and Brown",Cainshire,WA,South,Retail,2025/03/24,45,24.22,1089.9,kimberlyclark@example.net
+512,F5VO80IA,120,Captain Morgan As,Captain,Vodka,750,15.66,Martinez-Burton,Melissaberg,NE,Southeast,Wholesale,2025/04/01,50,37.95,1897.5,karencoleman@example.net
+513,0UZ4AEJN,107,Ciroc Attorney,Ciroc,Liqueur,750,41.13,Maddox-Smith,Lake Vanessa,MD,South,Wholesale,2025/05/14,19,79.95,1519.05,patrick35@example.com
+514,YQE936PU,116,Smirnoff Fear,Smirnoff,Rum,700,12.78,Nichols-Smith,Timothyberg,PA,Midwest,Retail,2025/03/31,21,6.36,133.56,jonescourtney@example.net
+515,X3JT4TOJ,135,Guinness Theory,Guinness,Vodka,750,15.62,Dixon Ltd,North Helenberg,TX,Midwest,Wholesale,2025/04/13,23,78.82,1812.86,christina52@example.com
+516,ALCM3RLV,101,Johnnie Walker Spring,Johnnie,Beer,750,11.66,Davidson-Sellers,Port Shelby,NC,Southeast,Wholesale,2025/03/30,30,34.75,1042.5,baileymoore@example.org
+517,AYYILNHF,113,Don Julio Worker,Don,Rum,500,14.53,"Wong, Parsons and Gonzalez",Matthewmouth,MD,South,Retail,2025/05/12,29,74.49,2160.21,stevensonethan@example.org
+518,AK7L5OKZ,121,Guinness Second,Guinness,Rum,500,22.22,Reynolds LLC,Mccarthyburgh,KS,South,Wholesale,2025/05/18,18,80.51,1449.18,adaniels@example.net
+519,H4I8XXP5,119,Captain Morgan Mr,Captain,Liqueur,1000,10.44,Curtis-Hernandez,Tinabury,MT,South,Wholesale,2025/04/09,49,89.71,4395.79,herrerajoshua@example.net
+520,GWHCLQ96,102,Don Julio Program,Don,Gin,500,20.7,Hart-Medina,Jenniferport,MP,Midwest,Wholesale,2025/05/14,42,60.68,2548.56,davisdennis@example.net
+521,3BS8G79V,148,Captain Morgan Participant,Captain,Tequila,750,25.0,Oconnor-Olsen,Lake Kevinport,MS,Northeast,Wholesale,2025/05/08,4,24.23,96.92,youngpatricia@example.com
+522,DGK3ETTK,105,Johnnie Walker Two,Johnnie,Liqueur,1000,27.8,Hale-Roberts,Port Veronicafurt,WI,Southeast,Wholesale,2025/03/24,47,71.17,3344.99,helen23@example.com
+523,LXR9161T,101,Baileys Back,Baileys,Vodka,500,28.09,"Smith, Stephens and Bush",Wattston,SC,Southeast,Retail,2025/05/06,1,63.8,63.8,carolbell@example.net
+524,1UIALLC5,145,Johnnie Walker Want,Johnnie,Whisky,500,21.57,Hill-Navarro,North Anthonyhaven,SD,West,Wholesale,2025/04/01,45,20.2,909.0,carrolljoseph@example.com
+525,4D7WKJ1P,118,Tanqueray Fact,Tanqueray,Whisky,1000,19.15,Santiago-Larsen,West Shannon,NC,Midwest,Retail,2025/03/31,50,63.52,3176.0,sarahbrown@example.com
+526,00TYRF2M,115,Ciroc About,Ciroc,Vodka,700,15.52,"Hayes, Jennings and Powell",New Christophershire,AR,Northeast,Retail,2025/05/19,21,34.5,724.5,lauren50@example.net
+527,KR6LRTK4,111,Tanqueray Time,Tanqueray,Tequila,700,35.16,James and Sons,West Jonathanbury,GA,Southeast,Retail,2025/04/29,23,35.2,809.6,reillywanda@example.com
+528,NQKBII0G,129,Baileys Sister,Baileys,Beer,1000,22.12,Murphy PLC,New Kimberly,OH,Northeast,Retail,2025/05/03,42,62.41,2621.22,aliciawarner@example.com
+529,ZSFNEP28,142,Don Julio Well,Don,Vodka,1000,25.73,"Jones, Newman and Collins",Traciefurt,AR,South,Wholesale,2025/04/28,18,75.84,1365.12,lwilliams@example.net
+530,JB4UI50J,103,Ciroc Growth,Ciroc,Tequila,700,24.74,Branch-Pennington,Mooreport,OR,West,Wholesale,2025/03/23,22,98.64,2170.08,rcardenas@example.com
+531,5XJG6L2D,139,Ciroc Always,Ciroc,Liqueur,700,13.01,"Hanson, Blanchard and Reyes",Richardtown,NV,Midwest,Wholesale,2025/04/17,26,20.57,534.82,joseph13@example.com
+532,TIZVD2GP,145,Tanqueray Ago,Tanqueray,Whisky,500,20.61,"Rosales, Ortega and Wood",Danielberg,VA,Northeast,Wholesale,2025/03/30,50,21.51,1075.5,rachel58@example.org
+533,4RTZ8PQ4,115,Ciroc Individual,Ciroc,Beer,1000,38.94,Rowe Inc,Rachelfort,VI,West,Retail,2025/04/06,35,44.38,1553.3,kentmendoza@example.com
+534,JPIPUIJ8,122,Captain Morgan Wrong,Captain,Gin,700,43.99,"Malone, Wright and Castro",Lake Nicholasfort,UT,West,Retail,2025/03/30,47,60.26,2832.22,carla68@example.com
+535,TB7IBOD7,132,Johnnie Walker Age,Johnnie,Gin,750,19.39,Turner-Haynes,West Coreyberg,LA,Southeast,Retail,2025/03/22,16,94.04,1504.64,evansalexis@example.net
+536,78QHDCKC,137,Tanqueray Officer,Tanqueray,Vodka,700,38.22,"Phillips, Le and Davies",Andreafurt,PR,Northeast,Retail,2025/04/02,46,13.86,637.56,curtis53@example.org
+537,20KK055B,142,Baileys Not,Baileys,Vodka,700,30.09,Brown and Sons,Carlberg,KS,South,Retail,2025/04/06,20,10.65,213.0,douglashunter@example.com
+538,797WGEDW,115,Ciroc Note,Ciroc,Tequila,700,10.99,"Dominguez, Adams and Richardson",Kiaratown,VA,South,Retail,2025/04/26,38,66.77,2537.26,plambert@example.com
+539,NE7NNS6X,145,Guinness Simply,Guinness,Whisky,750,10.32,"Adams, Dawson and Casey",West Kylemouth,CO,Midwest,Wholesale,2025/04/15,9,54.29,488.61,beckwillie@example.net
+540,UE9325XE,103,Smirnoff Sell,Smirnoff,Vodka,500,12.33,Wood LLC,Riveraside,OK,Northeast,Wholesale,2025/05/07,50,38.07,1903.5,muellermegan@example.org
+541,IQ7GKHB0,145,Tanqueray Kid,Tanqueray,Beer,1000,14.97,Price Group,Josephton,AK,South,Retail,2025/05/10,45,12.33,554.85,macdonaldvincent@example.net
+542,JXQLRIS7,128,Smirnoff Short,Smirnoff,Vodka,1000,16.38,Rivera PLC,South Jonathanstad,ID,South,Wholesale,2025/03/29,32,18.15,580.8,qbailey@example.com
+543,0ZBG4G58,124,Johnnie Walker Together,Johnnie,Vodka,500,26.3,"Mckinney, Davis and Clark",North Dana,ID,West,Wholesale,2025/04/16,5,85.54,427.7,mjohnson@example.org
+544,PR3SJBL3,128,Smirnoff Answer,Smirnoff,Beer,500,27.19,Blanchard-Howard,New Cynthia,TN,Midwest,Wholesale,2025/04/12,23,6.58,151.34,ubest@example.net
+545,VYVOL398,133,Tanqueray Region,Tanqueray,Liqueur,1000,25.6,"Lewis, Gonzalez and Cantu",Washingtonchester,GA,Southeast,Retail,2025/04/18,2,85.35,170.7,kim45@example.org
+546,P76BKWH4,109,Tanqueray Item,Tanqueray,Whisky,1000,10.98,Pena LLC,Lake Gwendolyn,CO,Southeast,Retail,2025/05/10,9,12.83,115.47,markharmon@example.org
+547,U1RDMEL8,134,Baileys Strong,Baileys,Tequila,500,41.89,Moon Inc,New Emily,CO,Northeast,Wholesale,2025/04/23,40,50.69,2027.6,joseph50@example.net
+548,IU7NS4VK,106,Baileys Building,Baileys,Tequila,750,36.86,Fitzpatrick Ltd,North Mary,LA,Southeast,Wholesale,2025/04/27,23,53.66,1234.18,abigailmcdonald@example.org
+549,KUP7NA4T,139,Ciroc Walk,Ciroc,Tequila,700,7.65,"Ramirez, Lam and Adams",Tracyfurt,CO,Northeast,Retail,2025/05/14,38,8.92,338.96,moyerashley@example.com
+550,VNUL36PQ,101,Smirnoff Could,Smirnoff,Beer,500,41.87,Davidson Inc,East Tonya,IL,South,Retail,2025/04/21,2,54.73,109.46,reyestammy@example.net
+551,WZ2CTRTI,114,Johnnie Walker Third,Johnnie,Rum,750,43.7,"Berry, Alexander and Long",Jessicamouth,MD,Northeast,Wholesale,2025/05/16,43,42.38,1822.34,rdavis@example.net
+552,ML3DO6CM,122,Baileys Conference,Baileys,Vodka,500,26.21,Nguyen-Mendoza,Port Evelynland,AK,South,Wholesale,2025/03/28,8,18.63,149.04,wgutierrez@example.net
+553,CU5M7IBM,104,Johnnie Walker Something,Johnnie,Tequila,500,9.06,"Hays, Dunlap and Hernandez",North Dana,SC,Midwest,Retail,2025/04/10,17,78.26,1330.42,desireelamb@example.net
+554,CPO79YQY,107,Guinness Set,Guinness,Liqueur,700,28.05,Allen-Cannon,Williamsmouth,CT,South,Retail,2025/04/09,8,59.22,473.76,lisamoses@example.net
+555,8W0YH62Q,121,Ciroc Week,Ciroc,Beer,1000,20.15,Mccarthy Group,Carrietown,VA,West,Retail,2025/05/18,49,7.49,367.01,andersongrant@example.org
+556,DKQAHYLO,104,Captain Morgan Dog,Captain,Liqueur,1000,36.98,Potts-Webb,South Shannon,MT,Northeast,Retail,2025/05/15,39,17.93,699.27,zacharyalexander@example.com
+557,RC6G3CZY,133,Tanqueray Everybody,Tanqueray,Whisky,750,14.5,Walker-Irwin,Kelliview,OK,South,Wholesale,2025/04/21,42,69.17,2905.14,patriciagreene@example.net
+558,4UE88609,118,Captain Morgan Ability,Captain,Tequila,1000,33.83,"Davidson, Jackson and Sloan",Harrisland,TX,Northeast,Wholesale,2025/04/12,5,23.13,115.65,stephanie93@example.org
+559,56P1XMSB,103,Ciroc Interview,Ciroc,Vodka,500,5.16,Ochoa-Smith,West Curtisfurt,OK,Southeast,Wholesale,2025/03/28,36,30.93,1113.48,ntucker@example.org
+560,LY9MOZWE,111,Guinness Floor,Guinness,Liqueur,1000,5.98,"Payne, Juarez and Mccall",Bellton,GU,Northeast,Retail,2025/03/24,32,99.38,3180.16,beckydrake@example.com
+561,G7MTXLRD,131,Smirnoff Meeting,Smirnoff,Beer,500,4.93,Osborne Ltd,Powersburgh,CO,Southeast,Retail,2025/05/14,30,60.73,1821.9,turnerbradley@example.com
+562,VV91UJPT,104,Guinness Risk,Guinness,Tequila,700,40.86,Sloan-Watkins,Juantown,MA,Southeast,Wholesale,2025/04/02,20,10.74,214.8,vanessa85@example.com
+563,29JNE4D3,107,Don Julio Usually,Don,Tequila,750,44.16,Harris-Todd,Seanhaven,ND,Midwest,Retail,2025/04/07,6,80.93,485.58,pjacobs@example.com
+564,ZNXHXANL,133,Captain Morgan It,Captain,Whisky,750,30.89,"Weaver, Atkins and Wells",South Anthonybury,KY,Northeast,Wholesale,2025/04/28,32,66.54,2129.28,lopezcurtis@example.org
+565,0VLKF3B3,125,Don Julio Resource,Don,Whisky,750,35.77,Nash-Duran,Dianastad,WV,South,Retail,2025/05/12,8,84.45,675.6,icarpenter@example.com
+566,VKXKYC3U,145,Ciroc World,Ciroc,Gin,1000,13.49,Moody LLC,South Samanthaville,VA,Southeast,Retail,2025/05/14,18,92.91,1672.38,tuckerdavid@example.com
+567,5PS5CRXZ,126,Johnnie Walker That,Johnnie,Gin,1000,40.04,Shields Ltd,Lewisland,WV,Northeast,Retail,2025/04/27,38,82.4,3131.2,ychambers@example.net
+568,YYBSWHKZ,141,Smirnoff Happy,Smirnoff,Liqueur,500,27.32,Thornton LLC,Nicholaston,MS,Midwest,Wholesale,2025/04/24,18,36.48,656.64,williamsmarc@example.org
+569,X4CRY74J,122,Guinness May,Guinness,Rum,500,40.17,"Brown, Zhang and Sanchez",North Jennafurt,ID,Northeast,Retail,2025/04/30,36,56.45,2032.2,michael44@example.org
+570,TDCIG6VL,126,Smirnoff Throw,Smirnoff,Gin,500,31.94,Armstrong Group,East Carolview,MO,Southeast,Wholesale,2025/04/28,25,12.63,315.75,rachelcarter@example.net
+571,048WH1WA,115,Captain Morgan Claim,Captain,Tequila,1000,14.33,Burns LLC,East Jennifer,SD,Northeast,Wholesale,2025/05/03,33,83.68,2761.44,william74@example.org
+572,2VARIHGH,125,Guinness Identify,Guinness,Vodka,500,26.77,Allen Inc,Smithside,FL,South,Wholesale,2025/03/26,2,64.47,128.94,veronica77@example.com
+573,1X4NQKBW,129,Johnnie Walker Subject,Johnnie,Gin,1000,31.08,"Anderson, Payne and Williams",Ericatown,SC,West,Retail,2025/05/04,44,83.52,3674.88,marcnunez@example.org
+574,I9Y1EX1S,101,Guinness Appear,Guinness,Rum,700,13.57,"Cole, Young and Anderson",Lake Stephaniehaven,NM,Midwest,Retail,2025/04/08,41,41.96,1720.36,bjimenez@example.com
+575,R6Q94IZP,136,Don Julio West,Don,Rum,750,5.52,Oliver Inc,New Michelle,AS,West,Wholesale,2025/05/02,41,61.16,2507.56,nicolepatrick@example.net
+576,DVF8CD9S,133,Tanqueray Population,Tanqueray,Rum,750,23.92,Thomas-Reyes,Jefferyport,AL,Northeast,Retail,2025/05/17,4,9.86,39.44,michelle31@example.com
+577,9DZUU369,107,Guinness Concern,Guinness,Vodka,700,19.02,Lara Inc,Padillaburgh,VA,Midwest,Retail,2025/04/19,25,6.82,170.5,tammy01@example.net
+578,68IT7BXT,113,Ciroc Mr,Ciroc,Liqueur,1000,37.7,"Odom, Castillo and Martin",Kylefort,OR,Midwest,Wholesale,2025/04/30,2,63.29,126.58,smcneil@example.org
+579,ZFGWE01M,108,Guinness Step,Guinness,Whisky,700,41.14,Sutton-Ray,Jeffreyville,IL,South,Wholesale,2025/03/26,18,71.43,1285.74,chernandez@example.net
+580,SWZGPITE,129,Guinness Board,Guinness,Rum,700,13.88,Murphy Inc,Port Alexside,SD,Northeast,Retail,2025/03/31,19,51.74,983.06,floydjessica@example.org
+581,L8JVIHLI,133,Johnnie Walker All,Johnnie,Tequila,500,37.47,"Lopez, Mcdonald and Burnett",Rebeccatown,KS,West,Retail,2025/05/02,23,68.18,1568.14,clarkandrew@example.com
+582,Z02DCU2G,143,Ciroc Yeah,Ciroc,Beer,700,44.34,Henry Inc,West Angelahaven,MD,West,Wholesale,2025/05/13,25,23.02,575.5,haleykayla@example.org
+583,G1O92ZBW,143,Johnnie Walker Memory,Johnnie,Beer,750,36.35,Harrell and Sons,Stephanieport,TN,Northeast,Retail,2025/05/15,45,50.93,2291.85,uwilliams@example.com
+584,12R5E30W,109,Tanqueray Improve,Tanqueray,Gin,700,35.21,"Wells, Jones and Wong",Gouldview,AR,South,Retail,2025/04/11,6,13.27,79.62,barbermichael@example.net
+585,TDIO5GTN,128,Don Julio Mr,Don,Beer,500,8.62,"Smith, Erickson and Reynolds",Jamesstad,SC,West,Retail,2025/04/30,33,90.21,2976.93,lhuynh@example.com
+586,X9FATMEE,127,Smirnoff Leave,Smirnoff,Tequila,1000,33.97,"Webb, Woods and Cross",South Tasha,MI,South,Wholesale,2025/04/19,22,14.01,308.22,tuckerjennifer@example.org
+587,SLROXCJN,119,Ciroc Side,Ciroc,Liqueur,500,32.84,Roth-Faulkner,Steventon,ME,West,Wholesale,2025/05/08,44,27.66,1217.04,taylorjoseph@example.org
+588,G6754AHY,130,Ciroc Chair,Ciroc,Liqueur,500,10.15,Alexander Ltd,Scottborough,SC,Northeast,Wholesale,2025/04/20,49,72.82,3568.18,turnerheidi@example.net
+589,3V4OGOH4,105,Don Julio Several,Don,Rum,1000,19.09,"Bailey, Walker and Owens",Farleyland,AK,Midwest,Wholesale,2025/04/27,34,12.96,440.64,alexander17@example.org
+590,DJEHNT2V,112,Baileys Recent,Baileys,Beer,1000,38.22,Spears-Fuentes,Kentchester,PW,West,Wholesale,2025/04/29,18,18.93,340.74,zbright@example.com
+591,UNXONUTN,120,Johnnie Walker Apply,Johnnie,Liqueur,700,17.45,Gomez-Christian,Port Abigail,PW,South,Retail,2025/03/31,4,52.83,211.32,qbrooks@example.com
+592,5SMZPAND,113,Ciroc Office,Ciroc,Vodka,1000,42.63,Chavez-Hernandez,New Gregory,AL,Midwest,Wholesale,2025/04/10,43,17.12,736.16,andreasummers@example.com
+593,KFZQETEX,150,Smirnoff Raise,Smirnoff,Tequila,500,27.63,Poole LLC,Krystalborough,PW,Southeast,Wholesale,2025/04/19,16,14.45,231.2,harrisjennifer@example.org
+594,CPPHS7JL,105,Tanqueray Remain,Tanqueray,Gin,700,36.05,Parks and Sons,Bishopside,WV,Northeast,Wholesale,2025/04/24,39,95.66,3730.74,psmith@example.com
+595,L78E8J3G,144,Don Julio Finally,Don,Tequila,500,21.73,"Peters, Morales and Butler",South Jodi,VT,West,Retail,2025/04/30,5,46.7,233.5,cboyd@example.net
+596,8W7XABRO,129,Captain Morgan Water,Captain,Liqueur,700,36.1,"Walls, Montes and Bailey",East Valerie,MS,Northeast,Wholesale,2025/03/25,37,28.23,1044.51,theresaadams@example.org
+597,12M8SSNS,111,Baileys Job,Baileys,Rum,700,17.0,Rios-Fernandez,West Mariemouth,TX,South,Retail,2025/04/04,35,29.19,1021.65,duncanregina@example.com
+598,6CQ940A3,108,Baileys Fly,Baileys,Whisky,700,36.52,Cuevas-Perkins,Lake Lorettabury,AK,West,Wholesale,2025/05/18,18,80.43,1447.74,jenkinstara@example.com
+599,MHNHY99Z,150,Captain Morgan Opportunity,Captain,Liqueur,500,31.73,Armstrong-Miller,Port Robert,MI,Northeast,Wholesale,2025/04/21,43,85.91,3694.13,lreed@example.org
+600,F2ZS7TYZ,128,Johnnie Walker Matter,Johnnie,Liqueur,1000,9.97,Lee Inc,North Michaelborough,MH,Midwest,Retail,2025/05/09,13,45.68,593.84,daniellegonzales@example.com
+601,UI3EMI6M,112,Smirnoff Live,Smirnoff,Beer,500,27.63,Hayes-Reed,North Maryshire,DE,West,Wholesale,2025/04/19,10,44.89,448.9,kaylasandoval@example.org
+602,5W6YP3MY,123,Ciroc Statement,Ciroc,Gin,500,43.89,Davidson-Mcdonald,Lake Katelyn,IA,Southeast,Wholesale,2025/04/10,11,45.75,503.25,arellanoernest@example.net
+603,KBDS7R15,141,Captain Morgan Without,Captain,Liqueur,1000,9.19,Foster Group,Benjaminbury,ID,Northeast,Retail,2025/04/20,40,76.2,3048.0,kristin86@example.org
+604,ZVWA53F1,143,Captain Morgan Challenge,Captain,Gin,1000,28.56,Hudson-Schroeder,Nelsonborough,GA,Northeast,Wholesale,2025/05/05,50,80.09,4004.5,levyheidi@example.com
+605,QIHEM5QF,135,Captain Morgan Resource,Captain,Rum,700,42.79,Horn-Torres,Michaelborough,IL,West,Wholesale,2025/05/17,27,92.75,2504.25,raybrittney@example.com
+606,TJ9SV0XX,133,Captain Morgan Ago,Captain,Liqueur,700,17.96,Wallace-Wilson,Morganborough,MS,West,Retail,2025/04/01,13,74.48,968.24,ashley94@example.org
+607,PAG4BAQF,133,Ciroc Movie,Ciroc,Rum,750,22.16,Howard-Davis,Rivasshire,WI,Midwest,Retail,2025/04/08,30,95.98,2879.4,davidbarnes@example.com
+608,IIYFS6T0,119,Johnnie Walker Popular,Johnnie,Gin,1000,19.58,Valentine and Sons,New Ashley,MH,Midwest,Wholesale,2025/04/11,23,96.68,2223.64,hickssarah@example.org
+609,378DK095,125,Ciroc Instead,Ciroc,Rum,1000,13.3,"Rodgers, Powell and Walls",Jacksonstad,ME,West,Retail,2025/05/01,30,67.41,2022.3,stephanie07@example.org
+610,JF8X10DY,120,Ciroc Local,Ciroc,Whisky,1000,32.48,Jennings-Baker,Dillonfurt,PW,Midwest,Retail,2025/05/05,41,50.24,2059.84,george04@example.net
+611,VH9ZJDMU,149,Smirnoff Again,Smirnoff,Beer,500,16.42,Moran-Adams,Morrisport,VA,Northeast,Wholesale,2025/04/30,3,80.79,242.37,khill@example.org
+612,5XCJOSY2,105,Johnnie Walker Couple,Johnnie,Rum,700,23.2,Kennedy-Duarte,Medinatown,VI,Northeast,Wholesale,2025/04/10,36,51.35,1848.6,jonesjerome@example.net
+613,0KQ0VZZ0,150,Tanqueray National,Tanqueray,Tequila,750,7.11,Davis Ltd,Reedside,IN,Northeast,Wholesale,2025/03/28,34,64.52,2193.68,pwilson@example.com
+614,F904FFKF,144,Guinness Save,Guinness,Whisky,700,44.85,Greer LLC,Veronicaside,KY,Northeast,Wholesale,2025/03/30,6,14.87,89.22,gonzalezandrew@example.org
+615,1056VGRM,150,Ciroc However,Ciroc,Liqueur,750,41.81,Reese-King,Velasquezmouth,ME,Southeast,Wholesale,2025/04/02,2,61.74,123.48,nicholas25@example.org
+616,J4S1STW7,126,Smirnoff Cell,Smirnoff,Whisky,500,5.62,Everett-Stevenson,West Jeremy,NY,Midwest,Retail,2025/04/21,19,78.04,1482.76,jesseromero@example.org
+617,1DO1RDCL,140,Captain Morgan Start,Captain,Beer,500,18.14,"Harrison, Zuniga and Ruiz",Lake Christopher,SD,Midwest,Retail,2025/05/01,25,61.28,1532.0,coreybecker@example.net
+618,NU7VYLTF,125,Ciroc We,Ciroc,Beer,1000,5.03,Pierce-Brown,Joneston,NE,Northeast,Retail,2025/04/11,7,20.33,142.31,morganvance@example.com
+619,3PZUUCJT,140,Ciroc Subject,Ciroc,Whisky,750,40.93,Gregory-Robinson,Markfurt,CA,Midwest,Wholesale,2025/04/02,20,97.09,1941.8,woodslindsay@example.net
+620,RXRXXF3B,118,Captain Morgan Glass,Captain,Whisky,500,19.77,Martin Inc,Gallegosville,MP,South,Wholesale,2025/05/04,7,39.22,274.54,bbailey@example.net
+621,6774BQ27,143,Captain Morgan Allow,Captain,Liqueur,500,39.68,Edwards Group,Santanatown,VT,South,Retail,2025/03/22,2,31.29,62.58,whitewilliam@example.com
+622,CUU8LO42,116,Johnnie Walker Better,Johnnie,Vodka,500,5.91,"Ellis, Bryant and Cook",Elizabethbury,AZ,Northeast,Retail,2025/04/01,6,42.16,252.96,victoria74@example.net
+623,RK1PDRGV,117,Captain Morgan Gas,Captain,Vodka,1000,34.4,"Fisher, Stein and Lopez",Lisaport,NV,Northeast,Retail,2025/04/28,23,11.07,254.61,jasonsteele@example.org
+624,RLXSS707,125,Guinness Option,Guinness,Rum,700,16.23,Williams and Sons,Port Jamesburgh,OR,West,Wholesale,2025/04/24,37,23.13,855.81,watkinsnicholas@example.org
+625,IA4WC7U1,129,Tanqueray With,Tanqueray,Beer,700,40.84,"Torres, Stewart and Graves",Santiagofurt,PW,South,Retail,2025/04/06,31,28.87,894.97,roberto69@example.com
+626,9JIE4CRJ,143,Baileys Ask,Baileys,Whisky,750,22.97,"Stout, Oconnor and Monroe",East Josephton,NV,Northeast,Wholesale,2025/04/09,38,39.05,1483.9,millerrobert@example.org
+627,YSQPPB5B,135,Ciroc If,Ciroc,Beer,700,26.92,Ortega and Sons,Teresastad,IL,Northeast,Retail,2025/05/18,36,82.14,2957.04,fmontgomery@example.net
+628,UENUGC4K,137,Baileys Size,Baileys,Rum,750,29.98,Cox PLC,Ortizborough,AS,Southeast,Retail,2025/03/26,49,91.38,4477.62,kellyarnold@example.com
+629,JMF0E37B,133,Don Julio Enough,Don,Gin,750,37.47,Brandt Ltd,Jeremyfort,LA,Midwest,Retail,2025/05/12,22,97.94,2154.68,thomasfisher@example.org
+630,XA3IFMAY,110,Johnnie Walker Take,Johnnie,Beer,500,33.57,Bennett Group,New Michelle,LA,Southeast,Retail,2025/05/07,6,98.25,589.5,brandon07@example.net
+631,YT5VBXIQ,125,Baileys Kitchen,Baileys,Gin,700,12.09,"Reynolds, Davis and Pittman",Cindyburgh,AS,Midwest,Retail,2025/05/11,35,77.4,2709.0,mary62@example.net
+632,5QG91OPO,113,Captain Morgan Feel,Captain,Beer,750,35.62,"Brown, Anderson and Kerr",East Lindseyberg,PR,West,Wholesale,2025/03/31,28,91.34,2557.52,steeleemily@example.com
+633,Q8CHCNEK,118,Captain Morgan In,Captain,Vodka,700,28.36,Berry Inc,Lake Grace,MA,South,Wholesale,2025/05/09,35,8.09,283.15,lanemarie@example.com
+634,DJTYBDKK,143,Johnnie Walker Section,Johnnie,Gin,1000,17.26,"Bennett, Banks and Bradley",Smithbury,NE,West,Wholesale,2025/04/03,34,21.99,747.66,juanrussell@example.com
+635,7MI1DP3C,111,Ciroc Population,Ciroc,Gin,750,9.19,Li-Harris,New Christopher,LA,Northeast,Retail,2025/04/23,36,68.39,2462.04,tinastein@example.org
+636,I30C2LF8,128,Ciroc Light,Ciroc,Rum,700,25.27,Avery-Martin,Spencerland,DC,Northeast,Wholesale,2025/04/10,26,23.92,621.92,robertbowen@example.net
+637,IE940PFF,116,Baileys Response,Baileys,Liqueur,700,17.59,Collins and Sons,Johnburgh,VT,Northeast,Wholesale,2025/04/13,10,50.19,501.9,anguyen@example.net
+638,WPZ8XQSA,136,Tanqueray Describe,Tanqueray,Gin,750,42.06,Barnes-Hart,Port Madisonberg,NH,West,Retail,2025/04/01,26,67.64,1758.64,ujoseph@example.org
+639,BZCHK0NZ,122,Baileys Player,Baileys,Beer,750,5.21,Park Group,Larsonville,AS,West,Retail,2025/04/06,44,90.48,3981.12,valdezjohn@example.net
+640,4Z55GN2C,126,Don Julio Want,Don,Liqueur,500,35.92,Smith PLC,Fritzland,KY,Southeast,Wholesale,2025/03/25,23,80.36,1848.28,rachel93@example.net
+641,FZMIRKUB,146,Ciroc Message,Ciroc,Whisky,700,12.8,Wagner Ltd,Sergioland,WA,Southeast,Wholesale,2025/05/09,39,77.59,3026.01,markorr@example.org
+642,HOM2UGOF,125,Baileys Agency,Baileys,Rum,500,7.54,Brown and Sons,Kristinfort,VA,South,Retail,2025/04/21,5,46.42,232.1,ycollins@example.com
+643,DXD1N6PN,114,Baileys Side,Baileys,Tequila,500,27.26,Davidson-Bryan,Armstrongstad,ID,South,Retail,2025/04/04,16,29.27,468.32,eedwards@example.com
+644,1OW3GPNT,137,Captain Morgan Evening,Captain,Tequila,750,15.05,"Sanders, Thompson and Herrera",South Thomasstad,FM,South,Retail,2025/04/01,31,45.35,1405.85,nblack@example.net
+645,TVX6F460,132,Baileys Notice,Baileys,Rum,700,21.84,"Morales, Adams and Schaefer",New Marvinhaven,VT,Southeast,Retail,2025/04/24,27,98.98,2672.46,sstevens@example.org
+646,UREYENO2,116,Tanqueray Participant,Tanqueray,Gin,750,22.09,"Walls, Obrien and Jackson",East James,PA,Midwest,Retail,2025/04/16,24,93.28,2238.72,lauraharris@example.net
+647,KXEFOS78,133,Guinness Approach,Guinness,Rum,700,16.4,George Group,North Nathan,NY,Northeast,Wholesale,2025/05/07,49,44.61,2185.89,moraleskristopher@example.com
+648,VO5FFTZ1,132,Guinness Story,Guinness,Beer,1000,29.15,Gonzalez-Morales,New Kimberly,RI,Northeast,Retail,2025/05/15,24,15.35,368.4,jessepittman@example.net
+649,NVCH39X2,136,Baileys Figure,Baileys,Gin,750,11.13,Rowe LLC,Geoffreyborough,NE,Southeast,Retail,2025/04/08,22,21.1,464.2,boydvincent@example.net
+650,EFXJIM24,131,Don Julio Plant,Don,Liqueur,500,9.37,Powell Group,Rossland,CT,Southeast,Retail,2025/04/17,43,64.55,2775.65,khernandez@example.net
+651,8O34RGFA,103,Johnnie Walker Hundred,Johnnie,Rum,700,41.96,"Schwartz, Mason and Brown",Lake Manuelburgh,PW,South,Wholesale,2025/04/22,13,62.28,809.64,rhill@example.org
+652,SOM2VWDC,145,Smirnoff Measure,Smirnoff,Rum,1000,18.39,Woods-Cunningham,Judymouth,HI,Midwest,Wholesale,2025/03/25,18,44.43,799.74,emoore@example.net
+653,3HP8FDBY,128,Don Julio Responsibility,Don,Beer,1000,34.08,Morales-Campbell,South Saraberg,ME,Southeast,Wholesale,2025/04/01,6,48.45,290.7,blaireric@example.com
+654,4KFM2A59,126,Smirnoff Sense,Smirnoff,Whisky,750,39.28,Serrano Ltd,Markborough,MH,Southeast,Retail,2025/05/13,20,51.9,1038.0,gibsondevin@example.org
+655,0FRJHKK5,145,Tanqueray Article,Tanqueray,Whisky,500,35.39,Reid-Walton,North Monica,NE,Midwest,Retail,2025/04/13,3,32.17,96.51,richmondkimberly@example.com
+656,AR91S5H7,109,Baileys For,Baileys,Vodka,1000,32.82,Pace PLC,New Brianchester,NJ,Southeast,Wholesale,2025/04/15,34,37.06,1260.04,cranemartha@example.org
+657,EIB4J89L,147,Don Julio Left,Don,Vodka,1000,15.85,Merritt Group,Hornechester,NE,South,Wholesale,2025/05/03,9,67.57,608.13,emily91@example.org
+658,GC2IDVZ0,138,Don Julio Happen,Don,Beer,750,5.08,Mccoy-Clark,Jesusbury,NM,South,Retail,2025/04/10,3,39.57,118.71,alejandrofitzgerald@example.com
+659,TR84TRZB,148,Guinness Itself,Guinness,Rum,500,23.17,Stewart-Watts,Raymondfort,DE,Midwest,Retail,2025/04/26,10,37.52,375.2,norrisandrea@example.net
+660,634O844Q,119,Captain Morgan Professional,Captain,Liqueur,700,5.84,Conway LLC,Hallburgh,WI,Midwest,Wholesale,2025/05/17,28,54.49,1525.72,donnamckenzie@example.org
+661,4X4GYF4C,126,Smirnoff Whole,Smirnoff,Whisky,1000,39.1,Cain-Barrett,Jillville,ME,Midwest,Retail,2025/05/14,14,90.34,1264.76,valdezjennifer@example.org
+662,VF62OV13,122,Johnnie Walker Provide,Johnnie,Tequila,500,20.97,"Nicholson, Larson and Marshall",Kimberlyside,VI,Northeast,Wholesale,2025/04/25,23,65.61,1509.03,wmacdonald@example.net
+663,31LRCE27,150,Tanqueray Center,Tanqueray,Liqueur,1000,42.87,Taylor-Sanders,New Jasmineport,KY,Northeast,Wholesale,2025/05/04,5,85.27,426.35,lori55@example.net
+664,A5LUNKWF,123,Guinness Chance,Guinness,Beer,700,32.39,Meyer-Brandt,Melanieborough,MS,West,Retail,2025/03/24,11,93.05,1023.55,stephenjohnson@example.org
+665,1GAK2YGK,136,Smirnoff Him,Smirnoff,Liqueur,750,32.44,Baker Group,South Aaron,GU,Midwest,Retail,2025/05/05,12,75.59,907.08,jorge21@example.net
+666,VVN8BMBC,125,Johnnie Walker Guess,Johnnie,Tequila,500,38.26,"Tate, Tanner and Smith",North Patrickburgh,CT,South,Wholesale,2025/04/12,48,17.81,854.88,xcruz@example.org
+667,Q9AU2XQ6,113,Don Julio Purpose,Don,Beer,750,31.89,Flores and Sons,South Shannonborough,NY,West,Wholesale,2025/04/27,3,96.15,288.45,laustin@example.net
+668,X12F5SDG,112,Baileys Cost,Baileys,Rum,500,22.84,Brown LLC,Shannonside,NH,Southeast,Retail,2025/04/06,41,52.01,2132.41,edwinsoto@example.com
+669,H6MEEAE3,123,Ciroc Phone,Ciroc,Tequila,500,19.91,Smith-Sanchez,Port Edgarstad,NM,Northeast,Wholesale,2025/04/06,49,61.52,3014.48,ryanjonathan@example.net
+670,8LRB6X56,128,Don Julio Present,Don,Tequila,750,44.84,Ortiz Group,Smithtown,FM,Northeast,Retail,2025/04/02,32,86.07,2754.24,smiles@example.org
+671,WJA05NJ6,129,Guinness Protect,Guinness,Beer,700,7.93,"Campbell, Rodriguez and Wagner",West Mary,MI,South,Wholesale,2025/05/09,50,75.96,3798.0,clairecastro@example.org
+672,A4VO51DA,135,Tanqueray Fill,Tanqueray,Rum,1000,15.82,Blackburn Inc,East Valerieland,MO,Southeast,Wholesale,2025/05/02,37,37.27,1378.99,shaffermadeline@example.net
+673,422NFR3O,120,Ciroc Democratic,Ciroc,Gin,1000,36.07,Duarte-Campbell,Port Meredith,VI,Midwest,Retail,2025/04/27,23,18.19,418.37,lori11@example.com
+674,4KMH9IKZ,143,Guinness Treatment,Guinness,Gin,500,42.05,Walker and Sons,Marcton,SC,Northeast,Wholesale,2025/05/05,50,10.59,529.5,yrussell@example.com
+675,EP0ULH5N,111,Johnnie Walker Sister,Johnnie,Tequila,500,30.33,"Mccall, Smith and Randall",Port Danny,WI,Midwest,Wholesale,2025/04/14,43,52.98,2278.14,hmiller@example.org
+676,26LCXIP4,150,Ciroc Card,Ciroc,Tequila,700,38.89,Owens LLC,South Melanie,MA,Southeast,Wholesale,2025/04/10,29,53.96,1564.84,karenhill@example.org
+677,TAI8QC44,135,Baileys Control,Baileys,Beer,750,35.13,Mosley LLC,New Kathryn,NH,Northeast,Wholesale,2025/05/01,11,29.13,320.43,john49@example.net
+678,R3FX4UIW,127,Captain Morgan Total,Captain,Rum,700,34.31,"Meyers, Campbell and Ortiz",Garciafurt,AK,West,Retail,2025/04/07,7,53.64,375.48,katherineyoung@example.net
+679,RZJZX38Z,105,Johnnie Walker Open,Johnnie,Tequila,700,18.66,Davis-Weiss,Erinfurt,IA,South,Retail,2025/05/05,47,6.55,307.85,ellisjanet@example.org
+680,8NXOALKK,143,Johnnie Walker Run,Johnnie,Liqueur,1000,36.9,"Phillips, Kelly and Jordan",New Lorraine,SC,Northeast,Wholesale,2025/04/18,50,52.01,2600.5,parsonsmitchell@example.org
+681,O6256PK2,123,Baileys Smile,Baileys,Tequila,750,24.46,Myers Inc,Blakemouth,MP,South,Wholesale,2025/03/28,7,62.06,434.42,matthewyork@example.org
+682,CY8EJZA9,117,Smirnoff Up,Smirnoff,Beer,1000,4.25,"Warner, Holland and Roberts",New Matthew,NM,West,Wholesale,2025/04/21,7,19.14,133.98,vargasjuan@example.net
+683,UC0OJD6B,118,Baileys Fall,Baileys,Tequila,750,39.5,Robinson-Garrett,Aaronview,AK,Northeast,Retail,2025/04/19,4,95.23,380.92,lawrenceshaw@example.org
+684,6QYHJGCZ,124,Tanqueray Structure,Tanqueray,Liqueur,500,11.47,"Miller, Benton and Garcia",West Kristenfort,AS,West,Retail,2025/04/10,24,58.32,1399.68,daniel49@example.com
+685,U4FE7IWR,124,Ciroc Well,Ciroc,Beer,700,36.11,"Underwood, Davidson and Brown",South Linda,OR,Midwest,Retail,2025/03/25,40,22.98,919.2,annmiller@example.com
+686,0X6TSJYJ,118,Don Julio Pass,Don,Gin,500,43.99,Francis-Mueller,Riceland,MO,South,Wholesale,2025/05/09,38,23.91,908.58,isaachull@example.com
+687,AKEDDJUJ,103,Smirnoff Lay,Smirnoff,Vodka,700,14.68,Sosa PLC,Port Yvette,MO,Midwest,Retail,2025/05/02,20,10.73,214.6,egray@example.net
+688,7MVTZVY8,120,Tanqueray War,Tanqueray,Liqueur,500,18.34,Savage-Brooks,New Kathleenport,PW,South,Wholesale,2025/03/28,9,11.9,107.1,marissa78@example.org
+689,PEA3DCVB,136,Tanqueray As,Tanqueray,Beer,750,44.39,"Hardy, Dickson and Martin",Karenmouth,AK,Southeast,Retail,2025/04/14,43,32.76,1408.68,ganderson@example.net
+690,47HYZC3U,148,Captain Morgan Idea,Captain,Tequila,700,20.55,Johnson-Williams,Andrewmouth,ND,West,Wholesale,2025/05/17,37,80.5,2978.5,cantulaura@example.com
+691,D2IHHRGD,117,Captain Morgan Offer,Captain,Tequila,750,12.52,"Wallace, Olson and Allen",West Bryan,ND,South,Retail,2025/05/08,14,72.86,1020.04,rgutierrez@example.org
+692,D9RYC2RE,106,Tanqueray Speech,Tanqueray,Liqueur,750,36.36,Perez PLC,Holmesside,MD,West,Retail,2025/03/26,42,99.3,4170.6,claudia17@example.net
+693,MNR85XHV,117,Baileys Type,Baileys,Gin,750,11.12,Young-Brown,Suefurt,NE,West,Retail,2025/03/25,29,23.04,668.16,ryanalexa@example.net
+694,83M5V8SL,150,Johnnie Walker Force,Johnnie,Whisky,500,15.05,"Price, Hurley and Cooke",East Patrickbury,SD,West,Retail,2025/03/25,26,35.51,923.26,smithsergio@example.org
+695,73IU12JH,145,Captain Morgan Ready,Captain,Rum,700,8.67,Blake LLC,Ronaldchester,PW,Southeast,Retail,2025/04/12,28,13.84,387.52,smithmichelle@example.com
+696,RC7P5QDV,123,Tanqueray Affect,Tanqueray,Whisky,500,32.52,Rogers-Harris,New Randy,AS,Southeast,Wholesale,2025/05/17,17,20.73,352.41,rodney42@example.org
+697,LB9JQZHL,125,Ciroc Rock,Ciroc,Tequila,500,35.7,"Hernandez, Smith and Simpson",Jonathanmouth,MO,Northeast,Retail,2025/05/04,6,48.38,290.28,stricklandelizabeth@example.org
+698,FMBYQ8ZB,124,Johnnie Walker World,Johnnie,Liqueur,750,40.3,Benitez LLC,South Sarahchester,ME,Northeast,Wholesale,2025/04/29,24,21.85,524.4,cparker@example.org
+699,7HJJY5K9,115,Baileys Stay,Baileys,Beer,750,5.79,Baker-Peterson,Smithmouth,MT,West,Retail,2025/05/12,15,64.17,962.55,paulnguyen@example.com
+700,JQ1L4W7E,120,Captain Morgan Answer,Captain,Liqueur,700,43.45,"Mclean, Edwards and Austin",Mistyhaven,WV,Midwest,Retail,2025/04/29,43,47.03,2022.29,landrysheila@example.com
+701,6E77PD82,126,Smirnoff Ten,Smirnoff,Rum,1000,32.98,"Castaneda, Warner and Williams",Heatherbury,ME,Midwest,Wholesale,2025/04/04,19,89.72,1704.68,oneal@example.net
+702,1YKX1A7K,146,Guinness Or,Guinness,Whisky,750,11.9,Bates and Sons,East Derekburgh,AL,Southeast,Wholesale,2025/04/05,50,81.27,4063.5,orrmadison@example.net
+703,KQTIL93E,111,Baileys Boy,Baileys,Vodka,700,20.69,Nolan-Conner,West Hannah,FM,South,Retail,2025/05/12,34,45.18,1536.12,anthonywilliams@example.com
+704,PGX2ZICI,114,Tanqueray Tell,Tanqueray,Tequila,750,30.07,Kelley PLC,Kathleenmouth,SD,West,Retail,2025/04/16,18,11.13,200.34,lewisjason@example.org
+705,HED23AWC,108,Captain Morgan Stuff,Captain,Vodka,750,44.44,Allen LLC,Lake Juliaport,OR,Northeast,Retail,2025/03/28,17,32.18,547.06,edavis@example.com
+706,V5SLHWCH,104,Don Julio Career,Don,Beer,500,10.25,"Morris, Smith and Smith",Lake Matthew,GA,Midwest,Wholesale,2025/04/03,50,5.35,267.5,veronica12@example.org
+707,4DWP99JU,122,Baileys Federal,Baileys,Beer,750,19.17,Hall Group,Morrisland,IL,Midwest,Wholesale,2025/04/23,37,46.56,1722.72,jonesjohn@example.org
+708,Q4MFH760,101,Don Julio Wear,Don,Vodka,700,32.89,Velez-Olson,Port Jasonbury,GU,West,Retail,2025/05/15,32,53.31,1705.92,matthewmoore@example.net
+709,1JIOIU4V,105,Tanqueray By,Tanqueray,Tequila,750,37.44,"Schwartz, Crosby and Reed",Dunnport,KS,Midwest,Retail,2025/05/11,45,82.39,3707.55,hugheskelly@example.org
+710,4GT3ERQH,114,Guinness Space,Guinness,Rum,500,23.91,"Harris, Higgins and Hale",Lewishaven,MT,West,Retail,2025/05/09,21,39.53,830.13,john69@example.org
+711,OYFH8WJC,122,Ciroc Action,Ciroc,Beer,700,40.14,"Powell, Dickerson and Frank",Hallfurt,ID,West,Wholesale,2025/04/21,48,75.32,3615.36,nancyjackson@example.net
+712,RFCHFIX4,124,Johnnie Walker State,Johnnie,Vodka,750,41.01,Jacobs and Sons,Luisburgh,CO,West,Retail,2025/05/18,31,39.5,1224.5,margaretmarsh@example.org
+713,Q8FBWVJ5,145,Don Julio Total,Don,Beer,700,6.32,"Grant, Obrien and Bailey",Wayneton,SD,Northeast,Wholesale,2025/05/18,11,15.6,171.6,balljeffrey@example.com
+714,O1BFARZ0,105,Tanqueray Pass,Tanqueray,Liqueur,750,6.29,Franklin-Hays,Saraland,TX,Midwest,Wholesale,2025/05/05,45,46.5,2092.5,sydney50@example.com
+715,SRZ1XOWQ,116,Johnnie Walker Free,Johnnie,Vodka,500,27.15,Moss LLC,Harringtonport,WI,Southeast,Retail,2025/05/17,37,88.81,3285.97,hawkinsbetty@example.org
+716,Z3OKNREH,131,Baileys Friend,Baileys,Whisky,750,26.1,Davis-Reyes,Smithfurt,NE,Northeast,Retail,2025/05/16,27,68.39,1846.53,whernandez@example.org
+717,2H19TSCJ,106,Johnnie Walker Improve,Johnnie,Vodka,1000,26.99,Gross-Norris,New Linda,MP,Midwest,Retail,2025/04/30,17,19.32,328.44,charles07@example.net
+718,DXQP3HNU,150,Tanqueray However,Tanqueray,Vodka,500,6.49,Riddle Group,Leefurt,ID,Southeast,Wholesale,2025/04/16,6,79.06,474.36,jamie86@example.net
+719,1RV6IXJN,115,Don Julio Follow,Don,Beer,500,5.59,"Harrell, Mullins and Hayes",Smithtown,FM,Northeast,Wholesale,2025/03/21,10,96.11,961.1,matthewsmith@example.com
+720,E80EBXB7,107,Captain Morgan Ahead,Captain,Liqueur,750,20.7,Griffin-Miller,East Michael,WV,Midwest,Wholesale,2025/05/09,9,54.47,490.23,justin34@example.org
+721,QSJ0ORJB,127,Ciroc Start,Ciroc,Beer,700,11.42,"Bailey, Adams and Smith",Paulchester,IL,Midwest,Wholesale,2025/04/27,25,64.35,1608.75,rickey33@example.net
+722,KHA7KSFO,138,Tanqueray Finish,Tanqueray,Tequila,1000,23.11,Tran-Fisher,New Jamesside,TN,Midwest,Wholesale,2025/05/14,3,11.12,33.36,bstanley@example.org
+723,1EXWQJW9,114,Baileys Her,Baileys,Tequila,1000,33.99,Miller Group,Lake Claudiaville,WY,West,Wholesale,2025/05/02,3,60.69,182.07,annjoyce@example.com
+724,F1239EZ9,127,Captain Morgan Probably,Captain,Gin,750,40.4,Washington-Martinez,North Samanthahaven,IL,West,Retail,2025/05/01,14,51.67,723.38,wthomas@example.com
+725,F93PCT15,123,Johnnie Walker Evidence,Johnnie,Vodka,700,19.07,"Hall, Taylor and Leon",Port Jeremy,MT,Midwest,Wholesale,2025/04/03,1,53.19,53.19,andrewharris@example.com
+726,6ARIKMIO,111,Guinness General,Guinness,Whisky,750,28.1,Morgan-James,New Carla,IN,Northeast,Retail,2025/03/21,50,55.64,2782.0,lbyrd@example.net
+727,UBJG1MS1,118,Tanqueray Half,Tanqueray,Whisky,750,33.2,Lawson Inc,Colleenmouth,MS,West,Wholesale,2025/04/29,46,78.97,3632.62,zbrown@example.com
+728,9ML7EEOV,146,Ciroc Move,Ciroc,Vodka,700,14.52,White and Sons,Johnland,SD,West,Wholesale,2025/04/26,13,67.85,882.05,wheelerfrank@example.net
+729,HAMF5BAK,147,Johnnie Walker Create,Johnnie,Vodka,500,21.81,Young Ltd,West Travisberg,NJ,South,Retail,2025/05/09,33,61.26,2021.58,keithbenton@example.org
+730,8CNKZKO9,127,Captain Morgan Word,Captain,Vodka,700,15.48,King Inc,Audreyfort,SD,Northeast,Retail,2025/04/18,20,53.36,1067.2,whitesusan@example.net
+731,T0OXD410,128,Baileys Cold,Baileys,Beer,750,41.4,Blake-Castillo,Leslieview,MH,Northeast,Retail,2025/05/13,45,39.68,1785.6,jennifer77@example.net
+732,SD1YVYTR,142,Guinness Side,Guinness,Gin,500,11.47,Sanchez-Hernandez,Lake Jorge,IN,South,Retail,2025/04/30,30,19.16,574.8,lambjustin@example.net
+733,22DDNAFQ,119,Smirnoff Continue,Smirnoff,Whisky,500,33.58,Johnson Group,New Kevin,VA,Southeast,Wholesale,2025/04/10,38,19.17,728.46,jeannepage@example.org
+734,COJHR17Y,134,Captain Morgan Page,Captain,Whisky,700,29.39,Moreno LLC,Gonzalezland,GU,Southeast,Retail,2025/05/13,11,12.05,132.55,courtney59@example.net
+735,66PAGJ5M,108,Baileys Resource,Baileys,Whisky,1000,30.38,Calhoun-Martinez,East Ashley,NM,Southeast,Wholesale,2025/03/27,41,43.7,1791.7,susan17@example.org
+736,SM2CEDXV,143,Captain Morgan Operation,Captain,Whisky,700,25.47,"Morrison, Griffith and Alvarez",West Barbaraburgh,FM,Midwest,Retail,2025/05/19,32,50.67,1621.44,charleswarner@example.org
+737,LD9O5ISU,132,Guinness He,Guinness,Tequila,750,35.58,"King, Patrick and Kelly",Wardbury,MN,Midwest,Retail,2025/04/15,42,37.08,1557.36,alexandrabryant@example.net
+738,UKK6594Z,113,Johnnie Walker Who,Johnnie,Whisky,500,7.77,"Harris, Short and Taylor",North David,GA,West,Wholesale,2025/05/19,32,27.38,876.16,jonathansnyder@example.net
+739,3IZNI4EQ,123,Johnnie Walker Interview,Johnnie,Gin,700,8.27,Thomas-Meyers,Morrisberg,VA,Midwest,Wholesale,2025/04/05,35,51.94,1817.9,joshua27@example.com
+740,IDGW8VBR,109,Tanqueray Wife,Tanqueray,Gin,700,12.38,Armstrong and Sons,Port Rickmouth,VI,Southeast,Retail,2025/04/19,34,34.34,1167.56,grantluke@example.com
+741,6SVAQ26G,148,Don Julio Argue,Don,Liqueur,700,43.33,"King, Smith and Hart",Lake Sabrinabury,NJ,Midwest,Retail,2025/05/05,41,70.39,2885.99,qvaldez@example.net
+742,THE67HSH,111,Don Julio Out,Don,Tequila,700,5.86,Henson PLC,Isaiahfort,SD,Northeast,Wholesale,2025/04/23,1,14.86,14.86,lhenry@example.net
+743,5642J59B,112,Baileys Fire,Baileys,Liqueur,750,5.44,Bailey Ltd,Robertsshire,AS,Southeast,Wholesale,2025/03/30,4,10.06,40.24,danielle45@example.org
+744,38DJ23WT,147,Guinness Final,Guinness,Tequila,750,21.02,Wilson-Lang,Geoffreyhaven,ME,South,Retail,2025/03/25,39,15.0,585.0,ibarber@example.com
+745,MI4HPLLC,135,Don Julio Writer,Don,Tequila,750,10.33,"Velazquez, Pollard and Thompson",Vanessashire,VA,West,Retail,2025/05/15,40,58.35,2334.0,jill30@example.org
+746,G0OPACAH,128,Guinness Hour,Guinness,Tequila,1000,4.08,Newman-Brooks,Port Stephanie,VI,South,Wholesale,2025/04/24,49,66.47,3257.03,fvasquez@example.net
+747,CUEO4GPI,138,Tanqueray Other,Tanqueray,Beer,700,30.38,Hall Group,Whitestad,RI,Southeast,Wholesale,2025/04/14,14,33.2,464.8,baileyrachel@example.com
+748,D80VY5LZ,136,Smirnoff Mouth,Smirnoff,Vodka,700,6.62,"Snyder, Williams and Henderson",Rileystad,IA,West,Wholesale,2025/04/20,10,18.64,186.4,rogergriffin@example.org
+749,WIOWCIRF,111,Johnnie Walker Finish,Johnnie,Tequila,700,10.69,Black-Roth,Jamesbury,MH,Southeast,Wholesale,2025/05/03,22,88.56,1948.32,tiffany91@example.net
+750,LN02NEO0,101,Don Julio Treatment,Don,Gin,700,32.18,Silva LLC,Port Pamelatown,RI,Midwest,Wholesale,2025/04/06,20,39.99,799.8,rickyolson@example.org
+751,2N1WU2TC,138,Johnnie Walker Statement,Johnnie,Tequila,1000,33.85,Hines-Hayes,Port Lindastad,TN,Southeast,Wholesale,2025/04/22,13,24.47,318.11,kennethpace@example.net
+752,JTGLL1E3,132,Smirnoff Later,Smirnoff,Gin,1000,12.43,Gonzalez Inc,Williamsonshire,SC,West,Wholesale,2025/03/31,19,15.66,297.54,christophergomez@example.org
+753,JT8O4JXT,116,Baileys Visit,Baileys,Whisky,1000,32.34,Castillo-Watson,Julieside,NV,West,Retail,2025/04/21,18,26.51,477.18,nmcmillan@example.org
+754,NLBSO47W,114,Guinness Life,Guinness,Rum,750,16.99,"Reynolds, Jackson and Baker",Port Natasha,MD,West,Wholesale,2025/04/04,21,20.37,427.77,fcook@example.com
+755,NIIGAJNO,108,Tanqueray Exactly,Tanqueray,Gin,700,4.17,Wong Group,Markbury,FM,Northeast,Wholesale,2025/04/01,27,47.07,1270.89,davidjones@example.org
+756,NX7AZJZB,137,Ciroc Nation,Ciroc,Whisky,1000,15.36,Malone-Lee,Coreyfort,SC,Southeast,Wholesale,2025/03/21,6,64.55,387.3,donald68@example.net
+757,ET4E6PGM,130,Don Julio Receive,Don,Tequila,500,31.84,Allen-Howell,Lindseybury,VA,South,Retail,2025/04/07,39,70.9,2765.1,cainerin@example.com
+758,11E2J3NE,129,Ciroc Entire,Ciroc,Rum,1000,39.72,Bullock LLC,Port William,CA,Northeast,Wholesale,2025/05/05,50,54.12,2706.0,michaelmiles@example.net
+759,5MT2QY7E,135,Johnnie Walker Of,Johnnie,Beer,750,33.14,Mcfarland-Collins,Jacobmouth,MI,Midwest,Wholesale,2025/03/24,39,36.77,1434.03,vsilva@example.org
+760,76DLW3KK,134,Baileys Movement,Baileys,Vodka,1000,28.51,Reynolds Ltd,Rileyview,MO,Southeast,Wholesale,2025/04/08,27,12.66,341.82,nlloyd@example.org
+761,TJHA4UM1,116,Guinness Hand,Guinness,Gin,500,23.93,Robbins-Jones,Denisestad,OK,South,Retail,2025/05/15,19,67.57,1283.83,imiller@example.org
+762,IJCGOZTE,131,Ciroc Ten,Ciroc,Liqueur,500,11.87,"Travis, Thomas and Willis",South Logan,GU,West,Wholesale,2025/03/27,23,45.48,1046.04,wstephens@example.net
+763,AR0QLBUK,131,Smirnoff Fly,Smirnoff,Liqueur,1000,31.38,"Owens, Chapman and Bell",Aaronbury,MH,Southeast,Wholesale,2025/05/05,42,16.33,685.86,dannyevans@example.net
+764,3HOPYHND,106,Guinness Eye,Guinness,Gin,700,34.21,"Taylor, Henderson and Bishop",Kelleyside,MI,West,Retail,2025/04/01,28,5.77,161.56,jsimmons@example.com
+765,9U66B6ZT,103,Guinness Worker,Guinness,Liqueur,1000,5.28,"Griffin, Collins and Smith",Brownmouth,IN,West,Wholesale,2025/05/12,34,66.11,2247.74,kimberly13@example.com
+766,Y92Y4XHC,143,Smirnoff Environmental,Smirnoff,Vodka,500,32.22,Phillips and Sons,Anthonyland,WA,Northeast,Wholesale,2025/03/23,39,98.74,3850.86,joseph10@example.net
+767,U58JLSPV,103,Smirnoff Enjoy,Smirnoff,Whisky,750,34.53,"Roberts, Martin and Moore",New Shaunstad,PA,Midwest,Retail,2025/05/10,40,10.41,416.4,reyessarah@example.org
+768,NV3O5OXE,134,Captain Morgan Opportunity,Captain,Whisky,500,38.93,Lynch Group,East Dylanchester,MN,West,Wholesale,2025/04/21,43,67.48,2901.64,christianolson@example.net
+769,6R9601VW,128,Baileys Rich,Baileys,Beer,500,42.9,Walker-Young,West Tammy,OR,Northeast,Wholesale,2025/03/26,14,11.11,155.54,cyoung@example.org
+770,V0Q920RV,148,Baileys Government,Baileys,Gin,750,8.05,Smith-Miller,New Wayneville,NE,South,Wholesale,2025/05/09,16,27.59,441.44,teresa67@example.com
+771,Q1AVA9HM,150,Baileys Prevent,Baileys,Vodka,1000,31.23,Bradley PLC,Thomasshire,FM,Northeast,Wholesale,2025/05/10,27,46.12,1245.24,brian83@example.org
+772,LL6X2HDC,117,Guinness Majority,Guinness,Tequila,700,15.07,"Mcdonald, Cowan and Yates",Lauraborough,VA,West,Wholesale,2025/03/23,29,37.63,1091.27,brianhall@example.net
+773,4RB6AFEH,139,Captain Morgan Should,Captain,Gin,1000,30.41,"Flores, Walls and Carpenter",South Jenniferton,MI,West,Retail,2025/04/02,33,65.25,2153.25,jennifer47@example.org
+774,3882TXNC,125,Don Julio Establish,Don,Beer,750,14.61,Jenkins and Sons,North Chelsea,FL,West,Retail,2025/04/10,4,98.79,395.16,john72@example.com
+775,VFXI1UOA,141,Baileys Both,Baileys,Beer,700,32.02,Smith-Phelps,Evansside,HI,Southeast,Retail,2025/04/02,2,98.42,196.84,sbrown@example.com
+776,EF4N4TXD,150,Captain Morgan Service,Captain,Tequila,500,19.23,Andersen Inc,West Heatherfort,GU,West,Wholesale,2025/04/16,10,46.49,464.9,abrewer@example.org
+777,1OHKSMS5,126,Don Julio Land,Don,Liqueur,1000,17.03,Bennett and Sons,Port Kendra,MS,Northeast,Wholesale,2025/04/23,8,8.47,67.76,rebecca34@example.com
+778,VF1VCQEY,108,Johnnie Walker Thus,Johnnie,Whisky,500,19.49,Hernandez Ltd,Mackenziehaven,GU,Northeast,Wholesale,2025/04/14,4,52.51,210.04,gonzalezamanda@example.net
+779,RZYX2VJE,119,Smirnoff Stay,Smirnoff,Tequila,500,28.97,"Clay, Smith and Smith",Darylport,OH,Northeast,Retail,2025/04/26,7,69.69,487.83,bennettamy@example.org
+780,KAZQ7NQ9,132,Smirnoff Consider,Smirnoff,Gin,500,11.48,Harrison Group,Lake Angieland,AR,West,Wholesale,2025/04/17,37,74.97,2773.89,david62@example.net
+781,7Z0MR6CV,146,Smirnoff Score,Smirnoff,Gin,750,13.06,Villarreal Ltd,East Alan,AR,Northeast,Retail,2025/05/11,35,9.36,327.6,johnmcdonald@example.net
+782,ZKVHM5RH,132,Baileys Upon,Baileys,Whisky,700,44.36,Gonzalez Ltd,Morganburgh,SC,Northeast,Retail,2025/03/25,15,45.52,682.8,myersgabriel@example.org
+783,O8YWZK97,149,Baileys Game,Baileys,Whisky,500,24.01,Hicks Ltd,Stephenborough,TX,Southeast,Wholesale,2025/04/12,39,98.35,3835.65,bowmanthomas@example.com
+784,HIL54RS0,122,Smirnoff Third,Smirnoff,Beer,1000,36.18,Montes-Blackwell,Lake Kevinfort,VT,South,Wholesale,2025/03/28,12,6.65,79.8,brian26@example.org
+785,9TL4S5C3,147,Don Julio In,Don,Vodka,1000,6.44,Knapp LLC,Wrightburgh,MN,Northeast,Retail,2025/04/19,42,68.15,2862.3,amandaramirez@example.com
+786,JZ3Q0CTU,147,Ciroc Section,Ciroc,Rum,1000,11.9,Terrell-Travis,Christopherport,OK,Midwest,Retail,2025/04/22,26,65.96,1714.96,williewarren@example.net
+787,JMDKQ5QV,145,Don Julio Leave,Don,Vodka,750,18.61,Johnston-Porter,Morsehaven,NE,Midwest,Wholesale,2025/04/14,17,46.72,794.24,jamesholmes@example.net
+788,7RZ6ML1R,103,Johnnie Walker Full,Johnnie,Rum,700,16.73,Maxwell Inc,Port Donald,ME,Midwest,Retail,2025/04/16,9,72.11,648.99,jefferylopez@example.org
+789,YTY3LC11,132,Tanqueray Position,Tanqueray,Whisky,700,44.77,Bowen-Myers,Johnfort,NE,West,Wholesale,2025/05/04,48,68.95,3309.6,hodgeemily@example.net
+790,Q40E1SWO,105,Johnnie Walker Camera,Johnnie,Tequila,500,7.09,Bush Group,West Trevor,ND,Southeast,Retail,2025/05/03,11,96.28,1059.08,lpoole@example.org
+791,Y7U36B8B,115,Don Julio Develop,Don,Rum,1000,18.03,Torres-Johnson,Murilloside,ND,Midwest,Wholesale,2025/05/02,26,72.43,1883.18,jacksoneric@example.com
+792,EO8036US,102,Smirnoff Activity,Smirnoff,Liqueur,1000,22.34,Waters-Griffith,Joseshire,ME,South,Retail,2025/04/09,14,60.1,841.4,cynthiarichards@example.org
+793,6EMHKWWV,128,Captain Morgan High,Captain,Liqueur,500,33.51,Briggs Inc,Haleyborough,DE,Northeast,Retail,2025/04/19,25,13.0,325.0,denisewhite@example.org
+794,81TOW9X5,143,Ciroc Put,Ciroc,Liqueur,700,31.55,Lee-Larson,Bradleyview,AR,Midwest,Retail,2025/04/06,18,57.35,1032.3,pmartin@example.org
+795,K9CU7E73,147,Guinness Avoid,Guinness,Vodka,700,13.93,"Richardson, Ware and Davis",Flynnville,WY,Midwest,Retail,2025/04/02,38,25.17,956.46,sanchezsamantha@example.net
+796,LQAOM61P,125,Baileys Share,Baileys,Rum,750,26.7,Padilla PLC,Santiagoberg,ID,West,Retail,2025/04/04,33,31.72,1046.76,yholmes@example.net
+797,LBSSZBMU,147,Smirnoff Manage,Smirnoff,Gin,1000,41.37,Eaton and Sons,Ochoastad,PR,Midwest,Wholesale,2025/04/01,41,59.7,2447.7,reynoldsangela@example.org
+798,EFVR3SOJ,131,Tanqueray Remain,Tanqueray,Tequila,500,32.62,Cobb-Garcia,East Danny,MI,South,Retail,2025/04/02,31,15.26,473.06,taylorchristina@example.com
+799,VEWAI85U,147,Tanqueray Feeling,Tanqueray,Liqueur,1000,11.87,"Ayala, Frazier and Holland",Pamelaview,VA,Southeast,Wholesale,2025/04/16,18,93.69,1686.42,markpowers@example.org
+800,F8HJUPTN,105,Smirnoff Job,Smirnoff,Vodka,750,21.19,"Deleon, Pierce and Alvarez",Leeberg,WV,Southeast,Wholesale,2025/04/01,42,11.92,500.64,rothkenneth@example.com
+801,17IT6JDU,148,Baileys Imagine,Baileys,Gin,750,36.78,"Kemp, Smith and Gray",Port Kevin,KY,Southeast,Retail,2025/04/29,43,29.65,1274.95,scottshane@example.org
+802,T9YQD36L,115,Ciroc Stay,Ciroc,Gin,1000,38.13,Rich-Goodwin,Jonathanfort,CO,Southeast,Wholesale,2025/04/19,19,30.65,582.35,glen43@example.com
+803,XFY147DL,142,Baileys Health,Baileys,Liqueur,500,36.57,Dennis PLC,New Eric,PR,West,Wholesale,2025/05/05,43,41.25,1773.75,loganlucas@example.net
+804,590PBAN5,108,Smirnoff Remain,Smirnoff,Liqueur,750,4.71,Hansen-Hodge,Grahamstad,UT,Midwest,Wholesale,2025/04/09,18,59.11,1063.98,nprice@example.net
+805,FIGA3S77,148,Ciroc Effort,Ciroc,Whisky,750,8.84,Young-Tucker,Taylorburgh,AS,West,Retail,2025/05/11,30,56.34,1690.2,mitchellrichard@example.net
+806,XTIJEKO0,147,Ciroc Once,Ciroc,Liqueur,750,33.87,"Bell, Vega and King",South Margaret,GU,Southeast,Retail,2025/03/21,34,58.23,1979.82,mike41@example.org
+807,NTY25UI4,124,Ciroc Religious,Ciroc,Beer,1000,8.12,"Morris, Miles and Hunt",Dodsonstad,NV,Midwest,Wholesale,2025/04/05,31,70.79,2194.49,jlee@example.com
+808,X0OADSDL,110,Captain Morgan Trouble,Captain,Tequila,750,26.02,Thompson-Morris,West Heather,VT,South,Wholesale,2025/04/25,46,79.54,3658.84,ptaylor@example.net
+809,FPLJAEI4,102,Baileys Hair,Baileys,Beer,700,41.07,Lamb-Romero,North Summer,MT,Southeast,Retail,2025/05/11,20,91.61,1832.2,jordandanny@example.com
+810,ETTAESSY,121,Ciroc Professor,Ciroc,Vodka,700,30.04,"Drake, Curry and Livingston",Dixonland,MN,Northeast,Wholesale,2025/04/02,16,96.49,1543.84,julie34@example.net
+811,QCDO71C9,101,Smirnoff Degree,Smirnoff,Gin,700,15.02,Singleton-Perez,Stevenville,MD,Southeast,Wholesale,2025/05/05,31,49.92,1547.52,andre21@example.net
+812,6BSXVUB4,139,Don Julio Benefit,Don,Tequila,500,12.77,Cook Ltd,North Ernest,MT,South,Wholesale,2025/05/13,9,83.33,749.97,herreramelinda@example.com
+813,A3AIMCIM,112,Don Julio Toward,Don,Tequila,1000,21.53,Clark Group,Willisview,KY,West,Retail,2025/03/21,10,32.99,329.9,melissa22@example.com
+814,B30A3YF4,125,Johnnie Walker Sort,Johnnie,Rum,1000,30.13,"Flynn, Moreno and Moore",Lake Cathytown,NH,Southeast,Wholesale,2025/05/19,5,95.97,479.85,donaldgraham@example.org
+815,RSB17JEO,105,Smirnoff Data,Smirnoff,Gin,700,11.37,Gregory-Friedman,South Richardport,VA,West,Retail,2025/03/25,20,40.82,816.4,ybailey@example.com
+816,GNAAD4EI,123,Johnnie Walker Real,Johnnie,Whisky,1000,43.14,"Jimenez, Higgins and Dunn",Collinsbury,MD,Midwest,Wholesale,2025/04/16,27,68.89,1860.03,bunderwood@example.org
+817,4VJXA54R,102,Captain Morgan Create,Captain,Beer,750,17.97,Yates-Guzman,Jenniferville,LA,Southeast,Wholesale,2025/03/29,46,54.4,2502.4,jonesderek@example.net
+818,ASIQMHN1,102,Tanqueray Tv,Tanqueray,Whisky,500,37.8,"Chang, Mclaughlin and Webb",Port Brendamouth,AZ,West,Wholesale,2025/05/16,33,94.65,3123.45,stephanie75@example.org
+819,YJUDVC2J,142,Baileys Interest,Baileys,Rum,500,30.22,Davis-David,West Lorifort,KS,South,Wholesale,2025/04/24,17,81.1,1378.7,rodriguezpatricia@example.net
+820,FOMIFGCF,138,Johnnie Walker Value,Johnnie,Beer,750,37.26,"Harris, Simon and Smith",Wallberg,WY,Southeast,Retail,2025/03/22,46,34.05,1566.3,cynthiacummings@example.org
+821,H6JRWOK2,141,Don Julio Responsibility,Don,Rum,1000,20.29,Hill-Ruiz,Gordontown,ID,Midwest,Retail,2025/05/12,50,49.46,2473.0,kgarner@example.org
+822,OC79EPOC,107,Tanqueray Movie,Tanqueray,Liqueur,700,17.46,"Davis, Myers and Franklin",West Andrew,VT,West,Retail,2025/04/06,16,59.46,951.36,courtney82@example.org
+823,25BCZ8FG,121,Don Julio Lose,Don,Rum,500,39.07,Allison Inc,Lake George,GA,Northeast,Retail,2025/05/18,44,45.35,1995.4,sdavis@example.org
+824,O64H0EBQ,147,Johnnie Walker Weight,Johnnie,Liqueur,750,12.03,"Daugherty, Brewer and Pace",Patrickton,OR,Southeast,Wholesale,2025/03/31,15,58.04,870.6,ibryant@example.com
+825,1FHA4Z1S,112,Tanqueray Account,Tanqueray,Vodka,700,15.32,Wilson-Harris,West William,PW,Southeast,Retail,2025/05/09,15,70.91,1063.65,jlarsen@example.com
+826,CKBACLCT,119,Johnnie Walker Leg,Johnnie,Liqueur,700,8.65,"Estrada, Gibson and Hamilton",Port John,ME,Midwest,Retail,2025/05/18,44,51.37,2260.28,sparksjoe@example.com
+827,07257BTY,142,Captain Morgan Produce,Captain,Beer,1000,22.01,Lopez-Frank,Maxwellport,NM,Midwest,Retail,2025/05/03,49,21.47,1052.03,ortizrobert@example.net
+828,GWNL7Q1A,120,Ciroc Hope,Ciroc,Tequila,700,20.17,"Herrera, Riley and Richards",New Kennethchester,UT,West,Wholesale,2025/04/08,49,79.18,3879.82,wrightalexis@example.net
+829,62MCFCGX,144,Baileys Control,Baileys,Beer,750,39.73,Bishop-Morales,Masonburgh,HI,Northeast,Wholesale,2025/04/06,43,68.04,2925.72,madison92@example.org
+830,DKEFEFRW,145,Smirnoff Pressure,Smirnoff,Beer,750,25.93,Perez and Sons,Johnborough,CT,Midwest,Retail,2025/04/12,19,16.89,320.91,brandon44@example.org
+831,R2DTPMWI,145,Baileys Thousand,Baileys,Liqueur,700,33.06,"Foster, Dunn and Garcia",North Vanessaberg,NH,West,Retail,2025/03/30,8,99.41,795.28,jennifersanchez@example.com
+832,X71WLSAN,128,Don Julio Stock,Don,Beer,750,44.38,Turner-Fitzgerald,New Anita,VA,South,Retail,2025/04/27,46,46.87,2156.02,vrhodes@example.com
+833,C17DF7JY,113,Captain Morgan So,Captain,Beer,1000,31.14,Riley Inc,Richardborough,ME,Midwest,Wholesale,2025/03/28,9,51.97,467.73,carolcarrillo@example.net
+834,OZQJZUSY,114,Johnnie Walker Knowledge,Johnnie,Beer,1000,8.15,Griffin LLC,Amandafurt,TX,Southeast,Wholesale,2025/05/06,8,41.54,332.32,weisssusan@example.org
+835,2D4OLDMZ,112,Tanqueray Someone,Tanqueray,Tequila,1000,24.22,Krause-Conley,Lopezville,ND,South,Wholesale,2025/03/26,17,80.01,1360.17,yle@example.com
+836,36DZ8A03,103,Ciroc Rule,Ciroc,Whisky,700,43.2,Meadows-Hess,Wolfeview,WY,South,Retail,2025/04/02,7,12.98,90.86,rileybecky@example.net
+837,4R76JXVW,125,Baileys Wife,Baileys,Gin,750,40.6,"Collins, Moore and Davis",Fryside,OH,Midwest,Wholesale,2025/05/19,40,46.27,1850.8,salazarjeffrey@example.net
+838,0WSFPJGI,115,Smirnoff Paper,Smirnoff,Liqueur,700,19.35,Stewart LLC,North Becky,NE,West,Wholesale,2025/04/30,8,25.29,202.32,ortizpaul@example.org
+839,HV13PF8P,135,Smirnoff Third,Smirnoff,Whisky,750,14.86,Fields LLC,East Karen,WV,South,Wholesale,2025/05/04,19,28.7,545.3,cindylandry@example.net
+840,SV20DFX6,101,Guinness Agree,Guinness,Gin,700,8.84,"Wells, Moore and Carter",South Spencerland,MO,Southeast,Wholesale,2025/03/25,29,49.9,1447.1,asingh@example.net
+841,1FRGL8DG,107,Smirnoff Side,Smirnoff,Vodka,500,7.31,Stout-Bates,West Mark,PR,West,Wholesale,2025/05/07,17,31.0,527.0,yali@example.org
+842,V2IX4XEI,134,Captain Morgan Write,Captain,Beer,750,39.01,"Ford, Dorsey and Banks",East Michelleland,WI,Midwest,Wholesale,2025/05/11,24,15.52,372.48,sanfordjessica@example.net
+843,LL0X3FON,105,Tanqueray Decision,Tanqueray,Liqueur,750,17.76,Calhoun Group,Riveraborough,PW,Midwest,Wholesale,2025/05/14,19,87.89,1669.91,melindaroberson@example.com
+844,D8QWHO8M,107,Baileys Defense,Baileys,Whisky,500,8.96,Dodson and Sons,Feliciaton,OH,Midwest,Retail,2025/04/24,44,92.93,4088.92,xcollins@example.com
+845,VNEZSQQY,105,Guinness Chance,Guinness,Gin,500,26.77,"Klein, Burgess and Rodriguez",West Ambermouth,ND,Southeast,Wholesale,2025/04/11,19,49.87,947.53,antonio56@example.com
+846,AL9CCXK6,123,Tanqueray System,Tanqueray,Tequila,1000,30.82,Aguilar-Lang,West Ashleybury,DE,Midwest,Retail,2025/05/04,29,82.49,2392.21,jordanjennifer@example.com
+847,SFQ2HEUU,138,Ciroc Long,Ciroc,Beer,700,33.14,"Guerrero, Martinez and Carroll",East Amandaton,WY,South,Wholesale,2025/04/05,34,75.89,2580.26,rcummings@example.org
+848,23OI5CNV,118,Tanqueray Movie,Tanqueray,Gin,1000,19.32,Carroll-Smith,East Jonathonhaven,IN,Northeast,Retail,2025/04/01,12,84.34,1012.08,wmoore@example.net
+849,TDD1AO7M,102,Ciroc Modern,Ciroc,Vodka,750,32.12,"Espinoza, King and Schmidt",Harrisport,MA,Northeast,Wholesale,2025/04/21,22,14.14,311.08,dfowler@example.org
+850,G3O5G653,111,Baileys Record,Baileys,Liqueur,500,7.6,Hunter-Obrien,New Karen,NC,South,Retail,2025/04/17,2,67.67,135.34,valexander@example.org
+851,LXVNKV1P,115,Johnnie Walker Perform,Johnnie,Whisky,1000,7.58,Murillo Group,South Taylor,CO,West,Retail,2025/05/06,36,6.21,223.56,garzasusan@example.com
+852,9ZPXU75B,122,Ciroc Determine,Ciroc,Liqueur,700,39.32,"Myers, Dyer and Wilson",Jerryborough,FM,South,Wholesale,2025/05/18,2,62.08,124.16,townsendjason@example.net
+853,DD0P0MX2,122,Tanqueray Probably,Tanqueray,Tequila,500,36.18,"Riggs, Anderson and Larson",North Travismouth,IL,Midwest,Wholesale,2025/04/22,24,16.53,396.72,vcampbell@example.net
+854,3K5C52SW,105,Don Julio Build,Don,Vodka,1000,31.69,"Long, Bennett and Davis",West Erica,MD,West,Wholesale,2025/05/13,43,62.19,2674.17,travis70@example.com
+855,TJTG3EH9,108,Johnnie Walker Tough,Johnnie,Whisky,700,41.09,Garcia and Sons,South Daltonville,VT,Midwest,Retail,2025/05/01,34,28.38,964.92,olsonbruce@example.org
+856,FN4TSTUX,109,Guinness Send,Guinness,Liqueur,500,5.78,Grimes LLC,East Sylviafurt,NV,South,Retail,2025/05/05,25,98.33,2458.25,harrismark@example.org
+857,SZ3IFY3S,125,Tanqueray How,Tanqueray,Beer,1000,7.76,Cisneros Ltd,Carrmouth,PA,Southeast,Retail,2025/04/25,30,5.98,179.4,santosryan@example.com
+858,6LY70KVY,135,Tanqueray Dinner,Tanqueray,Vodka,700,6.69,Williams Group,Lake Danielhaven,MT,West,Retail,2025/05/11,12,69.6,835.2,benjaminwalker@example.org
+859,5QT14SF5,138,Don Julio These,Don,Rum,700,18.42,Robinson Ltd,Charlesmouth,VI,Southeast,Wholesale,2025/04/30,42,98.69,4144.98,sarahsavage@example.org
+860,PV3B4FTH,142,Tanqueray Office,Tanqueray,Gin,750,17.11,"Donaldson, Howard and Jones",North Meganmouth,DE,Southeast,Wholesale,2025/04/09,36,12.93,465.48,ajohnston@example.org
+861,ORS6X45M,116,Baileys Government,Baileys,Gin,500,28.06,Dean LLC,Jeanmouth,AK,Midwest,Wholesale,2025/04/11,5,64.68,323.4,middletonmelissa@example.net
+862,SIS7MALH,129,Baileys Official,Baileys,Gin,750,23.21,Melendez-Rasmussen,Port Stephenborough,DE,Midwest,Wholesale,2025/05/03,44,67.74,2980.56,inielsen@example.com
+863,4HUASTF7,123,Captain Morgan Own,Captain,Vodka,750,34.45,"Brown, Garcia and Gates",Kellerview,DE,West,Retail,2025/04/11,42,27.94,1173.48,gail96@example.com
+864,2MGCXZJX,150,Don Julio Show,Don,Vodka,500,27.12,Stephens Group,Port Lisa,SC,South,Retail,2025/05/10,15,56.45,846.75,allenbenjamin@example.com
+865,UCTZH9NI,124,Captain Morgan Why,Captain,Liqueur,700,9.93,"Rowe, Reynolds and Taylor",West William,MI,Southeast,Retail,2025/04/07,42,57.54,2416.68,james43@example.com
+866,441HZ9AO,130,Guinness Probably,Guinness,Vodka,700,44.72,Ray Group,North Rebecca,WI,South,Wholesale,2025/04/24,35,53.98,1889.3,wilsonerica@example.com
+867,AG6HY9IN,148,Don Julio Spring,Don,Liqueur,750,18.54,Butler PLC,Silvaberg,AZ,West,Retail,2025/04/03,40,50.37,2014.8,brittany65@example.com
+868,0YOD4G4K,110,Guinness Increase,Guinness,Vodka,1000,24.05,Sims-Carter,West Jennyland,MD,Northeast,Retail,2025/03/23,6,33.2,199.2,sherrylewis@example.org
+869,6RG0V2T1,116,Captain Morgan Property,Captain,Gin,500,4.12,Jones Group,Danielburgh,CO,South,Retail,2025/04/28,23,78.79,1812.17,kbrady@example.net
+870,6S8CJ5B8,130,Guinness Idea,Guinness,Liqueur,1000,40.27,Frazier-Brown,Turnerstad,VA,South,Wholesale,2025/05/13,40,45.54,1821.6,tyler64@example.org
+871,CATEMAA2,119,Baileys Card,Baileys,Tequila,1000,40.83,Williams Inc,Michelleshire,HI,South,Retail,2025/03/30,16,49.75,796.0,kedwards@example.com
+872,BFGPYLZ6,150,Baileys Leg,Baileys,Whisky,700,22.52,Walker PLC,North Bryantown,NJ,Northeast,Wholesale,2025/04/18,49,60.53,2965.97,littletamara@example.org
+873,DIIL5DOI,128,Captain Morgan Modern,Captain,Vodka,1000,35.21,Wilson PLC,Parkborough,AK,South,Wholesale,2025/03/21,18,69.08,1243.44,snyderjames@example.org
+874,FKCTTHZD,147,Johnnie Walker Gun,Johnnie,Whisky,1000,10.43,Reyes Ltd,Johnsonview,KY,South,Wholesale,2025/05/14,25,78.68,1967.0,angelicabaldwin@example.net
+875,XFDPAHIQ,139,Captain Morgan Small,Captain,Liqueur,750,32.38,"Cordova, Williams and Moses",Sylviaborough,MN,Southeast,Retail,2025/04/19,42,46.93,1971.06,victorgonzalez@example.net
+876,9U4D3U9U,130,Baileys Benefit,Baileys,Gin,500,15.97,Sanchez-Johnson,Atkinsborough,ND,Southeast,Wholesale,2025/04/01,2,5.7,11.4,ostewart@example.com
+877,BSXU0YMG,127,Tanqueray Case,Tanqueray,Gin,700,39.51,Vazquez-Cook,Valerietown,SD,Southeast,Retail,2025/04/28,3,95.5,286.5,rachel91@example.net
+878,RNP0LQKE,134,Captain Morgan Here,Captain,Whisky,700,33.02,Watkins PLC,East Billy,OR,West,Retail,2025/04/18,41,57.36,2351.76,qayers@example.org
+879,7HXT36JS,103,Guinness Happen,Guinness,Tequila,700,18.73,Stephens Group,North Susan,VA,South,Retail,2025/04/19,47,85.86,4035.42,samanthanelson@example.net
+880,TF0FRG4D,135,Johnnie Walker Election,Johnnie,Tequila,1000,4.47,Porter and Sons,Aaronberg,SD,Midwest,Retail,2025/05/18,47,34.65,1628.55,ssims@example.net
+881,V882TKRA,145,Captain Morgan Section,Captain,Beer,500,35.8,Conner-Lee,Goodwintown,IA,Midwest,Retail,2025/04/19,24,72.7,1744.8,joshua53@example.net
+882,B28XQGT9,145,Ciroc Fund,Ciroc,Gin,750,18.13,Arellano-Salas,Briannaport,IA,Northeast,Retail,2025/04/04,46,53.75,2472.5,hillbarry@example.com
+883,6MD4V3N9,123,Ciroc Discuss,Ciroc,Beer,750,42.24,Ramos-Williams,South Mason,MH,South,Wholesale,2025/04/09,22,84.48,1858.56,gary71@example.org
+884,37Y6WE8T,143,Smirnoff Vote,Smirnoff,Gin,750,38.19,"Parker, Ruiz and Lewis",Port Hunter,ND,Midwest,Wholesale,2025/04/18,19,51.9,986.1,lewisjonathon@example.net
+885,7P575JSG,110,Guinness Job,Guinness,Vodka,750,19.91,Garcia-Ashley,East James,WV,Midwest,Retail,2025/05/04,34,8.77,298.18,criley@example.com
+886,PHWJWC81,116,Tanqueray Child,Tanqueray,Rum,700,9.21,Choi-Ayala,Dunlapside,SD,West,Retail,2025/04/08,30,16.87,506.1,carrolldenise@example.org
+887,WA1VJ4A6,123,Tanqueray Feeling,Tanqueray,Gin,700,8.29,"Thomas, Shelton and Cole",Gonzalezfurt,NE,Midwest,Retail,2025/05/12,29,73.17,2121.93,nicole92@example.com
+888,WG1IGK98,115,Smirnoff Day,Smirnoff,Gin,1000,42.81,Valdez-Hoover,East Deannafurt,GA,South,Wholesale,2025/04/26,13,26.45,343.85,gonzalezricardo@example.net
+889,EM5NQOI1,131,Baileys Worry,Baileys,Gin,1000,10.34,Herring Inc,Dylanfort,MH,West,Wholesale,2025/04/20,23,60.4,1389.2,lwilliams@example.org
+890,JB0E0YQ8,117,Ciroc Say,Ciroc,Tequila,1000,19.4,"Jackson, Harris and Allen",Robertsonchester,IA,South,Retail,2025/05/04,19,57.56,1093.64,ramseytimothy@example.com
+891,WQTOEE5E,149,Captain Morgan Usually,Captain,Gin,750,6.26,Oconnell-Woods,Michaelstad,WY,Southeast,Wholesale,2025/03/30,47,57.83,2718.01,jolsen@example.com
+892,RNAIGWW7,146,Captain Morgan Say,Captain,Vodka,500,7.7,Pennington-Robertson,Kochshire,AR,West,Wholesale,2025/04/16,46,74.4,3422.4,ewalton@example.net
+893,A3NRDAKZ,124,Guinness Morning,Guinness,Rum,700,22.12,"Alexander, Flores and Miller",North Mary,OR,South,Wholesale,2025/04/22,39,19.22,749.58,slyons@example.org
+894,IIPCANWS,122,Captain Morgan Begin,Captain,Vodka,1000,17.7,Dudley-Hernandez,South Cody,OK,South,Retail,2025/04/20,3,17.09,51.27,richardmiller@example.net
+895,4TH5BU2S,127,Tanqueray Data,Tanqueray,Whisky,1000,14.69,Martinez-Smith,South Jasonberg,FM,South,Retail,2025/03/22,42,24.84,1043.28,jillianvalenzuela@example.net
+896,C9L70ZPA,141,Don Julio Manager,Don,Gin,1000,39.31,Hoffman-Harrell,Alejandroton,TX,West,Wholesale,2025/05/08,33,39.21,1293.93,richard89@example.com
+897,1MZ9LRKJ,149,Baileys Somebody,Baileys,Beer,700,35.45,Smith PLC,Port Mary,PA,South,Retail,2025/05/17,47,23.85,1120.95,edwardrobinson@example.com
+898,7Z8A1AEI,147,Johnnie Walker Design,Johnnie,Gin,1000,11.64,Long Group,South Erinmouth,ID,Northeast,Wholesale,2025/04/16,9,85.22,766.98,boydryan@example.net
+899,OABY3RD4,105,Don Julio Ground,Don,Beer,500,37.82,Rodriguez PLC,West Matthewport,OK,Midwest,Retail,2025/04/23,6,51.73,310.38,terrelljustin@example.org
+900,6TLRB61D,144,Captain Morgan Throw,Captain,Beer,500,42.63,Nguyen-Ferguson,North Jody,AK,Northeast,Wholesale,2025/05/08,4,32.13,128.52,smithlaura@example.org
+901,MFGY2SG3,132,Johnnie Walker Green,Johnnie,Tequila,750,23.69,Brennan-Garcia,Port Carolyn,HI,West,Retail,2025/05/02,7,35.17,246.19,beckerangela@example.org
+902,LFEHSULG,143,Johnnie Walker Beat,Johnnie,Vodka,750,39.96,Gould Group,New John,OK,Southeast,Retail,2025/03/30,19,52.28,993.32,lauriehale@example.org
+903,82M5UOV7,130,Smirnoff Another,Smirnoff,Vodka,500,8.28,"Cortez, Cole and Davis",Port Jamesburgh,MD,South,Retail,2025/04/08,36,75.83,2729.88,nicolas01@example.com
+904,GEPYQMBM,117,Baileys Garden,Baileys,Whisky,750,8.39,Robertson-Davis,East Isaiah,MN,West,Retail,2025/04/28,32,75.21,2406.72,jeremy26@example.org
+905,NWO1U5WU,136,Tanqueray Bank,Tanqueray,Beer,1000,21.01,Bailey Group,Brianshire,MN,South,Wholesale,2025/04/11,8,70.83,566.64,oharris@example.net
+906,OR4GFMS5,145,Johnnie Walker Gun,Johnnie,Whisky,750,41.72,"Klein, Gray and Bender",Butlerburgh,ME,Southeast,Wholesale,2025/04/08,6,40.55,243.3,lcoleman@example.org
+907,KFDSXSP5,138,Tanqueray Around,Tanqueray,Rum,500,29.28,"Perez, Burnett and Smith",West Heather,UT,Northeast,Wholesale,2025/03/27,4,61.86,247.44,flowery@example.net
+908,XJ94UP4G,141,Captain Morgan Sea,Captain,Rum,500,11.07,Gray-Landry,East Kevin,CT,Northeast,Wholesale,2025/04/12,39,28.59,1115.01,hannahrobinson@example.com
+909,YA8HTPBO,141,Don Julio Practice,Don,Liqueur,750,36.43,"Richardson, Juarez and Douglas",Lake Stephanieshire,VT,South,Retail,2025/04/14,42,64.24,2698.08,millertonya@example.org
+910,CQ9AIBZN,125,Guinness Entire,Guinness,Rum,1000,44.07,Williams LLC,Port Monica,CO,Southeast,Retail,2025/05/07,47,74.04,3479.88,lhaynes@example.org
+911,Z0UAZZR9,136,Smirnoff Short,Smirnoff,Liqueur,500,39.14,"Rosario, Perry and Cooper",Castroburgh,IA,Southeast,Wholesale,2025/04/02,21,61.65,1294.65,matthewdillon@example.org
+912,7HM1EAP9,121,Ciroc Face,Ciroc,Whisky,750,4.62,"Rodriguez, Hernandez and Boyd",West Christopher,UT,West,Wholesale,2025/05/18,42,27.41,1151.22,karenwhite@example.org
+913,LTUB9HB2,125,Baileys Use,Baileys,Gin,700,26.96,Scott Inc,Reevestown,NM,South,Retail,2025/05/05,32,69.81,2233.92,matthewmolina@example.net
+914,8Z3PJ11R,113,Ciroc Pattern,Ciroc,Rum,500,44.79,Clay-Matthews,Bellview,DC,South,Retail,2025/04/26,43,92.54,3979.22,lijennifer@example.com
+915,SWTH5I6O,149,Ciroc Something,Ciroc,Vodka,500,34.31,Wagner and Sons,North Richard,NM,Southeast,Retail,2025/05/14,6,56.56,339.36,jose77@example.com
+916,WVIZE5OE,116,Don Julio Work,Don,Gin,500,30.09,Madden-Velasquez,South Susanchester,MA,Northeast,Wholesale,2025/04/03,41,29.19,1196.79,matthew47@example.com
+917,9LX6YZCJ,134,Johnnie Walker Already,Johnnie,Liqueur,1000,28.38,Webb Inc,Alisonburgh,MD,Southeast,Wholesale,2025/05/09,37,97.42,3604.54,yhunt@example.net
+918,U3MRCSXU,117,Ciroc Risk,Ciroc,Beer,700,31.08,Larson-Carter,Lake Caseyport,CT,Southeast,Wholesale,2025/03/21,9,53.02,477.18,watsonmichelle@example.org
+919,2NPMCC9A,108,Tanqueray Final,Tanqueray,Liqueur,750,31.81,Rollins Group,Perezborough,FM,Southeast,Retail,2025/03/21,28,18.41,515.48,hubbardashley@example.org
+920,F0UNW5D7,126,Ciroc Office,Ciroc,Beer,750,12.59,"Castillo, Gomez and Good",Gomezshire,VI,South,Retail,2025/05/15,22,18.4,404.8,patrick11@example.net
+921,5JMG558X,124,Baileys Fine,Baileys,Liqueur,700,4.68,Petersen-Morse,Leeshire,GU,Midwest,Retail,2025/04/16,28,85.7,2399.6,charlesjordan@example.org
+922,BAOFM759,112,Captain Morgan Rate,Captain,Liqueur,500,7.1,Pena-Cantu,New Kaitlynburgh,PW,South,Wholesale,2025/04/07,8,16.89,135.12,jonathanbaker@example.com
+923,RXR7G1ZG,139,Guinness Physical,Guinness,Tequila,500,39.11,Green PLC,North Amymouth,WY,West,Retail,2025/04/16,35,59.13,2069.55,michelle77@example.org
+924,7UYIW1U6,112,Captain Morgan Six,Captain,Liqueur,1000,22.85,Mullen-Little,North Theresaton,AR,Southeast,Retail,2025/04/15,4,51.4,205.6,bgarcia@example.net
+925,MU6351EU,113,Tanqueray Section,Tanqueray,Liqueur,1000,11.65,Cooley-Garcia,Maryfurt,AZ,West,Retail,2025/04/22,47,94.87,4458.89,braundarrell@example.org
+926,OUO9JZ9J,101,Johnnie Walker Level,Johnnie,Beer,1000,43.66,Evans and Sons,Port Carol,WA,South,Retail,2025/03/26,10,77.04,770.4,justin78@example.org
+927,Y2HM86LC,146,Johnnie Walker Company,Johnnie,Whisky,500,7.68,Glover PLC,Christinefurt,PW,South,Retail,2025/05/04,29,14.12,409.48,laurengarcia@example.com
+928,QED05E2N,145,Guinness Something,Guinness,Liqueur,500,34.67,Joseph and Sons,East David,IA,Northeast,Retail,2025/04/07,47,86.5,4065.5,calebgonzalez@example.net
+929,OGSX1HI1,147,Ciroc Gas,Ciroc,Tequila,1000,38.08,"Burns, Rodriguez and Carter",Analand,ID,South,Retail,2025/04/11,46,64.02,2944.92,rfernandez@example.org
+930,X0LKPFDK,106,Johnnie Walker Computer,Johnnie,Beer,700,20.67,Jordan-Day,Pattersonhaven,RI,South,Wholesale,2025/04/28,17,96.89,1647.13,gcross@example.com
+931,OVJHXA3X,127,Johnnie Walker Inside,Johnnie,Vodka,1000,33.45,Martinez PLC,New Brent,ME,West,Wholesale,2025/04/17,19,82.93,1575.67,cmiddleton@example.net
+932,8OVOT3O1,116,Don Julio Travel,Don,Beer,700,33.79,"Thomas, Smith and Matthews",West Scottfort,DE,Midwest,Wholesale,2025/04/09,27,15.87,428.49,joshuastein@example.net
+933,DHKOH474,107,Guinness Piece,Guinness,Tequila,750,43.05,Collins PLC,Port Lisaborough,NJ,Northeast,Retail,2025/03/25,24,82.53,1980.72,kent37@example.com
+934,0NYLK5PQ,135,Johnnie Walker Form,Johnnie,Vodka,500,41.84,"Shaffer, Garcia and Guzman",West Jessica,CA,Northeast,Retail,2025/03/23,16,65.02,1040.32,howardmary@example.org
+935,HJFWBSSJ,107,Ciroc Capital,Ciroc,Liqueur,500,39.11,Coleman and Sons,South John,AS,Northeast,Retail,2025/03/24,46,82.8,3808.8,wescobar@example.com
+936,AB2MGLH9,144,Guinness A,Guinness,Liqueur,700,44.48,"Roth, Turner and Downs",New Chelseymouth,TN,Northeast,Retail,2025/05/05,3,38.11,114.33,amandawood@example.com
+937,VSY5J4MG,126,Guinness Wide,Guinness,Tequila,500,25.42,"Downs, Travis and Pratt",New Janetfurt,FM,West,Retail,2025/04/06,15,68.43,1026.45,hsmith@example.com
+938,9BKBLZMR,128,Baileys Again,Baileys,Beer,500,44.7,"Williams, Chen and Hart",Smithbury,IL,West,Retail,2025/03/31,7,52.82,369.74,angelasmith@example.com
+939,YZE56QX6,122,Ciroc Mind,Ciroc,Rum,500,37.39,Austin Group,Dyermouth,WY,Northeast,Wholesale,2025/05/13,35,34.03,1191.05,kimberly84@example.com
+940,A8RCPK8E,126,Guinness Role,Guinness,Tequila,500,42.84,"Johns, Wilcox and Neal",New Danielberg,WI,Southeast,Retail,2025/03/26,36,54.55,1963.8,williamjenkins@example.org
+941,6Q5YD2TW,138,Ciroc Rock,Ciroc,Beer,500,44.77,"Gentry, Nguyen and Henderson",Port Lynn,VI,Northeast,Retail,2025/04/14,47,29.77,1399.19,jason73@example.com
+942,3XMMFP7O,143,Ciroc Serve,Ciroc,Gin,500,25.91,Daniel Group,Lake Sheri,PR,West,Wholesale,2025/04/09,1,94.94,94.94,hchapman@example.com
+943,82R3I9U3,110,Captain Morgan Understand,Captain,Vodka,1000,20.22,"May, Williams and Kelly",Susantown,WA,South,Wholesale,2025/04/10,22,54.65,1202.3,bjones@example.com
+944,YV409CO4,117,Johnnie Walker Positive,Johnnie,Vodka,1000,41.2,Kent-Henderson,South Brenda,NH,Southeast,Retail,2025/04/13,4,67.83,271.32,nataliewilliams@example.org
+945,YYNE7IQE,150,Captain Morgan Simply,Captain,Gin,750,40.06,"Pitts, Young and Chavez",Rasmussenstad,SD,Midwest,Wholesale,2025/03/21,21,52.73,1107.33,calvin79@example.com
+946,MXZ1GB4X,108,Don Julio Hospital,Don,Tequila,750,22.35,"Sutton, Clayton and Cook",East Andrea,GU,West,Retail,2025/03/22,30,41.46,1243.8,beth75@example.net
+947,XFSHS4A0,130,Baileys Player,Baileys,Vodka,1000,23.55,Frey-Morgan,Davidberg,OK,South,Wholesale,2025/05/06,34,27.28,927.52,johnward@example.net
+948,V5267S3X,131,Ciroc Believe,Ciroc,Tequila,500,6.09,Bailey-Reyes,Georgemouth,MO,Southeast,Retail,2025/05/14,20,25.29,505.8,nicholascamacho@example.com
+949,7W2VJY1F,115,Ciroc Protect,Ciroc,Whisky,750,35.34,"Ruiz, Garcia and Williams",Hannahside,NJ,Southeast,Retail,2025/05/18,18,96.46,1736.28,sergiofoster@example.net
+950,PNA2URUZ,140,Ciroc Answer,Ciroc,Beer,700,34.44,Avila-Peterson,Weissstad,ID,West,Retail,2025/04/22,9,66.07,594.63,andrea46@example.net
+951,TJQNKY9Q,137,Ciroc Whatever,Ciroc,Whisky,750,18.16,Murphy LLC,Owensfurt,HI,Midwest,Retail,2025/04/13,34,54.68,1859.12,mcclurekevin@example.org
+952,L7UYAWF8,133,Tanqueray Week,Tanqueray,Beer,700,31.33,Ayala Ltd,Anneside,MP,Midwest,Wholesale,2025/03/28,23,90.3,2076.9,amy67@example.org
+953,I1SERO9G,150,Tanqueray Physical,Tanqueray,Vodka,500,34.06,Maldonado-Bond,South Billy,WI,Southeast,Retail,2025/05/12,6,7.68,46.08,mercerjanice@example.com
+954,72Q7T9U1,112,Don Julio Spring,Don,Tequila,700,44.76,Hawkins-Chang,East Taraville,WI,Northeast,Retail,2025/03/31,16,73.03,1168.48,kathy22@example.net
+955,3X09U5Q3,143,Smirnoff American,Smirnoff,Liqueur,750,36.47,Carson-Williams,Port Megan,HI,West,Wholesale,2025/04/18,36,69.69,2508.84,hailey44@example.org
+956,4K5062DD,111,Tanqueray Risk,Tanqueray,Liqueur,750,13.24,Carr LLC,Port Laurenton,IN,South,Wholesale,2025/04/24,18,91.53,1647.54,richard22@example.com
+957,XYFPRDBQ,111,Captain Morgan Well,Captain,Liqueur,500,42.1,"Reese, Contreras and White",Josephfort,SD,West,Wholesale,2025/05/11,32,73.1,2339.2,mckinneyjohn@example.org
+958,2B7DTB48,111,Captain Morgan Believe,Captain,Liqueur,700,28.9,Armstrong-Coleman,South Barbaraborough,WA,Midwest,Wholesale,2025/03/30,6,62.7,376.2,michaeltyler@example.com
+959,89VDIFDS,140,Don Julio Foreign,Don,Vodka,500,37.22,Young-Morgan,Port Luis,CO,Midwest,Retail,2025/04/21,44,12.27,539.88,jmcbride@example.org
+960,BR8CY6EB,116,Tanqueray Administration,Tanqueray,Tequila,1000,9.25,"Noble, Morrow and Miller",New Jacquelinetown,MP,South,Wholesale,2025/05/14,30,77.06,2311.8,simpsonrobert@example.org
+961,W3J9MQ1Q,128,Captain Morgan Interest,Captain,Rum,700,40.55,Owen Inc,Lewistown,NC,West,Wholesale,2025/04/19,6,12.05,72.3,elizabethlane@example.org
+962,IOVWWZUG,133,Guinness Offer,Guinness,Rum,500,22.46,"Barnett, Carter and Dawson",Steinbury,DC,Southeast,Retail,2025/04/30,8,30.45,243.6,brenda49@example.com
+963,JAY87ZLZ,132,Guinness But,Guinness,Gin,750,29.87,"Oliver, Bernard and French",New Seanfort,DC,West,Wholesale,2025/03/29,4,85.51,342.04,shelly12@example.com
+964,GUT42Q4B,144,Johnnie Walker Country,Johnnie,Rum,1000,36.65,Goodwin-Johnson,Lake Dylan,MT,Northeast,Wholesale,2025/04/24,25,23.21,580.25,yangjeffrey@example.net
+965,IQ1SFBNQ,103,Don Julio Up,Don,Whisky,1000,18.32,Brown Ltd,Mcmillanview,PA,West,Wholesale,2025/05/05,33,59.13,1951.29,barbara05@example.org
+966,WA6X2NHG,107,Johnnie Walker Available,Johnnie,Rum,1000,25.95,"Larson, Cooper and Bowen",New Alexis,NC,Midwest,Wholesale,2025/03/30,14,78.54,1099.56,smithvickie@example.com
+967,DYSQIC9G,117,Don Julio Scene,Don,Liqueur,1000,43.85,"Murphy, Reyes and Reed",Lisaberg,MA,South,Retail,2025/04/25,32,18.14,580.48,sgardner@example.org
+968,S9T5CYQJ,116,Johnnie Walker Stuff,Johnnie,Rum,500,22.49,"Erickson, Gutierrez and Merritt",Lindaberg,FM,West,Wholesale,2025/04/11,33,97.52,3218.16,jthomas@example.org
+969,F8O3YYKY,137,Captain Morgan Catch,Captain,Beer,1000,11.53,Green PLC,New Adam,HI,West,Retail,2025/04/09,20,60.14,1202.8,jennawilliams@example.net
+970,JXNUK2G9,135,Don Julio Hospital,Don,Tequila,1000,38.06,Bell-Jones,West Todd,NH,West,Wholesale,2025/04/02,44,78.03,3433.32,garnerhaley@example.org
+971,AVHVVPQY,148,Ciroc Audience,Ciroc,Rum,700,22.54,Juarez and Sons,New Ricardoview,MH,West,Wholesale,2025/03/26,6,42.83,256.98,charlesmorton@example.net
+972,VYT59TKN,119,Don Julio Single,Don,Rum,500,24.45,Norman-Rivera,Port Jaredberg,HI,South,Wholesale,2025/03/22,9,52.67,474.03,robertferguson@example.net
+973,LJ60AQTJ,141,Tanqueray Law,Tanqueray,Gin,500,17.51,Robinson-Brooks,Port Joshua,DC,South,Retail,2025/04/08,13,28.74,373.62,scott17@example.com
+974,8M7AL02F,141,Tanqueray Moment,Tanqueray,Tequila,700,32.76,Mosley Ltd,Lake Mia,SC,Northeast,Retail,2025/04/12,23,7.34,168.82,daniel94@example.com
+975,M3ETZNZ8,128,Captain Morgan Thousand,Captain,Tequila,700,34.58,French PLC,North Joshuabury,DE,West,Retail,2025/03/26,23,97.95,2252.85,dcarter@example.net
+976,H9ORXYRQ,140,Johnnie Walker Believe,Johnnie,Beer,700,5.98,Miller-Obrien,Brendaside,ID,Northeast,Retail,2025/04/03,32,49.59,1586.88,williamlewis@example.net
+977,CDOGV7YT,117,Tanqueray Budget,Tanqueray,Beer,700,42.49,Garcia LLC,Terrenceshire,NM,Northeast,Retail,2025/05/07,45,56.64,2548.8,michael09@example.com
+978,NBXHWC91,119,Tanqueray Each,Tanqueray,Vodka,1000,4.45,Bowers and Sons,Port Eddiefort,AZ,Midwest,Retail,2025/04/16,11,72.14,793.54,amurphy@example.com
+979,2OBLJKF5,101,Tanqueray Show,Tanqueray,Gin,750,43.56,Oconnor-Daniels,Port Ronaldview,OH,Midwest,Retail,2025/05/14,24,43.65,1047.6,wtrujillo@example.net
+980,X48M3H0M,116,Johnnie Walker Break,Johnnie,Liqueur,500,14.18,Morales-Haynes,Shawnborough,CA,Northeast,Retail,2025/03/25,34,96.37,3276.58,uarias@example.org
+981,M2GQKHTE,103,Baileys Summer,Baileys,Vodka,500,23.86,Larson-Moody,Frankton,MS,Midwest,Wholesale,2025/04/06,13,23.26,302.38,dennis70@example.org
+982,K3FO2NX7,105,Baileys Wonder,Baileys,Whisky,500,28.52,Rice Inc,Russellside,VI,Northeast,Wholesale,2025/03/21,14,85.06,1190.84,kennethgonzalez@example.net
+983,7FEK46R2,103,Don Julio Fast,Don,Rum,700,27.34,"Hobbs, Gibson and Williams",Moyerside,MI,Southeast,Wholesale,2025/04/16,32,76.69,2454.08,robert88@example.net
+984,O34H925B,114,Captain Morgan Ten,Captain,Liqueur,750,42.22,"Peterson, Williams and Sullivan",South Davidburgh,MO,West,Retail,2025/04/08,32,79.28,2536.96,leejudy@example.org
+985,7GJ6BD2N,137,Captain Morgan Challenge,Captain,Vodka,700,32.44,"Johnson, Garcia and Smith",Douglasborough,WV,Southeast,Retail,2025/04/13,25,70.2,1755.0,hunterjamie@example.org
+986,L1GPGYUZ,131,Smirnoff Past,Smirnoff,Beer,1000,20.9,"Contreras, Wong and Michael",Lake Angelachester,IN,South,Retail,2025/04/14,38,42.03,1597.14,hendersonchristopher@example.org
+987,N1CM71HV,105,Smirnoff Area,Smirnoff,Liqueur,700,19.41,Gomez Inc,East Joseph,OH,Southeast,Retail,2025/05/13,41,75.99,3115.59,ecameron@example.com
+988,5A7B7Q5D,133,Smirnoff Crime,Smirnoff,Rum,750,14.14,Smith LLC,New Jason,NH,South,Retail,2025/05/04,5,54.73,273.65,olong@example.com
+989,63MLCGN4,119,Tanqueray Region,Tanqueray,Tequila,700,18.69,Davis Inc,Chrisborough,PW,Midwest,Retail,2025/04/15,24,29.64,711.36,chad22@example.net
+990,4S50IX92,142,Johnnie Walker Now,Johnnie,Whisky,750,19.97,Chambers and Sons,Laurafurt,PR,Southeast,Wholesale,2025/04/06,45,16.48,741.6,johnlowery@example.com
+991,Z1B49PI1,122,Johnnie Walker Instead,Johnnie,Beer,500,18.46,Castro-Ramirez,North Carolyn,CA,West,Wholesale,2025/05/09,18,6.36,114.48,randerson@example.net
+992,GEPWXTJ4,142,Ciroc Cup,Ciroc,Gin,700,42.83,Warren-Davis,Jamiefurt,AR,South,Wholesale,2025/04/24,24,44.3,1063.2,mark58@example.com
+993,J2QRIGRW,122,Captain Morgan Practice,Captain,Rum,1000,36.9,Ward Ltd,New Johnbury,FL,Southeast,Retail,2025/04/21,48,9.56,458.88,uhopkins@example.com
+994,BQV6BBR7,145,Guinness However,Guinness,Tequila,500,19.2,"Manning, Turner and Smith",Davidbury,AS,West,Wholesale,2025/03/21,17,57.5,977.5,chavezmatthew@example.org
+995,Q0PYGWCV,125,Johnnie Walker Large,Johnnie,Tequila,700,15.95,Taylor Group,North Robertton,MP,Midwest,Retail,2025/05/02,46,85.72,3943.12,david61@example.net
+996,E7OIQLJ7,115,Tanqueray Performance,Tanqueray,Gin,1000,29.97,"Morrison, Berry and Boyd",Port Garyland,MT,South,Wholesale,2025/03/27,26,54.54,1418.04,tthompson@example.org
+997,GXFW4DHG,129,Guinness College,Guinness,Tequila,700,18.07,Schmidt-George,Colefort,TN,Northeast,Wholesale,2025/05/02,49,94.11,4611.39,yburns@example.com
+998,1HVIOJO7,117,Guinness Simple,Guinness,Whisky,700,44.72,"Rivas, Morris and Haynes",Elizabethfort,IN,South,Wholesale,2025/04/18,38,20.24,769.12,harrisonmolly@example.org
+999,FPWHV25S,149,Guinness Ask,Guinness,Vodka,750,30.57,Porter Inc,North Richardstad,AK,South,Retail,2025/05/09,2,60.46,120.92,sarabarr@example.net
+1000,H707KX66,147,Johnnie Walker Discussion,Johnnie,Vodka,700,39.51,"Hill, Smith and Gould",West Jessicaside,ME,Southeast,Wholesale,2025/05/19,45,90.37,4066.65,waynecopeland@example.org

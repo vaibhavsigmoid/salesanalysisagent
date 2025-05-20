@@ -2,5 +2,9 @@
   "sales.txt": {
     "database_name": "pos_data",
     "table_name": "sales_table"
+  },
+  "pos_raw_sales.csv": {
+    "database_name": "diageo_warehouse",
+    "table_name": "pos_raw_sales"
   }
 }

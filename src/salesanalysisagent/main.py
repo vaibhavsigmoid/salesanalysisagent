@@ -25,8 +25,8 @@ def run():
             # script_dir, "data", "extra_column", "sales.txt"
             script_dir,
             "data",
-            "format_change",
-            "sales_data.xlsx",
+            "schema_change",
+            "sales.txt",
         ),  # Replace with actual data file path
         "current_year": str(datetime.now().year),
     }
