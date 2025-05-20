@@ -1,14 +1,12 @@
 from crewai import LLM, Agent, Crew, Process, Task
-from crewai.knowledge.source.text_file_knowledge_source import \
-    TextFileKnowledgeSource
+from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
 from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import CodeInterpreterTool, FileWriterTool
 
 # from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
 from salesanalysisagent.tools.clean_validate_tool import CleanValidateTool
 from salesanalysisagent.tools.code_gen_tool import CodeGenTool
-from salesanalysisagent.tools.data_format_validator import \
-    FormatChangeDetectorTool
+from salesanalysisagent.tools.data_format_validator import FormatChangeDetectorTool
 from salesanalysisagent.tools.data_loader_tool import DataLoaderTool
 from salesanalysisagent.tools.inspect_tool import InspectTool
 from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
@@ -30,7 +28,7 @@ class SalesAnalysisAgent:
     def data_loader(self) -> Agent:
         return Agent(
             config=self.agents_config["data_loader"],
-            tools=[DataLoaderTool()],
+            tools=[DataLoaderTool(), FileWriterTool()],
             verbose=True,
         )
 
@@ -83,17 +81,19 @@ class SalesAnalysisAgent:
             verbose=True,
         )
 
-    # @task
-    # def data_loader_task(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["data_loader_task"],
-    #     )
+    @task
+    def data_loader_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["data_loader_task"],
+        )
+
     #
     # @task
     # def inspect_task(self) -> Task:
     #     return Task(
     #         config=self.tasks_config["inspect_task"],
     #     )
+
     #
     # @task
     # def schema_mapping_task(self) -> Task:
@@ -101,9 +101,9 @@ class SalesAnalysisAgent:
     #         config=self.tasks_config["schema_mapping_task"],
     #     )
     #
-    @task
-    def schema_validator_task(self) -> Task:
-        return Task(config=self.tasks_config["schema_validator_task"])
+    # @task
+    # def schema_validator_task(self) -> Task:
+    #     return Task(config=self.tasks_config["schema_validator_task"])
 
     # @task
     # def data_format_check_task(self) -> Task:

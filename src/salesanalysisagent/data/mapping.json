@@ -2,5 +2,23 @@
   "sales.txt": {
     "database_name": "pos_data",
     "table_name": "sales_table"
+  },
+  "sales.xlsx": {
+    "file_type": "xlsx",
+    "sheets": {
+      "sheet1": {
+        "database_name": "pos_data",
+        "table_name": "sales_table"
+      }
+    }
+  },
+  "sales.csv": {
+    "database_name": "pos_data",
+    "table_name": "sales_table"
+  },
+  "sales.parquet": {
+    "database_name": "pos_data",
+    "table_name": "sales_table"
   }
 }
+
