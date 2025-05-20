@@ -942,3 +942,216 @@ def transform_and_update_sales_data(source_file, db_config):
 #     'password': 'your_password'
 # }
 # transform_and_update_sales_data('path_to_your_source_file.csv', db_config)
+
+# Output from schema_validator_task (Schema validator)
+import pandas as pd
+import mysql.connector
+from mysql.connector import Error
+from decimal import Decimal
+
+def update_sales_table():
+    try:
+        # Connect to the MySQL database
+        connection = mysql.connector.connect(
+            host='localhost',
+            database='pos_data',
+            user='your_username',
+            password='your_password'
+        )
+
+        if connection.is_connected():
+            cursor = connection.cursor()
+
+            # Alter the price column to DECIMAL(10, 2)
+            cursor.execute("ALTER TABLE sales_table MODIFY COLUMN price DECIMAL(10, 2)")
+
+            # Update the sales_date column to DATE type
+            cursor.execute("ALTER TABLE sales_table MODIFY COLUMN sales_date DATE")
+
+            # Fetch the current data from the sales_table
+            cursor.execute("SELECT * FROM sales_table")
+            rows = cursor.fetchall()
+
+            # Create a DataFrame from the fetched data
+            df = pd.DataFrame(rows, columns=['product_id', 'product_desc', 'price', 'sales_date'])
+
+            # Update the price column
+            df['price'] = df['price'].apply(lambda x: Decimal(str(x).replace(' USD', '')) if pd.notnull(x) else None)
+
+            # Update the sales_date column
+            df['sales_date'] = pd.to_datetime(df['sales_date'], format='%Y-%m-%d', errors='coerce')
+
+            # Update the data in the database
+            for index, row in df.iterrows():
+                update_query = """UPDATE sales_table 
+                                   SET price = %s, sales_date = %s 
+                                   WHERE product_id = %s AND product_desc = %s"""
+                cursor.execute(update_query, (row['price'], row['sales_date'], row['product_id'], row['product_desc']))
+
+            connection.commit()
+            print("Data updated successfully")
+
+    except Error as e:
+        print(f"Error: {e}")
+
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+            print("MySQL connection is closed")
+
+if __name__ == "__main__":
+    update_sales_table()
+
+# Output from schema_validator_task (Schema validator)
+import pandas as pd
+import mysql.connector
+from decimal import Decimal
+
+def update_sales_table(source_file, db_config):
+    # Read the source CSV file
+    df = pd.read_csv(source_file)
+    
+    # Clean up the price column
+    df['price'] = df['price'].str.replace(' USD', '').astype(Decimal)
+    
+    # Convert sales_date to datetime
+    df['sales_date'] = pd.to_datetime(df['sales_date'])
+    
+    # Connect to the MySQL database
+    conn = mysql.connector.connect(**db_config)
+    cursor = conn.cursor()
+    
+    # Insert or update data in the target table
+    for _, row in df.iterrows():
+        query = """
+        INSERT INTO sales_table (product_id, product_desc, price, sales_date)
+        VALUES (%s, %s, %s, %s)
+        ON DUPLICATE KEY UPDATE
+        product_desc = VALUES(product_desc),
+        price = VALUES(price),
+        sales_date = VALUES(sales_date)
+        """
+        values = (row['product_id'], row['product_desc'], row['price'], row['sales_date'])
+        cursor.execute(query, values)
+    
+    # Commit the changes and close the connection
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+# Example usage:
+# db_config = {
+#     'host': 'localhost',
+#     'user': 'your_username',
+#     'password': 'your_password',
+#     'database': 'pos_data'
+# }
+# update_sales_table('path_to_your_source_file.csv', db_config)
+
+# Output from schema_validator_task (Schema validator)
+import pandas as pd
+import mysql.connector
+from mysql.connector import Error
+
+def update_sales_data(source_file, db_config):
+    # Read the source CSV file
+    df = pd.read_csv(source_file)
+    
+    # Remove 'USD' from price column and convert to float
+    df['price'] = df['price'].str.replace(' USD', '').astype(float)
+    
+    # Convert sales_date to datetime
+    df['sales_date'] = pd.to_datetime(df['sales_date'])
+    
+    try:
+        # Establish database connection
+        conn = mysql.connector.connect(**db_config)
+        cursor = conn.cursor()
+        
+        # Insert new data into the target table
+        for _, row in df.iterrows():
+            query = """INSERT INTO sales_table (product_id, product_desc, price, sales_date)
+                       VALUES (%s, %s, %s, %s)
+                       ON DUPLICATE KEY UPDATE
+                       product_desc = VALUES(product_desc),
+                       price = VALUES(price),
+                       sales_date = VALUES(sales_date)"""
+            values = (row['product_id'], row['product_desc'], row['price'], row['sales_date'])
+            cursor.execute(query, values)
+        
+        conn.commit()
+        print(f"{cursor.rowcount} record(s) inserted or updated successfully.")
+        
+    except Error as e:
+        print(f"Error: {e}")
+    
+    finally:
+        if conn.is_connected():
+            cursor.close()
+            conn.close()
+
+# Example usage:
+# db_config = {
+#     'host': 'your_host',
+#     'database': 'pos_data',
+#     'user': 'your_username',
+#     'password': 'your_password'
+# }
+# update_sales_data('path_to_your_source_file.csv', db_config)
+
+# Output from schema_validator_task (Schema validator)
+import pandas as pd
+import mysql.connector
+from mysql.connector import Error
+
+def update_sales_table(source_file, db_config):
+    # Read the source CSV file
+    df = pd.read_csv(source_file)
+    
+    # Convert price column to float by removing 'USD' and converting to float
+    df['price'] = df['price'].str.replace(' USD', '').astype(float)
+    
+    # Convert sales_date to datetime
+    df['sales_date'] = pd.to_datetime(df['sales_date'])
+    
+    try:
+        # Establish database connection
+        connection = mysql.connector.connect(**db_config)
+        cursor = connection.cursor()
+        
+        # Update existing rows and insert new ones
+        for _, row in df.iterrows():
+            update_query = """
+            UPDATE sales_table
+            SET product_desc = %s, price = %s, sales_date = %s
+            WHERE product_id = %s
+            """
+            cursor.execute(update_query, (row['product_desc'], row['price'], row['sales_date'], row['product_id']))
+            
+            if cursor.rowcount == 0:
+                insert_query = """
+                INSERT INTO sales_table (product_id, product_desc, price, sales_date)
+                VALUES (%s, %s, %s, %s)
+                """
+                cursor.execute(insert_query, (row['product_id'], row['product_desc'], row['price'], row['sales_date']))
+        
+        connection.commit()
+        print("Data updated successfully")
+        
+    except Error as e:
+        print(f"Error: {e}")
+    
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+
+# Example usage:
+# db_config = {
+#     'host': 'your_host',
+#     'database': 'pos_data',
+#     'user': 'your_username',
+#     'password': 'your_password'
+# }
+# update_sales_table('path_to_your_source_file.csv', db_config)
