@@ -1,9 +1,5 @@
 data_loader_task:
-  description: "Analyze the provided file and identify its format (CSV, Parquet, Excel). 
-    According to the file input give read the data from the file ,If Excel, mapping.json is passed in the data loader tool
-    list all sheet names.
-    Validate and load the file into a DataFrame
-    Generate the appropriate ingestion code using pandas."
+  description: "Based on file_name and mapping provided write a pyton pandas code to read the data file and ingest the data into traget table, if file type is excel, each sheet is mapped with a table"
   expected_output: "A pandas DataFrame or an error message if the file is invalid."
   agent: data_loader
 

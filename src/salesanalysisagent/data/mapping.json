@@ -3,12 +3,20 @@
     "database_name": "pos_data",
     "table_name": "sales_table"
   },
-  "sales.xlsx": {
+  "sales_data.xlsx": {
     "file_type": "xlsx",
     "sheets": {
-      "sheet1": {
+      "store_dim": {
         "database_name": "pos_data",
-        "table_name": "sales_table"
+        "table_name": "store_dim"
+      },
+      "product_dim": {
+        "database_name": "pos_data",
+        "table_name": "product_dim"
+      },
+      "sales_fct": {
+        "database_name": "pos_data",
+        "table_name": "sales_fct"
       }
     }
   },
@@ -21,4 +29,3 @@
     "table_name": "sales_table"
   }
 }
-
