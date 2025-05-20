@@ -30,7 +30,7 @@ class SalesAnalysisAgent:
     def data_loader(self) -> Agent:
         return Agent(
             config=self.agents_config["data_loader"],
-            tools=[DataLoaderTool()],
+            tools=[DataLoaderTool(), FileWriterTool()],
             verbose=True,
         )
 
@@ -52,7 +52,11 @@ class SalesAnalysisAgent:
     def schema_validator(self) -> Agent:
         return Agent(
             config=self.agents_config["schema_validator"],
-            tools=[SchemaValidatorTool(), CodeInterpreterTool(), FileWriterTool()],
+            tools=[
+                SchemaValidatorTool(),
+                # CodeInterpreterTool(),
+                FileWriterTool(),
+            ],
             verbose=True,
             all_code_execution=True,
             # knowledge_sources=[self.text_source],
@@ -89,11 +93,13 @@ class SalesAnalysisAgent:
     #         config=self.tasks_config["data_loader_task"],
     #     )
     #
+    #
     # @task
     # def inspect_task(self) -> Task:
     #     return Task(
     #         config=self.tasks_config["inspect_task"],
     #     )
+
     #
     # @task
     # def schema_mapping_task(self) -> Task:
@@ -101,9 +107,9 @@ class SalesAnalysisAgent:
     #         config=self.tasks_config["schema_mapping_task"],
     #     )
     #
-    @task
-    def schema_validator_task(self) -> Task:
-        return Task(config=self.tasks_config["schema_validator_task"])
+    # @task
+    # def schema_validator_task(self) -> Task:
+    #     return Task(config=self.tasks_config["schema_validator_task"])
 
     # @task
     # def data_format_check_task(self) -> Task:

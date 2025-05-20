@@ -2,5 +2,30 @@
   "sales.txt": {
     "database_name": "pos_data",
     "table_name": "sales_table"
+  },
+  "sales_data.xlsx": {
+    "file_type": "xlsx",
+    "sheets": {
+      "store_dim": {
+        "database_name": "pos_data",
+        "table_name": "store_dim"
+      },
+      "product_dim": {
+        "database_name": "pos_data",
+        "table_name": "product_dim"
+      },
+      "sales_fct": {
+        "database_name": "pos_data",
+        "table_name": "sales_fct"
+      }
+    }
+  },
+  "sales.csv": {
+    "database_name": "pos_data",
+    "table_name": "sales_table"
+  },
+  "sales.parquet": {
+    "database_name": "pos_data",
+    "table_name": "sales_table"
   }
 }

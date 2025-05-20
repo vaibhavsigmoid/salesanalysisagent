@@ -1,5 +1,5 @@
 data_loader_task:
-  description: "Analyze the provided file and identify its format (CSV, Parquet, Excel). If Excel, list all sheet names.Validate and load the file into a DataFrame Generate the appropriate ingestion code using pandas."
+  description: "Based on file_name and mapping provided write a pyton pandas code to read the data file and ingest the data into traget table, if file type is excel, each sheet is mapped with a table"
   expected_output: "A pandas DataFrame or an error message if the file is invalid."
   agent: data_loader
 
@@ -15,7 +15,8 @@ schema_mapping_task:
 
 schema_validator_task:
   description: "check the source schema with target schema and suggest code changes."
-  expected_output: 'based on the differnce in schema and different in data, generate if source has new column add suggest a sql code to add column, if column type or data is mismatched suggest sql code to alter target column type, if not required write a python function using pandas and mysql-connector-python libaray to cast column type to target. make sure during the process there is no data loss or trunction of any kind. Also make sure that no historical data is dropped in a process. code should not have any example, or instruction on how to execute it.'
+  expected_output: 'based on the differnce in schema and different in data, generate if source has new column add suggest a sql code to add column, if column type or data is mismatched suggest sql 
+    code to alter target column type, if not required write a python function using pandas and mysql-connector-python libaray to cast column type to target. make sure during the process there is no data loss or trunction of any kind. Also make sure that no historical data is dropped in a process. code should not have any example, or instruction on how to execute it.'
 
   agent: schema_validator
   output_file: schema_validator_task.py

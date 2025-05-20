@@ -1,8 +1,10 @@
 #!/usr/bin/env python
+import json
 import os
 import sys
 import warnings
 from datetime import datetime
+from pprint import pprint
 
 from salesanalysisagent.crew import SalesAnalysisAgent
 
@@ -121,20 +123,27 @@ def clean_output_to_python_file(result, output_file_path="generated_code.py"):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python main.py [run|train|replay|test]")
-        sys.exit(1)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    print(script_dir)
+    with open(os.path.join(script_dir, "data", "mapping.json"), "r") as file:
+        mapping = json.load(file)
+        file_mapping = mapping.get("sales_data.xlsx")
+        pprint(file_mapping)
 
-    command = sys.argv[1].lower()
-
-    if command == "run":
-        run()
-    elif command == "train":
-        train()
-    elif command == "replay":
-        replay()
-    elif command == "test":
-        test()
-    else:
-        print(f"Unknown command: {command}")
-        print("Valid commands: run, train, replay, test")
+    # if len(sys.argv) < 2:
+    #     print("Usage: python main.py [run|train|replay|test]")
+    #     sys.exit(1)
+    #
+    # command = sys.argv[1].lower()
+    #
+    # if command == "run":
+    #     run()
+    # elif command == "train":
+    #     train()
+    # elif command == "replay":
+    #     replay()
+    # elif command == "test":
+    #     test()
+    # else:
+    #     print(f"Unknown command: {command}")
+    #     print("Valid commands: run, train, replay, test")

@@ -1,0 +1,51 @@
+product_id,product_name,brand,category,volume_ml,alcohol_percentage
+1,Ciroc Growth,Tanqueray,Whisky,700,41.95
+2,Johnnie Walker Its,Smirnoff,Gin,750,23.02
+3,Ciroc Son,Johnnie Walker,Gin,750,41.97
+4,Smirnoff Find,Ciroc,Whisky,700,4.16
+5,Don Julio Remember,Johnnie Walker,Beer,700,37.56
+6,Johnnie Walker Religious,Don Julio,Liqueur,700,4.08
+7,Captain Morgan Use,Baileys,Whisky,1000,23.26
+8,Smirnoff Eat,Captain Morgan,Vodka,500,33.37
+9,Ciroc Manager,Johnnie Walker,Gin,750,23.93
+10,Johnnie Walker Develop,Johnnie Walker,Tequila,700,34.96
+11,Captain Morgan Current,Baileys,Beer,500,26.6
+12,Ciroc Nation,Johnnie Walker,Beer,1000,33.75
+13,Captain Morgan One,Guinness,Rum,1000,35.04
+14,Smirnoff News,Baileys,Rum,700,9.05
+15,Baileys Describe,Guinness,Beer,750,26.04
+16,Ciroc Loss,Don Julio,Gin,700,4.85
+17,Johnnie Walker Tree,Johnnie Walker,Whisky,1000,14.98
+18,Captain Morgan Run,Guinness,Vodka,700,41.01
+19,Captain Morgan Cover,Tanqueray,Tequila,700,17.97
+20,Baileys Area,Guinness,Whisky,1000,4.25
+21,Smirnoff Month,Ciroc,Vodka,500,44.15
+22,Smirnoff Yourself,Baileys,Liqueur,500,4.24
+23,Ciroc Up,Tanqueray,Whisky,500,16.3
+24,Johnnie Walker Wonder,Captain Morgan,Rum,700,40.97
+25,Captain Morgan Gun,Johnnie Walker,Vodka,500,44.02
+26,Johnnie Walker Carry,Don Julio,Rum,700,21.35
+27,Ciroc Add,Johnnie Walker,Rum,700,20.24
+28,Baileys Painting,Don Julio,Tequila,750,28.61
+29,Ciroc Short,Guinness,Gin,750,15.04
+30,Johnnie Walker Space,Baileys,Tequila,700,6.67
+31,Guinness Human,Tanqueray,Whisky,750,22.11
+32,Johnnie Walker Peace,Smirnoff,Vodka,750,30.42
+33,Johnnie Walker Add,Don Julio,Tequila,700,13.3
+34,Guinness Project,Baileys,Vodka,750,41.5
+35,Don Julio Fly,Johnnie Walker,Vodka,750,31.73
+36,Baileys Body,Smirnoff,Rum,750,26.58
+37,Johnnie Walker Country,Captain Morgan,Whisky,500,5.39
+38,Ciroc Almost,Captain Morgan,Tequila,500,18.93
+39,Smirnoff Visit,Baileys,Tequila,750,39.67
+40,Johnnie Walker World,Baileys,Vodka,1000,26.6
+41,Ciroc Stock,Smirnoff,Vodka,1000,13.66
+42,Tanqueray Support,Captain Morgan,Gin,1000,7.47
+43,Baileys Determine,Smirnoff,Gin,700,21.39
+44,Captain Morgan Kind,Tanqueray,Gin,1000,5.01
+45,Baileys For,Don Julio,Liqueur,750,23.85
+46,Guinness Last,Baileys,Tequila,750,12.95
+47,Guinness Exactly,Johnnie Walker,Rum,500,12.06
+48,Captain Morgan Turn,Ciroc,Rum,500,7.39
+49,Smirnoff Method,Baileys,Gin,500,7.71
+50,Captain Morgan Care,Guinness,Tequila,500,33.29
