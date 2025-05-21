@@ -942,3 +942,98 @@ def transform_and_update_sales_data(source_file, db_config):
 #     'password': 'your_password'
 # }
 # transform_and_update_sales_data('path_to_your_source_file.csv', db_config)
+
+# Output from schema_validator_task (Schema validator)
+import pandas as pd
+import mysql.connector
+from mysql.connector import Error
+
+def connect_to_database():
+    try:
+        connection = mysql.connector.connect(
+            host='your_host',
+            database='diageo_warehouse',
+            user='your_username',
+            password='your_password'
+        )
+        if connection.is_connected():
+            return connection
+    except Error as e:
+        print(f"Error while connecting to MySQL: {e}")
+    return None
+
+def add_email_column():
+    connection = connect_to_database()
+    if connection:
+        try:
+            cursor = connection.cursor()
+            add_column_query = """ALTER TABLE raw_pos
+                                 ADD COLUMN email VARCHAR(255);"""
+            cursor.execute(add_column_query)
+            connection.commit()
+            print("Email column added successfully.")
+        except Error as e:
+            print(f"Error adding email column: {e}")
+        finally:
+            if connection.is_connected():
+                cursor.close()
+                connection.close()
+
+def update_column_types():
+    connection = connect_to_database()
+    if connection:
+        try:
+            cursor = connection.cursor()
+            alter_queries = [
+                "ALTER TABLE raw_pos MODIFY COLUMN product_id VARCHAR(255);",
+                "ALTER TABLE raw_pos MODIFY COLUMN alcohol_percentage FLOAT;",
+                "ALTER TABLE raw_pos MODIFY COLUMN unit_price DECIMAL(10, 2);",
+                "ALTER TABLE raw_pos MODIFY COLUMN total_sales DECIMAL(10, 2);"
+            ]
+            for query in alter_queries:
+                cursor.execute(query)
+            connection.commit()
+            print("Column types updated successfully.")
+        except Error as e:
+            print(f"Error updating column types: {e}")
+        finally:
+            if connection.is_connected():
+                cursor.close()
+                connection.close()
+
+def cast_and_update_data(csv_file_path):
+    df = pd.read_csv(csv_file_path)
+    
+    df['product_id'] = df['product_id'].astype(str)
+    df['alcohol_percentage'] = pd.to_numeric(df['alcohol_percentage'], errors='coerce')
+    df['unit_price'] = pd.to_numeric(df['unit_price'], errors='coerce')
+    df['total_sales'] = pd.to_numeric(df['total_sales'], errors='coerce')
+    
+    connection = connect_to_database()
+    if connection:
+        try:
+            cursor = connection.cursor()
+            for _, row in df.iterrows():
+                update_query = """UPDATE raw_pos
+                                  SET product_id = %s,
+                                      alcohol_percentage = %s,
+                                      unit_price = %s,
+                                      total_sales = %s,
+                                      email = %s
+                                  WHERE sales_id = %s;"""
+                cursor.execute(update_query, (row['product_id'], row['alcohol_percentage'],
+                                             row['unit_price'], row['total_sales'],
+                                             row['email'], row['sales_id']))
+            connection.commit()
+            print("Data updated successfully.")
+        except Error as e:
+            print(f"Error updating data: {e}")
+        finally:
+            if connection.is_connected():
+                cursor.close()
+                connection.close()
+
+if __name__ == "__main__":
+    add_email_column()
+    update_column_types()
+    cast_and_update_data('/Users/gaurang/Documents/git/salesanalysisagent/src/salesanalysisagent/data/combined_testcase/raw_pos.csv')

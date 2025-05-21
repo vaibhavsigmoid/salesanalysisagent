@@ -16,7 +16,7 @@ DB_CONFIG = {
 }
 
 # Data generation parameters
-NUM_RECORDS = 10  # Adjust as needed
+NUM_RECORDS = 10000  # Adjust as needed
 brands = [
     "Johnnie Walker",
     "Guinness",
@@ -35,6 +35,7 @@ volumes = [500, 700, 750, 1000]
 # Generate raw data
 raw_sales_data = []
 for i in range(1, NUM_RECORDS + 1):
+    sales_id = random.randint(1, 10000)
     product_id = random.randint(101, 110)
     store_id = random.randint(101, 150)
     product_name = f"{random.choice(brands)} {fake.word().capitalize()}"
@@ -54,7 +55,7 @@ for i in range(1, NUM_RECORDS + 1):
 
     raw_sales_data.append(
         [
-            i + 10,
+            sales_id,
             product_id,
             store_id,
             product_name,

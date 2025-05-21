@@ -112,5 +112,5 @@ df_raw = pd.DataFrame(
 )
 
 # Save as CSV (optional)
-df_raw.to_csv("pos_raw_sales.csv", index=False)
-print("CSV 'pos_raw_sales.csv' generated.")
+df_raw.to_csv("raw_pos.csv", index=False)
+print("CSV 'raw_pos.csv' generated.")
