@@ -1,0 +1,9 @@
+{
+  "source_table": "source_data",
+  "target_table": "target_table",
+  "mappings": [
+    {"source_column": "id", "target_column": "id", "data_type": "INT"},
+    {"source_column": "name", "target_column": "full_name", "data_type": "VARCHAR(100)"},
+    {"source_column": "age", "target_column": "age", "data_type": "INT"}
+  ]
+}

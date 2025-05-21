@@ -1,0 +1,7 @@
+Error loading or processing CSV: CSV column count mismatch. Expected 17, got 20.
+Traceback (most recent call last):
+  File "/Users/gaurang/Documents/git/salesanalysisagent/src/salesanalysisagent/pipeline/csv_data_ingestion.py", line 102, in main
+    raise ValueError(
+ValueError: CSV column count mismatch. Expected 17, got 20.
+
+--------------------------------------------------------------------------------
