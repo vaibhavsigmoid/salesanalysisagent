@@ -156,10 +156,16 @@ class SchemaValidatorTool(BaseTool):
             return {
                 "database_name": db_name,
                 "table_name": table_name,
+                "username": "root",
+                "password": "password",
+                "host": "localhost",
                 "schema_difference": schema_diff,
                 "source_data": source_df,
                 "target_data": target_df,
                 "target_database_type": "mysql",
+                "filename": "fix_schema.py",
+                "directory": os.path.join(script_dir, "..", "..", ".."),
+                "overwrite": "true",
             }
 
         except Exception as e:

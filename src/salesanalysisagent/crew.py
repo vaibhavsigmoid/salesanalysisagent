@@ -1,3 +1,5 @@
+import os
+
 from crewai import LLM, Agent, Crew, Process, Task
 from crewai.knowledge.source.text_file_knowledge_source import \
     TextFileKnowledgeSource
@@ -21,10 +23,11 @@ class SalesAnalysisAgent:
 
     agents_config = "config/agents.yaml"
     tasks_config = "config/tasks.yaml"
-    content = "Users name is John. He is 30 years old and lives in San Francisco."
     text_source = TextFileKnowledgeSource(file_paths=["code.py", "requirements.txt"])
     code_interpreter = CodeInterpreterTool()
     write_tool = FileWriterTool()
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.join(script_dir, "..", "..")
 
     @agent
     def data_loader(self) -> Agent:
@@ -54,11 +57,10 @@ class SalesAnalysisAgent:
             config=self.agents_config["schema_validator"],
             tools=[
                 SchemaValidatorTool(),
-                # CodeInterpreterTool(),
-                FileWriterTool(file_name="fix_schema_issues.py", overwrite=True),
+                FileWriterTool(),
             ],
             verbose=True,
-            all_code_execution=True,
+            allow_delegation=True,
             # knowledge_sources=[self.text_source],
             # llm=self.gemini_llm,
         )
@@ -134,6 +136,8 @@ class SalesAnalysisAgent:
             verbose=True,
             knowledge_sources=[self.text_source],
         )
+        output = self.agents[0]._use_trained_data(".")
+        print(output)
 
 
 # Create a knowledge source

@@ -16,7 +16,7 @@ DB_CONFIG = {
 }
 
 # Data generation parameters
-NUM_RECORDS = 10  # Adjust as needed
+NUM_RECORDS = 1000  # Adjust as needed
 brands = [
     "Johnnie Walker",
     "Guinness",
@@ -54,7 +54,7 @@ for i in range(1, NUM_RECORDS + 1):
 
     raw_sales_data.append(
         [
-            i + 10,
+            i,
             product_id,
             store_id,
             product_name,
@@ -99,7 +99,7 @@ df_raw = pd.DataFrame(
 )
 
 # Save as CSV (optional)
-df_raw.to_csv("pos_raw_sales.csv", index=False)
+df_raw.to_csv("pos_raw_data.csv", index=False)
 print("CSV 'pos_raw_sales.csv' generated.")
 
 # Insert into MySQL

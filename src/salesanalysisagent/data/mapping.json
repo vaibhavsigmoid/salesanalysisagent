@@ -6,5 +6,9 @@
   "raw_pos.csv": {
     "database_name": "diageo_warehouse",
     "table_name": "raw_pos"
+  },
+  "new_data.csv": {
+    "database_name": "diageo_warehouse",
+    "table_name": "self_healing_demo"
   }
 }

@@ -31,10 +31,19 @@ categories = ["Whisky", "Beer", "Vodka", "Liqueur", "Rum", "Gin", "Tequila"]
 regions = ["Northeast", "West", "Midwest", "South", "Southeast"]
 store_types = ["Retail", "Wholesale"]
 volumes = [500, 700, 750, 1000]
+payment_methods = ["Credit Card", "Cash", "Debit Card", "Mobile Payment"]
+
+
+def _gen_id(length):
+    return "".join(random.choices(string.ascii_uppercase + string.digits, k=length))
 
 
 def generate_product_id(length=8):
-    return "".join(random.choices(string.ascii_uppercase + string.digits, k=length))
+    return _gen_id(length)
+
+
+def generate_transaction_id(length=10):
+    return _gen_id(length)
 
 
 # Generate raw data
@@ -61,11 +70,16 @@ for i in range(1, NUM_RECORDS + 1):
     quantity_sold = random.randint(1, 50)
     unit_price = round(random.uniform(5.0, 100.0), 2)
     total_sales = round(quantity_sold * unit_price, 2)
+
+    # ✅ New columns
     email = fake.email()  ## additional column
+    # customer_name = fake.name()
+    transaction_id = generate_transaction_id()
+    payment_method = random.choice(payment_methods)
 
     raw_sales_data.append(
         [
-            i,
+            i + 1000,
             product_id,
             store_id,
             product_name,
@@ -83,6 +97,8 @@ for i in range(1, NUM_RECORDS + 1):
             unit_price,
             total_sales,
             email,
+            transaction_id,
+            payment_method,
         ]
     )
 
@@ -108,9 +124,11 @@ df_raw = pd.DataFrame(
         "unit_price",
         "total_sales",
         "email",
+        "transaction_id",
+        "payment_method",
     ],
 )
 
 # Save as CSV (optional)
-df_raw.to_csv("pos_raw_sales.csv", index=False)
-print("CSV 'pos_raw_sales.csv' generated.")
+df_raw.to_csv("raw_pos.csv", index=False)
+print("CSV 'raw_pos.csv' generated.")

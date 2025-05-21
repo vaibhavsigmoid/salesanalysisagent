@@ -12,9 +12,11 @@ def SchemaValidatorAgent():
         backstory="This agent ensures data pipelines are consistent by validating schemas.",
         tools=[
             SchemaValidatorTool(),  # Optional if you have one
+            CodeInterpreterTool(unsafe_mode=True,libraries_used=[]),
             FileWriterTool(),
+            
         ],
         verbose=True,
         allow_delegation=False,
-        all_code_execution=True,
+        allow_code_execution=True,
     )

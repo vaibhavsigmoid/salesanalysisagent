@@ -15,7 +15,11 @@ schema_mapping_task:
 
 schema_validator_task:
   description: "check the source schema with target schema and suggest code changes."
-  expected_output: 'based on the differnce in schema and different in data, generate if source has new column add suggest a sql code to add column, if column type or data is mismatched suggest sql code to alter target column type, if not required write a python function using pandas and mysql-connector-python libaray to cast column type to target. make sure during the process there is no data loss or trunction of any kind. Also make sure that no historical data is dropped in a process. code should not have any example, or instruction on how to execute it.'
+  expected_output: 'based on the differnce in schema and difference in data,if source has new columns, write a python function to add columns in the target database, if column type or data is mismatched write a python function using to alter target column type, using pandas and mysql-connector python library for this code. make sure during the process there is no data loss or trunction of any kind. all the new data from source file should be appended to target table.'
+  triggers_on_errors:
+    - "Unknown column"
+    - "Not enough parameters"
+    - "column count mismatch."
 
   agent: schema_validator
   output_file: schema_validator_task.py
