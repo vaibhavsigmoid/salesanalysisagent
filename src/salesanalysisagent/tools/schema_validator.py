@@ -134,6 +134,8 @@ class SchemaValidatorTool(BaseTool):
             print(f"script_dir = {script_dir}")
             print(f"db_name = {db_name}")
             print(f"table_name = {table_name}")
+            # print(kwargs.get("code_context"))
+
             dir_name = os.path.dirname(file_path)
             target_df, target_schema = get_target_data_and_sample(
                 host="127.0.0.1",
@@ -163,9 +165,10 @@ class SchemaValidatorTool(BaseTool):
                 "source_data": source_df,
                 "target_data": target_df,
                 "target_database_type": "mysql",
-                "filename": "fix_schema.py",
+                "filename": "fix_schemas.py",
                 "directory": os.path.join(script_dir, "..", "..", ".."),
                 "overwrite": "true",
+                # "code_context": code_context,
             }
 
         except Exception as e:

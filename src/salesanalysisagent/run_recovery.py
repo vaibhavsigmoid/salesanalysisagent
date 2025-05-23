@@ -37,4 +37,4 @@ inputs = {
 }
 # Setup and run Crew
 crew = Crew(agents=[agent], tasks=[task])
-crew.kickoff(inputs=inputs) 
+crew.kickoff(inputs=inputs)

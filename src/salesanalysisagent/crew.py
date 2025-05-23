@@ -12,6 +12,7 @@ from salesanalysisagent.tools.code_gen_tool import CodeGenTool
 from salesanalysisagent.tools.data_format_validator import \
     FormatChangeDetectorTool
 from salesanalysisagent.tools.data_loader_tool import DataLoaderTool
+from salesanalysisagent.tools.data_quality_tools import DataQualityTool
 from salesanalysisagent.tools.inspect_tool import InspectTool
 from salesanalysisagent.tools.schema_mapping_tool import SchemaMappingTool
 from salesanalysisagent.tools.schema_validator import SchemaValidatorTool
@@ -89,6 +90,14 @@ class SalesAnalysisAgent:
             verbose=True,
         )
 
+    @agent
+    def data_quality_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config["data_quality_agent"],
+            tools=[DataQualityTool()],
+            verbose=True,
+        )
+
     # @task
     # def data_loader_task(self) -> Task:
     #     return Task(
@@ -112,6 +121,10 @@ class SalesAnalysisAgent:
         return Task(config=self.tasks_config["schema_validator_task"])
 
     # @task
+    # def data_quality_task(self) -> Task:
+    #     return Task(config=self.tasks_config["data_quality_task"])
+    #
+    # @task
     # def data_format_check_task(self) -> Task:
     #     return Task(config=self.tasks_config["data_format_check_task"])
     #
@@ -129,7 +142,7 @@ class SalesAnalysisAgent:
     #
     @crew
     def crew(self) -> Crew:
-        return Crew(
+        crew = Crew(
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
@@ -138,6 +151,7 @@ class SalesAnalysisAgent:
         )
         output = self.agents[0]._use_trained_data(".")
         print(output)
+        return crew
 
 
 # Create a knowledge source
